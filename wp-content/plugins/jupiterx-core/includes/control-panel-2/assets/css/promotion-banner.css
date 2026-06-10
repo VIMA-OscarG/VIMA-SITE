@@ -1,0 +1,319 @@
+.jx-promotion-banner {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 52px;
+    padding: 0 24px;
+    margin: 20px 20px 0 2px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #ffffff;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: "Poppins", sans-serif;
+    min-height: 56px;
+    border: 1px solid transparent;
+    --jx-banner-gap: 12px;
+    --jx-banner-title-size: 16px;
+    --jx-banner-description-size: 12px;
+    --jx-banner-coupon-size: 11px;
+    --jx-banner-cta-size: 12px;
+    --jx-banner-overlay-color: transparent;
+    --jx-banner-overlay-opacity: 0;
+}
+
+.index-php .jx-promotion-banner {
+    margin: 20px 0;
+}
+
+.toplevel_page_jupiterx .jx-promotion-banner,
+.jupiterx_page_jupiterx-layout-builder .jx-promotion-banner,
+.jupiterx_page_jupiterx-custom-snippets .jx-promotion-banner,
+.jupiterx_page_jupiterx-custom-fonts .jx-promotion-banner,
+.jupiterx_page_jupiterx-custom-icons .jx-promotion-banner,
+.jupiterx_page_jupiterx-setup-wizard .jx-promotion-banner,
+.jupiterx_page_jupiterx-help .jx-promotion-banner,
+.post-type-jupiterx-popups .jx-promotion-banner {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.jx-promotion-banner:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--jx-banner-overlay-color);
+    opacity: var(--jx-banner-overlay-opacity);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.jx-promotion-banner--has-image {
+    -webkit-padding-start: 0;
+    padding-inline-start: 0;
+}
+
+.jx-promotion-banner__inner {
+    position: relative;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-margin-start: 12px;
+    margin-inline-start: 12px;
+    min-width: 0;
+}
+
+.jx-promotion-banner__image {
+    position: relative;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 100%;
+}
+
+.jx-promotion-banner__image img {
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.jx-promotion-banner__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 4px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    font-size: 11px;
+    line-height: 1.2;
+    min-width: 0;
+}
+
+.jx-promotion-banner__top-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: var(--jx-banner-gap);
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    min-width: 0;
+}
+
+.jx-promotion-banner__title {
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: var(--jx-banner-title-size);
+    font-weight: 800;
+    white-space: normal;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.jx-promotion-banner__description {
+    font-size: var(--jx-banner-description-size);
+    font-weight: 400;
+    opacity: 0.8;
+    white-space: normal;
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    min-width: 40px;
+}
+
+.jx-promotion-banner__description strong,
+.jx-promotion-banner__description b {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.jx-promotion-banner__code {
+    font-size: var(--jx-banner-coupon-size);
+    line-height: 1;
+    text-decoration: underline;
+    white-space: nowrap;
+    color: var(--jx-banner-accent, currentColor);
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.jx-promotion-banner__cta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: var(--jx-banner-gap);
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.jx-promotion-banner__cta .button {
+    padding: 8px 12px;
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    background-color: #f0f0f1;
+    color: #000000;
+    border: 1px solid transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    line-height: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 4px;
+    text-decoration: none;
+}
+
+.jx-promotion-banner__cta .button .cta-text {
+    font-size: var(--jx-banner-cta-size);
+    font-weight: 800;
+}
+
+.jx-promotion-banner__cta .button:hover,
+.jx-promotion-banner__cta .button:focus {
+    background-color: #f5f5f5;
+    color: #000000;
+}
+
+.jx-promotion-banner__dismiss {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    right: 10px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: var(--jx-banner-accent, currentColor);
+    opacity: 0.8;
+}
+
+.jx-promotion-banner__dismiss:hover,
+.jx-promotion-banner__dismiss:focus {
+    opacity: 1;
+    outline: none;
+}
+
+.jx-promotion-banner__dismiss:before {
+    content: "\f153";
+    font: normal 16px/1 dashicons;
+    speak: never;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.post-type-jupiterx-popups .jx-promotion-banner {
+    margin-top: 40px;
+}
+
+@media (max-width: 782px) {
+    .jx-promotion-banner {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        height: auto;
+        padding: 12px 24px;
+    }
+
+    .jx-promotion-banner--has-image {
+        -webkit-padding-start: 24px;
+        padding-inline-start: 24px;
+    }
+
+    .jx-promotion-banner__image {
+        position: relative;
+        height: auto;
+        padding: 0;
+        margin-bottom: 8px;
+    }
+
+    .jx-promotion-banner__image img {
+        max-height: 32px;
+    }
+
+    .jx-promotion-banner__inner {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .jx-promotion-banner__top-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        gap: var(--jx-banner-gap);
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .jx-promotion-banner__cta {
+        margin-inline-start: 0;
+    }
+
+    .jx-promotion-banner__dismiss {
+        top: 10px;
+        right: 10px;
+        -webkit-transform: none;
+        transform: none;
+    }
+}

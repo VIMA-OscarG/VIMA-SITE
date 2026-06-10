@@ -1,0 +1,1221 @@
+/* Importa las fuentes Google: Merriweather y Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+/* ================================================
+   CONTENEDOR PRINCIPAL Y FONDO DINÁMICO
+=============================================== */
+.mlc-luxury-carousel-wrapper {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  /* Padding extra para que las cards no queden pegadas a los bordes */
+  padding-bottom: 8%;
+  --mlc-bg-image: none;
+  max-height: 800px; /* Ajusta este valor según necesites */
+}
+.mlc-luxury-carousel-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  /* Se combinan dos gradientes lineales que parten del 100% en los extremos y llegan al 0.2 en el centro */
+  background: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.2) 50%),
+    linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.2) 50%),
+    var(--mlc-bg-image);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: darken;
+  transition: background-image 0.6s ease-in-out, background-color 0.3s ease;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  image-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+/* Contenedor de indicadores (flechas + contador) */
+.mlc-carousel-indicators {
+  position: absolute !important;
+  top: 720px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 15px;  /* Espacio uniforme entre elementos */
+  z-index: 20 !important;
+  pointer-events: auto !important;
+}
+
+/* Flechas (prev y next) */
+.mlc-prev-arrow,
+.mlc-next-arrow {
+  border: none !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+  color: #fff !important;
+  font-size: 2rem !important;
+  font-weight: 200 !important;
+  width: 50px !important;
+  height: 50px !important;
+  line-height: 10px !important;
+  text-align: center !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  transition: background 0.3s ease !important;
+  outline: none !important;
+}
+
+/* Hover: Se mantiene fondo oscuro (o puedes ajustar para mayor contraste) */
+.mlc-prev-arrow:hover,
+.mlc-next-arrow:hover {
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+/* Quitar estilos de active y focus (para anular estilos de Hello Elementor) */
+.mlc-prev-arrow:focus,
+.mlc-prev-arrow:active,
+.mlc-next-arrow:focus,
+.mlc-next-arrow:active {
+  background: rgba(0, 0, 0, 0) !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Contador: número actual y total */
+.mlc-counter {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 1px !important;
+  color: #fff !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5) !important;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* ================================================
+   PISTA (TRACK) DE CARDS
+=============================================== */
+.mlc-cards-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Estado base: indica que se puede arrastrar */
+.mlc-cards-track {
+  cursor: grab;
+  cursor: -webkit-grab; /* Safari */
+}
+
+/* Mientras se arrastra (mouse down) */
+.mlc-cards-track.is-grabbing {
+  cursor: grabbing;
+  cursor: -webkit-grabbing; /* Safari */
+}
+
+/* Opcional: heredar cursor a los hijos para que no cambie sobre links/imágenes */
+.mlc-cards-track * { cursor: inherit; }
+
+/* Opcional: evita arrastre nativo de imágenes si te estorba */
+.mlc-cards-track img {
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
+/* Botón: cursor normal en reposo y dedo (pointer) al hover */
+.mlc-cards-track .mlc-button-wrapper { 
+  cursor: auto; 
+}
+
+.mlc-cards-track .mlc-button-wrapper:hover,
+.mlc-cards-track .mlc-button-wrapper:focus-visible,
+.mlc-cards-track .mlc-button-wrapper:hover * {
+  cursor: pointer;
+}
+
+/* (Opcional) Si quieres evitar que el botón herede el 'grab' de forma global,
+   reemplaza tu regla `.mlc-cards-track * { cursor: inherit; }` por esta: */
+.mlc-cards-track :not(.mlc-button-wrapper):not(.mlc-button-wrapper *) {
+  cursor: inherit;
+}
+
+
+.mlc-cards-track,
+.mlc-mobile-track{
+  touch-action: pan-y;
+}
+
+
+
+/* ================================================
+   ESTILOS DE LAS CARDS
+=============================================== */
+/* Estilo base para todas las cards */
+.mlc-card {
+  flex: 0 0 auto;
+  width: 400px;
+  margin: 0 15px;
+  background: #fff;
+  /* Se comenta el padding original para usar un padding mayor en la activa */
+  /* padding: 30px; */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  position: relative;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  font-family: 'Montserrat', sans-serif;
+
+  overflow: hidden; /* Para que se respeten los bordes redondeados */
+}
+
+/* Para las cards inactivas: se oculta imagen, descripción y botón, se muestra solo el título en blanco y se agrega un margin-top para bajarlas */
+.mlc-card:not(.active) {
+  background: transparent;
+  border: 2px solid #fff;
+  margin-top: 20px;
+}
+
+.mlc-card:not(.active) .mlc-image,
+.mlc-card:not(.active) .mlc-description,
+.mlc-card:not(.active) .mlc-button-wrapper {
+  display: none;
+}
+
+/* En las cards inactivas, el título se muestra en Montserrat, en blanco y centrado en la parte superior */
+.mlc-card:not(.active) .mlc-title {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 300; /* Ajusta este valor según tus necesidades */
+}
+
+/* ================================================
+   CARD ACTIVA: EFECTO DIFUMINADO, ZOOM, ALTURA AUMENTADA Y MÁS ESPACIO
+=============================================== */
+.mlc-card.active {
+  opacity: 1;
+  /* Se aumenta la escala y se traslada hacia arriba */
+  transform: scale(1.05, 1.10) translateY(-10px);
+  background: #fff;
+  border: none;
+  /* Efecto fade in */
+  animation: fadeInActive 0.5s ease;
+  /* Mayor altura para que se vea más larga */
+  min-height: 600px;
+  /* Se puede ajustar el padding de la card activa si se desea */
+  padding: 40px;
+}
+
+/* Keyframes para el efecto fade in en la card activa */
+@keyframes fadeInActive {
+  from {
+    opacity: 0.5;
+    transform: scale(1, 1) translateY(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1.05, 1.10) translateY(-10px);
+  }
+}
+
+/* En la card activa, el título se muestra en Merriweather (negro) con margen igual arriba y abajo */
+.mlc-card.active .mlc-title {
+  font-family: 'Merriweather', serif;
+  color: #000;
+  margin: 20px 0; /* Igual margen arriba y abajo */
+  padding: 20px;
+  font-size: 22px;
+}
+
+/* Imagen centrada: 100% de ancho y altura fija para formato rectangular alargado */
+.mlc-card .mlc-image img {
+  width: 100%;
+  height: 250px;  /* Ajusta la altura según necesites */
+  object-fit: cover;
+  margin-top: 30px;
+}
+
+/* NUEVA REGLA: Hacer que la imagen en la card activa se expanda al 100% del contenedor, ignorando el padding */
+.mlc-card.active .mlc-image {
+  width: calc(100% + 80px);  /* Se suma el doble del padding (40px * 2) */
+  margin: -40px -40px 0 -40px; /* Se "saca" el contenedor de imagen para que llegue a los extremos */
+}
+
+/* Descripción centrada */
+.mlc-card .mlc-description p {
+  margin: 10px 0;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* Botón: fondo negro, letras blancas, borde blanco, sombra ligera y fuente Montserrat */
+.mlc-button {
+  display: inline-block;
+  padding: 0.5rem 1.4rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.mlc-button:hover {
+  background: #333;
+  color: #fff;
+}
+
+/* ================================================
+   BOTONES DE NAVEGACIÓN
+=============================================== */
+.mlc-carousel-nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  pointer-events: none;
+}
+.mlc-carousel-nav button {
+  pointer-events: auto;
+  border: none;
+  background: transparent;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #fff;
+  transition: color 0.2s ease;
+}
+.mlc-carousel-nav button:hover {
+  color: #ccc;
+}
+.mlc-icon {
+  display: inline-block;
+}
+
+/* ================================================
+   RESPONSIVO (OPCIONAL)
+=============================================== */
+
+/* =========================================================
+   ESTILOS PARA [luxury_carousel_mobile] - MÓVILES
+========================================================= */
+@media (max-width: 768px) {
+  /* Contenedor principal del carrusel móvil */
+  .mlc-mobile-carousel-wrapper {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+  }
+  
+  
+  /* Pista del carrusel móvil */
+  .mlc-mobile-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Cada tarjeta móvil */
+  .mlc-mobile-card {
+    flex: 0 0 auto;
+    width: 300px;      /* Ajusta el ancho de la tarjeta */
+    height: 480px;     /* Se define la altura total de la tarjeta */
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000; 
+    background: #fff; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    transition: transform 0.3s ease;
+  }
+  .mlc-mobile-card:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Imagen: ocupa 100% de ancho, pegada al top, con mayor altura */
+  .mlc-mobile-image {
+    width: 100%;
+    height: 300px; /* Ajusta la altura de la imagen */
+    overflow: hidden;
+  }
+  .mlc-mobile-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Título: aparece debajo de la imagen, centrado con padding simétrico */
+  .mlc-mobile-title {
+    margin: 20px;
+    
+    font-size: 1.0rem;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Merriweather', serif;
+    background: #fff;
+  }
+  
+  /* Estado activo: la tarjeta activa se centra y se escala un poco */
+ /* .mlc-mobile-card.active {
+    transform: scale(1.05);
+  }*/
+  .mlc-mobile-description p {
+    text-align: center;       /* Centra el texto */
+    font-size: 12px;          /* Tamaño de fuente más pequeño, ajústalo según necesites */
+    font-family: 'Montserrat', sans-serif; /* Aplica la fuente Montserrat */
+    padding: 0 10px;
+  }
+
+
+/* ================================================
+   INDICADORES MÓVILES (Flechas + Contador)
+   Adaptados de desktop para versión móvil
+================================================= */
+.mlc-mobile-carousel-indicators {
+  position: absolute !important;
+  top: 98% !important;         /* Más cerca del borde inferior */
+  left: 50% !important;
+  transform: translateX(-50%) translateY(100%) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;            /* Separación proporcional */
+  z-index: 30 !important;
+  pointer-events: auto !important;
+}
+
+/* Flechas reducidas pero mismas proporciones */
+.mlc-mobile-prev-arrow,
+.mlc-mobile-next-arrow {
+  width: 40px !important;
+  height: 40px !important;
+  font-size: 1.5rem !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+  transition: background 0.3s ease !important;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.mlc-mobile-prev-arrow:hover,
+.mlc-mobile-next-arrow:hover {
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+/* Contador más pequeño pero idéntico al desktop */
+.mlc-mobile-counter {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 1px !important;
+  color: #fff !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5) !important;
+  line-height: 1 !important;
+}
+
+
+
+}
+
+  
+
+
+
+/* =========================================================
+   MÓVIL: CTA (Rental Rates) igual al botón desktop y centrado
+========================================================= */
+@media (max-width: 768px) {
+
+   .mlc-mobile-title {
+    color: #000 !important;
+    font-size: 1.25rem !important;      /* más grande (ajusta si quieres) */
+    font-weight: 700 !important;        /* más pesada */
+    letter-spacing: 0 !important;       /* menos separación entre letras */
+    line-height: 1.2 !important;        /* más compacto */
+    margin: 14px 20px !important;       /* menos separación vertical (antes 20px) */
+  }
+
+  /* CTA con el mismo look & feel de .mlc-button */
+  .mlc-mobile-cta{
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  text-decoration: none !important;
+    display: inline-block !important;
+    padding: 0.5rem 1.4rem !important;
+    margin-top: 0.2rem !important;
+    margin-bottom: 0.5rem !important;
+
+    background: #000 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+
+    border: 2px solid #fff !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2) !important;
+    border-radius: 4px !important;
+
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    font-family: 'Montserrat', sans-serif !important;
+
+    transition: background 0.2s ease, color 0.2s ease !important;
+
+    /* Interacción */
+    cursor: pointer !important;
+  }
+
+  /* Hover igual que .mlc-button:hover */
+  .mlc-mobile-card:hover .mlc-mobile-cta {
+    background: #333 !important;
+    color: #fff !important;
+  }
+
+  /* Centrado horizontal del CTA dentro de la card */
+  .mlc-mobile-card {
+    text-align: center !important; /* centra título/cta (no afecta tu layout porque ya es centrado) */
+  }
+
+  /* Opcional: asegura que el CTA no se estire */
+  .mlc-mobile-cta {
+    width: auto !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   DESKTOP: Fix indicadores recortados
+   (usar bottom en vez de top fijo)
+========================================================= */
+.mlc-luxury-carousel-wrapper {
+  /* deja espacio real para indicadores sin depender de top:720px */
+  padding-bottom: 150px !important;
+}
+
+.mlc-carousel-indicators {
+  top: auto !important;
+  bottom: 30px !important;              /* ajusta 20–50px si lo quieres más arriba/abajo */
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 50 !important;
+}
+
+/* (Opcional) centra mejor el símbolo dentro del círculo */
+.mlc-prev-arrow,
+.mlc-next-arrow {
+  line-height: 50px !important;         /* igual a height (50px) */
+}
+
+/* =========================================================
+   MÓVIL: No mostrar arrows/indicadores (si existieran)
+========================================================= */
+@media (max-width: 768px) {
+  .mlc-carousel-indicators,
+  .mlc-mobile-carousel-indicators,
+  .mlc-prev-arrow,
+  .mlc-next-arrow,
+  .mlc-mobile-prev-arrow,
+  .mlc-mobile-next-arrow {
+    display: none !important;
+  }
+}
+
+
+/* Overlay: no forzar display, solo posición/z-index */
+.dialog-widget-overlay{
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 999998 !important;
+}
+
+/* Wrapper del popup: NO tocar display */
+.elementor-popup-modal.dialog-widget{
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 999999 !important;
+}
+
+/* Centrado real usando absolute + transform (sin flex) */
+.elementor-popup-modal.dialog-widget .dialog-widget-content{
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+
+  max-width: min(92vw, 1140px) !important;
+  max-height: 90vh !important;
+  overflow: auto !important;
+  margin: 0 !important;
+}
+
+/* Botón cerrar siempre encima */
+.elementor-popup-modal.dialog-widget .dialog-close-button{
+  position: absolute !important;
+  top: 12px !important;
+  right: 12px !important;
+  z-index: 1000000 !important;
+  pointer-events: auto !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mlc-cards-track,
+.mlc-mobile-track {
+  will-change: transform;
+}
+
+.mlc-luxury-carousel-wrapper,
+.mlc-mobile-carousel-wrapper {
+  overflow: hidden;
+}
+
+/* Esto hace que el browser entienda el gesto: vertical scroll sí, horizontal lo maneja tu JS */
+.mlc-cards-track,
+.mlc-mobile-track {
+  touch-action: pan-y;
+}
+
+
+
+
+
+
+/* =========================================================
+   MLC Luxury Modals — DARK EXECUTIVE (premium++)
+   Sustituye TODO tu bloque anterior por este.
+
+   Respeta IDs:
+   - #mlc-modal-overlay
+   - #mlc-destination-modal ( #mlc-destination-title, #mlc-destination-body )
+   - #mlc-rates-modal ( #mlc-property-title, .mlc-tab, #mlc-rates-body, #mlc-seasonality-body )
+
+   Hooks JS:
+   - .is-open, html.mlc-scroll-lock
+========================================================= */
+
+:root{
+  --mlc-z-overlay: 999990;
+  --mlc-z-modal:   999999;
+
+  /* Dark executive palette */
+  --mlc-bg: #07080b;
+  --mlc-surface: rgba(255,255,255,.045);
+  --mlc-surface-2: rgba(255,255,255,.065);
+  --mlc-border: rgba(255,255,255,.12);
+  --mlc-border-2: rgba(255,255,255,.18);
+
+  --mlc-text: rgba(255,255,255,.94);
+  --mlc-muted: rgba(255,255,255,.62);
+
+  --mlc-gold: #d8c08c;
+  --mlc-gold-2:#b99652;
+
+  --mlc-radius: 22px;
+  --mlc-shadow: 0 44px 150px rgba(0,0,0,.72);
+  --mlc-soft-shadow: 0 18px 60px rgba(0,0,0,.38);
+
+  --mlc-font-sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --mlc-font-serif: ui-serif, Georgia, "Times New Roman", serif;
+
+  /* Heights for consistent property cards */
+  --mlc-prop-h: 56px;
+}
+
+html.mlc-scroll-lock{ overflow: hidden !important; }
+body.mlc-scroll-lock{ overflow: hidden !important; }
+
+/* =========================================================
+   Overlay (darker + blur + vignette)
+========================================================= */
+#mlc-modal-overlay{
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: var(--mlc-z-overlay) !important;
+
+  background:
+    radial-gradient(1200px 900px at 50% 40%, rgba(0,0,0,.35), rgba(0,0,0,.78) 65%, rgba(0,0,0,.88) 100%),
+    rgba(0,0,0,.70) !important;
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .22s ease;
+  will-change: opacity;
+}
+#mlc-modal-overlay.is-open{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* =========================================================
+   Modal base (FLEX => scroll perfecto)
+========================================================= */
+.mlc-modal{
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, calc(-50% + 14px)) scale(.985);
+
+  width: min(980px, calc(100vw - 36px));
+  max-height: min(88vh, 920px);
+
+  z-index: var(--mlc-z-modal) !important;
+  border-radius: var(--mlc-radius);
+  overflow: hidden;
+
+  background:
+    radial-gradient(1200px 420px at 15% 0%, rgba(216,192,140,.16), transparent 60%),
+    radial-gradient(900px 320px at 85% 0%, rgba(255,255,255,.10), transparent 55%),
+    linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02) 38%, rgba(0,0,0,.0) 65%),
+    var(--mlc-bg);
+
+  border: 1px solid var(--mlc-border);
+  box-shadow: var(--mlc-shadow), 0 1px 0 rgba(255,255,255,.06) inset;
+
+  color: var(--mlc-text);
+  font-family: var(--mlc-font-sans);
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .22s ease, transform .22s ease;
+  will-change: transform, opacity;
+
+  /* Anti-theme/builder issues */
+  margin: 0 !important;
+  float: none !important;
+  clear: none !important;
+  display: flex !important;
+  flex-direction: column;
+  contain: layout paint;
+}
+.mlc-modal.is-open{
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+.mlc-modal--wide{
+  width: min(1120px, calc(100vw - 36px));
+}
+
+/* =========================================================
+   Header (premium “glass”)
+========================================================= */
+.mlc-modal__header{
+  flex: 0 0 auto;
+  padding: 18px 20px 14px;
+  border-bottom: 1px solid rgba(255,255,255,.10);
+
+  background:
+    radial-gradient(900px 260px at 18% 0%, rgba(216,192,140,.18), transparent 60%),
+    linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.03));
+
+  position: relative;
+}
+
+.mlc-modal__kicker{
+  font-size: 11px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.58);
+  margin: 0 0 6px;
+}
+
+.mlc-modal__title{
+  font-family: var(--mlc-font-serif);
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0;
+  color: rgba(255,255,255,.97);
+  text-shadow: 0 10px 26px rgba(0,0,0,.35);
+}
+
+/* Close button (subtle luxury) */
+.mlc-modal__close{
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,.18);
+
+  background:
+    radial-gradient(220px 120px at 30% 20%, rgba(255,255,255,.12), rgba(255,255,255,.06)),
+    rgba(255,255,255,.04);
+
+  color: rgba(255,255,255,.92);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+
+  transition: transform .15s ease, background .15s ease, border-color .15s ease, box-shadow .15s ease;
+  z-index: calc(var(--mlc-z-modal) + 1);
+}
+.mlc-modal__close:hover{
+  transform: translateY(-1px);
+  border-color: rgba(216,192,140,.46);
+  background:
+    radial-gradient(220px 120px at 30% 20%, rgba(255,255,255,.16), rgba(255,255,255,.08)),
+    rgba(255,255,255,.06);
+  box-shadow: 0 16px 36px rgba(0,0,0,.35);
+}
+.mlc-modal__close:active{ transform: translateY(0); }
+
+/* =========================================================
+   Scroll area (CRÍTICO para que puedas ver TODAS las properties)
+========================================================= */
+.mlc-modal__body{
+  flex: 1 1 auto;
+  padding: 16px 20px 20px;
+
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  min-height: 0; /* <- clave para flex scroll */
+}
+
+/* Scrollbar */
+.mlc-modal__body::-webkit-scrollbar{ width: 10px; }
+.mlc-modal__body::-webkit-scrollbar-thumb{
+  background: rgba(255,255,255,.16);
+  border-radius: 999px;
+  border: 2px solid rgba(0,0,0,0);
+  background-clip: padding-box;
+}
+.mlc-modal__body::-webkit-scrollbar-track{ background: rgba(0,0,0,0); }
+
+#mlc-destination-body,
+#mlc-rates-body,
+#mlc-seasonality-body{
+  min-height: 0;
+}
+
+/* =========================================================
+   Tabs (más “executive”)
+========================================================= */
+.mlc-modal__tabs{
+  flex: 0 0 auto;
+  display: flex;
+  gap: 10px;
+  padding: 12px 20px;
+  border-bottom: 1px solid rgba(255,255,255,.10);
+
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
+}
+
+.mlc-tab{
+  appearance: none;
+  border: 1px solid rgba(255,255,255,.16);
+  background:
+    radial-gradient(240px 140px at 30% 20%, rgba(255,255,255,.10), rgba(255,255,255,.05)),
+    rgba(255,255,255,.04);
+
+  color: rgba(255,255,255,.84);
+
+  padding: 10px 14px;
+  border-radius: 999px;
+
+  cursor: pointer;
+  transition: transform .16s ease, border-color .16s ease, background .16s ease, box-shadow .16s ease;
+}
+.mlc-tab:hover{
+  transform: translateY(-1px);
+  border-color: rgba(216,192,140,.36);
+  box-shadow: 0 14px 34px rgba(0,0,0,.28);
+}
+.mlc-tab.is-active{
+  border-color: rgba(216,192,140,.54);
+  background:
+    linear-gradient(180deg, rgba(216,192,140,.20), rgba(216,192,140,.10)),
+    rgba(255,255,255,.05);
+  color: rgba(255,255,255,.98);
+}
+
+.mlc-tabpanel{ display: none; }
+.mlc-tabpanel.is-active{ display: block; }
+
+/* =========================================================
+   DESTINATION MODAL — Resorts + Properties
+========================================================= */
+
+
+/* Modal debajo (cuando rates está encima) */
+.mlc-is-under{
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transform: translate(-50%, -50%) scale(.985) !important;
+}
+
+
+.mlc-resort{ margin-top: 16px; }
+.mlc-resort:first-child{ margin-top: 0; }
+
+.mlc-resort__title{
+  font-size: 11px;
+  letter-spacing: 2.6px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.68);
+  margin: 0 0 12px;
+}
+
+/* Properties grid */
+.mlc-properties{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+/* Properties cards: negras, consistentes, premium */
+.mlc-property-btn{
+  text-align: left;
+  width: 100%;
+  min-height: var(--mlc-prop-h);
+  padding: 14px 14px;
+
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,.14);
+
+  background:
+    radial-gradient(900px 260px at 18% 0%, rgba(216,192,140,.20), transparent 62%),
+    linear-gradient(180deg, rgba(20,21,24,.98), rgba(10,11,14,.98));
+
+  color: rgba(255,255,255,.92);
+  font-weight: 600;
+  letter-spacing: .2px;
+
+  cursor: pointer;
+  transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease, filter .16s ease;
+}
+.mlc-property-btn:hover{
+  transform: translateY(-1px);
+  border-color: rgba(216,192,140,.58);
+  box-shadow: var(--mlc-soft-shadow);
+  filter: brightness(1.03);
+}
+.mlc-property-btn:active{ transform: translateY(0); }
+
+/* =========================================================
+   RATES — Cards más “luxury”: label + big price + subtle glow
+========================================================= */
+.mlc-rates-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.mlc-rates-notice{
+  margin: 0 0 14px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(0,0,0,.08);
+  background: rgba(255,255,255,.98);
+  color: rgba(0,0,0,.88);
+  font-size: 14px;
+  line-height: 1.5;
+  box-shadow: 0 14px 38px rgba(0,0,0,.16);
+}
+
+.mlc-rate-card{
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,.12);
+
+  background:
+    radial-gradient(900px 260px at 18% 0%, rgba(216,192,140,.18), transparent 64%),
+    radial-gradient(700px 240px at 92% 0%, rgba(255,255,255,.08), transparent 62%),
+    linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03)),
+    rgba(0,0,0,.18);
+
+  padding: 16px 16px;
+  box-shadow: 0 18px 46px rgba(0,0,0,.30);
+}
+
+.mlc-rate-card__season{
+  font-size: 11px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.70);
+  margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.mlc-rate-card__season::before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--mlc-gold), var(--mlc-gold-2));
+  box-shadow: 0 10px 24px rgba(216,192,140,.22);
+}
+
+.mlc-rate-card__amount{
+  font-family: var(--mlc-font-serif);
+  font-size: 30px;
+  font-weight: 900;
+  color: rgba(255,255,255,.98);
+  letter-spacing: .2px;
+  text-shadow: 0 18px 44px rgba(0,0,0,.38);
+}
+
+/* =========================================================
+   SEASONALITY — Premium “mini-table” cells:
+   [START] .......... [Dec/19/2025]
+   [END]   .......... [Jan/03/2026]
+
+   + Mejora títulos de sección: HOLIDAYS / STANDARD
+========================================================= */
+
+/* (A) Título de sección (HOLIDAYS / STANDARD) */
+.mlc-season-block{
+  margin: 18px 0 16px;
+  padding: 18px 18px 16px;
+
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,.10);
+
+  background:
+    radial-gradient(900px 260px at 18% 0%, rgba(216,192,140,.10), transparent 64%),
+    linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)),
+    rgba(0,0,0,.14);
+
+  box-shadow: 0 18px 52px rgba(0,0,0,.26);
+}
+
+.mlc-season-block__title{
+  font-size: 13px;                 /* más grande */
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.86);
+
+  margin: 0 0 14px;                 /* más aire */
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255,255,255,.10);
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.mlc-season-block__title::before{
+  content: "";
+  width: 14px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--mlc-gold), rgba(255,255,255,.18));
+  opacity: .9;
+}
+
+/* (B) Lista */
+.mlc-season-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: grid;
+  gap: 12px;
+}
+
+/* fila contenedora (dos celdas Start/End) */
+.mlc-season-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+
+  padding: 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,.10);
+
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015)),
+    rgba(0,0,0,.10);
+
+  box-shadow: 0 14px 34px rgba(0,0,0,.20);
+}
+
+/* celda individual */
+.mlc-season-cell{
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,.10);
+
+  background:
+    radial-gradient(460px 240px at 18% 0%, rgba(255,255,255,.06), transparent 62%),
+    linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
+
+  padding: 12px 14px;
+  min-height: 62px;
+
+  /* Layout “label left / value right” */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+/* label a la izquierda */
+.mlc-season-label{
+  margin: 0;
+  font-size: 10px;
+  letter-spacing: 2.6px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.62);
+  line-height: 1;
+
+  flex: 0 0 auto;
+}
+
+/* fecha a la derecha */
+.mlc-season-value{
+  font-weight: 800;
+  color: rgba(255,255,255,.94);
+  letter-spacing: .2px;
+  line-height: 1.05;
+  font-size: 14px;
+
+  text-align: right;
+  white-space: nowrap;
+
+  flex: 1 1 auto;
+}
+
+/* UX polish */
+.mlc-season-row:hover{
+  border-color: rgba(216,192,140,.18);
+  box-shadow: 0 18px 46px rgba(0,0,0,.26);
+}
+.mlc-season-row:hover .mlc-season-cell{
+  border-color: rgba(216,192,140,.16);
+}
+
+/* Mobile: apila Start / End en una columna */
+@media (max-width: 560px){
+  .mlc-season-block{
+    padding: 16px 14px 14px;
+    margin: 16px 0 14px;
+  }
+  .mlc-season-block__title{
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+  }
+  .mlc-season-row{
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+  .mlc-season-cell{
+    min-height: 58px;
+  }
+  .mlc-season-value{
+    white-space: normal;
+  }
+}
+
+
+/* =========================================================
+   Empty state
+========================================================= */
+.mlc-empty{
+  padding: 14px 14px;
+  border-radius: 16px;
+  border: 1px dashed rgba(255,255,255,.22);
+  background: rgba(255,255,255,.03);
+  color: rgba(255,255,255,.76);
+}
+
+/* =========================================================
+   Responsive
+========================================================= */
+@media (max-width: 860px){
+  .mlc-properties{ grid-template-columns: 1fr; }
+  .mlc-rates-grid{ grid-template-columns: 1fr; }
+}
+
+@media (max-width: 720px){
+  .mlc-modal{
+    width: calc(100vw - 18px);
+    max-height: 90vh;
+    border-radius: 18px;
+  }
+  .mlc-modal__header{ padding: 16px 16px 12px; }
+  .mlc-modal__tabs{ padding: 10px 16px; }
+  .mlc-modal__body{ padding: 14px 16px 16px; }
+
+  .mlc-modal__title{ font-size: 22px; }
+  .mlc-rate-card__amount{ font-size: 26px; }
+}
+
+/* =========================================================
+   Small polish
+========================================================= */
+.mlc-modal a, .mlc-modal button{
+  outline: none;
+}
+.mlc-modal button:focus-visible{
+  box-shadow: 0 0 0 3px rgba(216,192,140,.18);
+}
+
+

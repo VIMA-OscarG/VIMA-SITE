@@ -1,0 +1,5741 @@
+# Translation of Plugins - FluentCRM &#8211; Email Newsletter, Automation, Email Marketing, Email Campaigns, Optins, Leads, and CRM Solution - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - FluentCRM &#8211; Email Newsletter, Automation, Email Marketing, Email Campaigns, Optins, Leads, and CRM Solution - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-03-23 17:45:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - FluentCRM &#8211; Email Newsletter, Automation, Email Marketing, Email Campaigns, Optins, Leads, and CRM Solution - Stable (latest release)\n"
+
+#: app/Services/TransStrings.php:1833
+msgid "Nothing to copy"
+msgstr "Nada que copiar"
+
+#: app/Services/TransStrings.php:1832
+msgid "Copied"
+msgstr "Copiado"
+
+#: app/Services/TransStrings.php:1831
+msgid "Copy Phone Number"
+msgstr "Copiar número de teléfono"
+
+#: app/Services/TransStrings.php:1830
+msgid "Copy Email"
+msgstr "Copiar correo electrónico"
+
+#: app/Services/TransStrings.php:1829
+msgid "Create from Scratch"
+msgstr "Crear desde cero"
+
+#: app/Services/TransStrings.php:1826
+msgid "Usage limit per user"
+msgstr "Límite de uso por usuario"
+
+#: app/Services/TransStrings.php:1825
+msgid "Apply to all qualifying items in cart"
+msgstr "Aplicar a todos los artículos en el carrito que califiquen"
+
+#: app/Services/TransStrings.php:1834
+msgid "Built In Templates"
+msgstr "Plantillas integradas"
+
+#: app/Services/TransStrings.php:1836
+msgid "See Built In Templates"
+msgstr "Ver plantillas integradas"
+
+#: app/Services/TransStrings.php:1812
+msgid "Exclude Products"
+msgstr "Excluir productos"
+
+#: app/Services/TransStrings.php:1808
+msgid "Maximum Spend"
+msgstr "Gasto máximo"
+
+#: app/Services/TransStrings.php:1810
+msgid "Products"
+msgstr "Productos"
+
+#: app/Services/TransStrings.php:1809
+msgid "This field allows you to set the maximum spend (subtotal) allowed when using the coupon."
+msgstr "Este campo te permite establecer el gasto máximo (subtotal) permitido cuando se use el cupón."
+
+#: app/Services/TransStrings.php:1806
+msgid "Minimum Spend"
+msgstr "Gasto mínimo"
+
+#: app/Services/TransStrings.php:1807
+msgid "This field allows you to set the minimum spend (subtotal) allowed to use the coupon."
+msgstr "Este campo te permite establecer el gasto mínimo (subtotal) permitido para usar el cupón."
+
+#: app/Services/TransStrings.php:1805
+msgid "Restrictions & Limits"
+msgstr "Límites y restricciones"
+
+#: app/Services/TransStrings.php:1801
+msgid "Allow Free Shipping"
+msgstr "Permitir el envío gratuito"
+
+#: app/Services/TransStrings.php:1800
+msgid "Expire after x days"
+msgstr "Caduca en x días"
+
+#: app/Services/TransStrings.php:1799
+msgid "Expiry Date"
+msgstr "Fecha de caducidad"
+
+#: app/Services/TransStrings.php:1785
+msgid "Configure from scratch"
+msgstr "Configurar desde cero"
+
+#: app/Services/TransStrings.php:1776
+msgid "Activities"
+msgstr "Actividades"
+
+#: app/Services/TransStrings.php:1775
+msgid "New Automation"
+msgstr "Nueva automatización"
+
+#: app/Services/TransStrings.php:1779
+msgid "Advanced Spacing"
+msgstr "Espaciado avanzado"
+
+#: app/Services/TransStrings.php:1778
+msgid "Advanced Typography"
+msgstr "Tipografía avanzada"
+
+#: app/Services/TransStrings.php:1764
+msgid "Select Campaigns"
+msgstr "Seleccionar campañas"
+
+#: app/Services/TransStrings.php:1763
+msgid "Leave it blank to display all campaigns"
+msgstr "Dejar en blanco para mostrar todas las campañas"
+
+#: app/Services/TransStrings.php:1762
+msgid "No Blocks Found"
+msgstr "No se encontraron bloques"
+
+#: app/Services/TransStrings.php:1759
+msgid "Share this URL with anyone to view this newsletter online."
+msgstr "Compartir esta URL con cualquiera para ver en línea este boletín."
+
+#: app/Services/TransStrings.php:1758
+msgid "Share Newsletter via URL"
+msgstr "Compartir el boletín vía URL"
+
+#: app/Services/TransStrings.php:1757
+msgid "Never Clicked"
+msgstr "Nunca cliqueado"
+
+#: app/Services/TransStrings.php:1756
+msgid "Never Opened"
+msgstr "Nunca abierto"
+
+#: app/Services/TransStrings.php:1760
+msgid "Copy"
+msgstr "Copiar"
+
+#: app/Services/TransStrings.php:1755
+msgid "Exporting archived campaign emails is only available in the Pro version of FluentCRM"
+msgstr "Exportar correo electrónico de campañas archivadas, solo está disponible en la versión Pro de FluentCRM"
+
+#: app/Services/TransStrings.php:1716
+msgid "Do not import email campaigns from untrusted sources."
+msgstr "No importes campañas de correo electrónico de fuentes no confiables."
+
+#: app/Services/TransStrings.php:1712
+msgid "Campaign export is only available on pro version of FluentCRM"
+msgstr "Exportar campañas solo está disponible en la versión pro de FluentCRM"
+
+#: app/Services/TransStrings.php:1130
+msgid "Select All"
+msgstr "Seleccionar todo"
+
+#: app/Http/Controllers/SettingsController.php:582
+msgid "Email Opens"
+msgstr "Aperturas de correos electrónicos"
+
+#: app/Functions/helpers.php:513 app/Functions/helpers.php:564
+msgid "Spammed"
+msgstr "No deseado"
+
+#: app/Services/TransStrings.php:1714
+msgid "Import your exported email campaigns JSON file here. Please upload your JSON file."
+msgstr "Importa aquí tu archivo JSON de campañas de correo electrónico exportadas. Por favor sube tu archivo JSON."
+
+#: app/Services/TransStrings.php:1753
+msgid "Time"
+msgstr "Hora"
+
+#: app/Services/TransStrings.php:1751
+msgid "Cart Total"
+msgstr "Total del carrito"
+
+#: app/Services/TransStrings.php:1740
+msgid "INACTIVE"
+msgstr "INACTIVO"
+
+#: app/Services/TransStrings.php:1745
+msgid "Label Color"
+msgstr "Color de la etiqueta"
+
+#: app/Services/TransStrings.php:1744
+msgid "Edit Label"
+msgstr "Editar etiqueta"
+
+#: app/Services/TransStrings.php:1743
+msgid "Are you sure to remove this label from the funnel?"
+msgstr "¿Seguro que quieres eliminar esta etiqueta del embudo?"
+
+#: app/Services/TransStrings.php:1742
+msgid "Automation Settings"
+msgstr "Ajustes de automatización"
+
+#: app/Services/TransStrings.php:1741
+msgid "Label name is required"
+msgstr "El nombre de la etiqueta es obligatorio"
+
+#: app/Services/TransStrings.php:1746
+msgid "Back to Labels"
+msgstr "Regresar a etiquetas"
+
+#: app/Services/TransStrings.php:1750
+msgid "No user found with your query"
+msgstr "No se ha encontrado ningún usuario con su consulta"
+
+#: app/Services/TransStrings.php:1749
+msgid "Type User Email Address"
+msgstr "Escribe la dirección de correo electrónico del usuario"
+
+#: app/Services/TransStrings.php:1748
+msgid "System Labels"
+msgstr "Etiquetas del sistema"
+
+#: app/Services/TransStrings.php:1747
+msgid "Are you sure to remove this label from the campaign?"
+msgstr "¿Seguro que quieres eliminar esta etiqueta de la campaña?"
+
+#: app/Services/TransStrings.php:1739
+msgid "Label Name"
+msgstr "Nombre de la etiqueta"
+
+#: app/Services/TransStrings.php:1738
+msgid "Create New Label"
+msgstr "Crear nueva etiqueta"
+
+#: app/Services/TransStrings.php:1737
+msgid "Funnel Labels"
+msgstr "Etiquetas de embudo"
+
+#: app/Services/TransStrings.php:1736
+msgid "Labels"
+msgstr "Etiquetas"
+
+#: app/Services/TransStrings.php:1735
+msgid "Manage Labels"
+msgstr "Gestionar etiquetas"
+
+#: app/Services/TransStrings.php:1734
+msgid "Filter By Label"
+msgstr "Filtrar por etiqueta"
+
+#: app/Services/TransStrings.php:1733
+msgid "Send Test Webhook"
+msgstr "Enviar webhook de prueba"
+
+#: app/Services/TransStrings.php:1732
+msgid "Please provide Remote URL"
+msgstr "Por favor, proporcione una URL remota"
+
+#: app/Services/TransStrings.php:1731
+msgid "Write a Review"
+msgstr "Escribe una reseña"
+
+#: app/Services/TransStrings.php:1730
+msgid "We would greatly appreciate it if you could leave a review for us in the WordPress plugin repository!"
+msgstr "¡Apreciaríamos muchísimo que nos dejaras una reseña en el repositorio de plugins de WordPress!"
+
+#: app/Services/TransStrings.php:1729
+msgid "Love this Plugin?"
+msgstr "¿Te gusta este plugin?"
+
+#: app/Http/Controllers/GlobalLabelController.php:108
+msgid "Removed from funnel successfully"
+msgstr "Eliminado correctamente del embudo"
+
+#: app/Http/Controllers/FunnelLabelController.php:104
+#: app/Http/Controllers/FunnelLabelController.php:111
+#: app/Http/Controllers/FunnelLabelController.php:123
+#: app/Http/Controllers/GlobalLabelController.php:127
+#: app/Http/Controllers/GlobalLabelController.php:134
+#: app/Http/Controllers/GlobalLabelController.php:146
+msgid "Label not found"
+msgstr "No se encontró ninguna etiqueta"
+
+#: app/Http/Controllers/FunnelLabelController.php:94
+#: app/Http/Controllers/GlobalLabelController.php:117
+msgid "Invalid Action"
+msgstr "Acción no válida"
+
+#: app/Http/Controllers/FunnelLabelController.php:90
+#: app/Http/Controllers/GlobalLabelController.php:88
+#: app/Http/Controllers/GlobalLabelController.php:113
+msgid "Label has been deleted successfully"
+msgstr "La etiqueta ha sido eliminada correctamente"
+
+#: app/Http/Controllers/FunnelLabelController.php:85
+msgid "Labels has been deleted successfully"
+msgstr "Las etiquetas han sido borradas correctamente"
+
+#: app/Http/Controllers/FunnelController.php:1329
+msgid "Test Webhook has been sent successfully"
+msgstr "El webhook de prueba se ha enviado correctamente"
+
+#: app/Http/Controllers/FunnelController.php:1324
+msgid "Test Webhook failed to send"
+msgstr "Ha fallado el envío del webhook de prueba"
+
+#: app/Http/Controllers/CampaignController.php:1447
+#: app/Http/Controllers/FunnelController.php:1401
+msgid "Labels has been updated"
+msgstr "Las etiquetas han sido actualizadas"
+
+#: app/Http/Controllers/CampaignController.php:1036
+#: app/Http/Controllers/FunnelController.php:615
+msgid "Labels has been applied successfully"
+msgstr "Las etiquetas se han aplicado correctamente"
+
+#: app/Http/Controllers/CampaignController.php:1025
+#: app/Http/Controllers/FunnelController.php:604
+msgid "Please provide labels"
+msgstr "Por favor, proporciona las etiquetas"
+
+#: app/Http/Controllers/CampaignAnalyticsController.php:223
+msgid "No revenue found for this campaign"
+msgstr "No se encontró ganancia para esta campaña"
+
+#: app/Http/Controllers/FunnelController.php:1263
+msgid "Remote URL is required"
+msgstr "La URL remota es obligatoria"
+
+#: app/Http/Controllers/CampaignAnalyticsController.php:250
+msgid "Revenue has been re-synced successfully"
+msgstr "Las ganancias han sido resincronizadas correctamente"
+
+#: app/Http/Controllers/CampaignAnalyticsController.php:229
+msgid "No order found to re-sync"
+msgstr "No se encontró ninguna orden para resincronizar"
+
+#: app/Services/TransStrings.php:1752
+msgid "Order Status"
+msgstr "Estado del pedido"
+
+#: app/Http/Controllers/FunnelController.php:1372
+msgid "Funnel already have the same title"
+msgstr "Un embudo ya tiene el mismo título"
+
+#: app/Http/Controllers/FunnelLabelController.php:65
+#: app/Http/Controllers/GlobalLabelController.php:50
+#: app/Http/Controllers/GlobalLabelController.php:75
+msgid "Labels has been Updated successfully"
+msgstr "Las etiquetas han sido actualizadas correctamente"
+
+#: app/Http/Controllers/FunnelLabelController.php:77
+#: app/Http/Controllers/GlobalLabelController.php:100
+msgid "Please provide label slug"
+msgstr "Por favor proporciona la etiqueta del slug"
+
+#: app/Services/TransStrings.php:1726
+msgid "Lost Carts"
+msgstr "Carritos perdidos"
+
+#: app/Services/TransStrings.php:1725
+msgid "Recovered Carts"
+msgstr "Carritos recuperados"
+
+#: app/Services/TransStrings.php:1723
+msgid "Image"
+msgstr "Imagen"
+
+#: app/Services/TransStrings.php:1722
+msgid "Draft Carts"
+msgstr "Borradores de carritos"
+
+#: app/Services/TransStrings.php:1721
+msgid "All carts"
+msgstr "Todos los carritos"
+
+#: app/Services/TransStrings.php:1720
+msgid "View Original Order"
+msgstr "Ver pedido original"
+
+#: app/Services/TransStrings.php:1719
+msgid "Recovery URL"
+msgstr "URL de recuperación"
+
+#: app/Services/TransStrings.php:1718
+msgid "Order Comments"
+msgstr "Comentarios del pedido"
+
+#: app/Services/TransStrings.php:1717
+msgid "Tax(es)"
+msgstr "Impuesto(s)"
+
+#: app/Services/TransStrings.php:1715
+msgid "Do not import recurring campaigns from untrusted sources."
+msgstr "No importes campañas periódicas de fuentes no confiables."
+
+#: app/Services/TransStrings.php:1711
+msgid "Recurring Campaign export is only available on pro version of FluentCRM"
+msgstr "La exportación de campañas periódicas solo está disponible en la versión pro de FluentCRM."
+
+#: app/Services/TransStrings.php:1710
+msgid "Export Campaign"
+msgstr "Exportar campañas"
+
+#: app/Services/TransStrings.php:1709
+msgid "Pause/Run"
+msgstr "Pausa/Reanudar"
+
+#: app/Http/Controllers/FunnelController.php:523
+msgid "Funnel already have the same status"
+msgstr "El embudo ya tiene el mismo estado"
+
+#: app/Hooks/Handlers/PurchaseHistory.php:416
+msgid "View Customer Profile"
+msgstr "Ver perfil del cliente"
+
+#: app/Services/TransStrings.php:1728
+msgid "Skipped Carts"
+msgstr "Carritos omitidos"
+
+#: app/Services/Stats.php:53
+msgid "Active Automations"
+msgstr "Automatizaciones activas"
+
+#: app/Services/TransStrings.php:1713
+msgid "Import your exported recurring email campaigns JSON file here. Please upload your JSON file."
+msgstr "Importa aquí tu archivo JSON de campañas de correo electrónico recurrentes exportadas. Por favor sube tu archivo JSON."
+
+#: app/Services/Helper.php:244
+msgid "Company Address"
+msgstr "Dirección de la empresa"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:201
+msgid "If no value is found in the contact's custom field or past date then it will wait only 1 minute by default"
+msgstr "Si no se encuentra ningún valor en el campo personalizado del contacto o en una fecha pasada, entonces esperará solo 1 minuto por defecto."
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:199
+msgid "Select Contact's Custom Field"
+msgstr "Seleccionar el campo personalizado del contacto"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:93
+msgid "Wait by Custom Field"
+msgstr "Esperar por campo personalizado"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:89
+msgid "Wait by Weekday"
+msgstr "Espera por día de la semana"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:85
+msgid "Wait Until Date"
+msgstr "Esperar hasta la fecha"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:81
+msgid "Wait by period"
+msgstr "Esperar por período"
+
+#: app/Services/TransStrings.php:1702
+msgid "Abandoned Cart Settings"
+msgstr "Ajustes del carrito abandonado"
+
+#: app/Services/TransStrings.php:1697
+msgid "Attachments"
+msgstr "Adjuntos"
+
+#: app/Services/TransStrings.php:1700
+msgid "Mark as Lost after"
+msgstr "Marcar como perdido después"
+
+#: app/Services/TransStrings.php:1695
+msgid "Server Response"
+msgstr "Respuesta del servidor"
+
+#: app/Services/TransStrings.php:1692
+msgid "From"
+msgstr "Remitente"
+
+#: app/Services/TransStrings.php:1705
+msgid "No Shipping Address found"
+msgstr "No se encontró ninguna dirección de envío"
+
+#: app/Services/TransStrings.php:1706
+msgid "Set up an automation"
+msgstr "Configura una automatización"
+
+#: app/Services/TransStrings.php:1704
+msgid "Mark Cart as Recovered when WooCommerce Order Status Changes to:"
+msgstr "Marcar el carrito como recuperado cuando el estado de la orden en WooCommerce cambie a:"
+
+#: app/Services/TransStrings.php:1686
+msgid "Lost Orders"
+msgstr "Órdenes perdidas"
+
+#: app/Services/TransStrings.php:1685
+msgid "Recovered Orders"
+msgstr "Órdenes recuperadas"
+
+#: app/Services/TransStrings.php:1684
+msgid "Search by Email"
+msgstr "Buscar por correo electrónico"
+
+#: app/Functions/helpers.php:510 app/Functions/helpers.php:561
+msgid "Transactional"
+msgstr "Transaccional"
+
+#: app/Services/TransStrings.php:1687
+msgid "Shipping"
+msgstr "Envío"
+
+#: app/Services/TransStrings.php:1696
+msgid "Email Headers"
+msgstr "Cabeceras de correo electrónico"
+
+#: app/Services/TransStrings.php:1690
+msgid "Back To Templates"
+msgstr "Volver a las plantillas"
+
+#: app/Services/TransStrings.php:1693
+msgid "Resent Count"
+msgstr "Conteo de reenvíos"
+
+#: app/Services/TransStrings.php:1683
+msgid "Abandon Carts - Reports"
+msgstr "Carritos abandonados - Reportes"
+
+#: app/Http/Controllers/FunnelController.php:1074
+msgid "Funnel has been created from template"
+msgstr "El embudo ha sido creado desde la plantilla"
+
+#: app/Services/TransStrings.php:1698
+msgid "Status for New Contacts"
+msgstr "Estado para contactos nuevos"
+
+#: app/Services/TransStrings.php:1689
+msgid "Popular pre-built funnel templates"
+msgstr "Plantillas populares de automatizaciones preconstruidas"
+
+#: app/Services/TransStrings.php:1707
+msgid "No active Abandoned Cart automation."
+msgstr "No hay ninguna automatización activa de carritos abandonados."
+
+#: app/Services/TransStrings.php:1701
+msgid "Enable Abandoned Cart Tracking for WooCommerce"
+msgstr "Activar seguimiento de carritos abandonados para WooCommerce"
+
+#: app/Services/Funnel/BaseTrigger.php:56
+msgid "Run the automation actions even contact status is not in subscribed status"
+msgstr "Ejecutar las acciones de automatización, incluso si el estado del contacto es de no suscrito"
+
+#: app/Services/ExternalIntegrations/BricksBuilderIntegration.php:55
+#: app/Services/ExternalIntegrations/BricksBuilderIntegration.php:75
+msgid "is"
+msgstr "es"
+
+#: app/Services/ExternalIntegrations/BricksBuilderIntegration.php:53
+#: app/Services/ExternalIntegrations/BricksBuilderIntegration.php:73
+msgid "not includes"
+msgstr "no incluye"
+
+#: app/Services/ExternalIntegrations/BricksBuilderIntegration.php:47
+msgid "FluentCRM Tags"
+msgstr "Etiquetas de FluentCRM"
+
+#: app/Http/Controllers/SubscriberController.php:1038
+msgid "All contacts has been processed"
+msgstr "Todos los contactos han sido procesados"
+
+#: app/Services/ExternalIntegrations/BricksBuilderIntegration.php:67
+msgid "FluentCRM Lists"
+msgstr "Listas de FluentCRM"
+
+#: app/Http/Controllers/FunnelController.php:505
+msgid "Selected subscribers has been removed from this automation funnels"
+msgstr "Los suscriptores seleccionados se han eliminado de estas automatizaciones"
+
+#: app/Http/Controllers/SettingsController.php:591
+msgid "Activity Logs"
+msgstr "Registros de actividad"
+
+#: app/Services/TransStrings.php:1532
+msgid "How many contacts clicked at least one of the links in the email"
+msgstr "Cuántos contactos hicieron clic en al menos uno de los enlaces del correo electrónico"
+
+#: app/Models/CampaignUrlMetric.php:129
+msgid "Open Rate (%d)"
+msgstr "Tasa de apertura (%d)"
+
+#: app/Models/CampaignUrlMetric.php:159
+msgid "Unsubscribe (%d)"
+msgstr "Darse de baja (%d)"
+
+#: app/Models/CampaignUrlMetric.php:139
+msgid "Click Rate (%d)"
+msgstr "Tasa de clics (%d)"
+
+#: app/Http/Controllers/SystemLogController.php:39
+msgid "All logs has been deleted"
+msgstr "Se han borrado todos los registros"
+
+#: app/Services/TransStrings.php:131
+msgid "Are you sure you want to delete the api key?"
+msgstr "¿Estás seguro de que quieres borrar la clave api?"
+
+#: app/Services/Helper.php:2294
+msgid "Date Time"
+msgstr "Fecha y hora"
+
+#: app/Hooks/Handlers/EventTrackingHandler.php:293
+msgid "Event Key"
+msgstr "Clave del evento"
+
+#: app/Http/Controllers/SubscriberController.php:1604
+msgid "Event Tracker is not enabled"
+msgstr "El rastreador de eventos no está activado"
+
+#: app/Hooks/Handlers/EventTrackingHandler.php:30
+#: app/Hooks/Handlers/EventTrackingHandler.php:217
+#: app/Hooks/Handlers/EventTrackingHandler.php:235
+#: app/Hooks/Handlers/EventTrackingHandler.php:251
+msgid "Event Tracking"
+msgstr "Seguimiento de eventos"
+
+#: app/Hooks/Handlers/EventTrackingHandler.php:333
+msgid "Event Value"
+msgstr "Valor del evento"
+
+#: app/Http/Controllers/SubscriberController.php:1639
+msgid "Event has been tracked"
+msgstr "El evento ha sido rastreado"
+
+#: app/views/external/manage_subscription_request_form.php:32
+msgid "Get Email Subscription Management Link"
+msgstr "Obtener enlace de gestión de suscripciones por correo electrónico"
+
+#: app/Http/Controllers/SettingsController.php:371
+msgid "Postal Server"
+msgstr "Servidor postal"
+
+#: app/Http/Controllers/SettingsController.php:491
+msgid "Scheduled Email Sending Tasks"
+msgstr "Tareas programadas de envío de correo electrónico"
+
+#: app/Http/Controllers/SettingsController.php:717
+msgid "Something is wrong"
+msgstr "Algo está mal"
+
+#: app/Services/TransStrings.php:1516
+msgid "and manage subscription/unsubscribe url is mandatory"
+msgstr "y gestionar la suscripción/desuscripción url es obligatorio"
+
+#: app/Services/PermissionManager.php:38
+msgid "Contacts Add/Update/Import"
+msgstr "Añadir/actualizar/importar contactos"
+
+#: app/Services/TransStrings.php:15
+msgid "+ Any SMTP Provider"
+msgstr "+ Cualquier proveedor SMTP"
+
+#: app/Services/TransStrings.php:18
+msgid "A"
+msgstr "A"
+
+#: app/Services/TransStrings.php:60
+msgid "Add SmartCodes"
+msgstr "Añadir SmartCodes"
+
+#: app/Services/TransStrings.php:696
+msgid "Add newly added steps to previously completed contacts."
+msgstr "Añadir pasos recién añadidos a contactos completados previamente."
+
+#: app/Services/TransStrings.php:91
+msgid "Additional Info"
+msgstr "Información adicional"
+
+#: app/Services/TransStrings.php:95
+msgid "Address Fields"
+msgstr "Campos de la dirección"
+
+#: app/Services/TransStrings.php:99
+msgid "Admin Email Address"
+msgstr "Correo electrónico del administrador"
+
+#: app/Services/TransStrings.php:100
+msgid "Admin Email Addresses (Internal Use only)"
+msgstr "Direcciones de correo electrónico de los administradores (sólo para uso interno)"
+
+#: app/Services/TransStrings.php:703
+msgid "Advanced Report is available on Premium Version of FluentCRM along wth lots of integrations, advanced automation, sequence emails and more"
+msgstr "El informe avanzado está disponible en la versión Premium de FluentCRM junto con un montón de integraciones, automatización avanzada, secuencia de correos electrónicos y mucho más"
+
+#: app/Services/TransStrings.php:130
+msgid "Anonymize ip Address for associate contact data"
+msgstr "Anonimizar la dirección ip para asociar datos de contacto"
+
+#: app/Services/TransStrings.php:134
+msgid "Apply Condition"
+msgstr "Aplicar condición"
+
+#: app/Services/TransStrings.php:152
+msgid "Attached Trigger could not be found"
+msgstr "No se ha encontrado el activador adjunto"
+
+#: app/Services/TransStrings.php:169
+msgid "B"
+msgstr "B"
+
+#: app/Services/TransStrings.php:186
+msgid "Broadcasts"
+msgstr "Mensajes"
+
+#: app/Services/TransStrings.php:187
+msgid "Build Email By Drag and Drop Visual Editor"
+msgstr "Crear correo electrónico con el editor visual de arrastrar y soltar"
+
+#: app/Services/TransStrings.php:200
+msgid "CONDITION TYPE"
+msgstr "TIPO DE CONDICIÓN"
+
+#: app/Services/TransStrings.php:237
+msgid "Campaign Archives"
+msgstr "Archivos de campañas"
+
+#: app/Services/TransStrings.php:238
+msgid "Campaign Archives (Pro)"
+msgstr "Archivos de campaña (Pro)"
+
+#: app/Services/TransStrings.php:247
+msgid "Campaign Search Keyword"
+msgstr "Palabra clave de búsqueda de la campaña"
+
+#: app/Services/TransStrings.php:264
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: app/Services/TransStrings.php:274
+msgid "Change Funnel Status"
+msgstr "Cambiar el estado del embudo"
+
+#: app/Services/TransStrings.php:278
+msgid "Change preview contact"
+msgstr "Cambiar contacto de previsualización"
+
+#: app/Services/TransStrings.php:293
+msgid "Clicks"
+msgstr "Clics"
+
+#: app/Services/TransStrings.php:294
+msgid "Clone"
+msgstr "Clonar"
+
+#: app/Services/TransStrings.php:334
+msgid "Condition block is not available"
+msgstr "El bloque de condiciones no está disponible"
+
+#: app/Services/TransStrings.php:372
+msgid "Continue to next step [conditions]"
+msgstr "Continuar al paso siguiente [condiciones]"
+
+#: app/Services/TransStrings.php:401
+msgid "Create a note"
+msgstr "Crear una nota"
+
+#: app/Services/TransStrings.php:420
+msgid "Current Status"
+msgstr "Estado actual"
+
+#: app/Services/TransStrings.php:425
+msgid "Custom Email Footer Text"
+msgstr "Texto personalizado a pie de página"
+
+#: app/Services/TransStrings.php:435
+msgid "Daily"
+msgstr "Diario"
+
+#: app/Services/TransStrings.php:454
+msgid "Default Companies"
+msgstr "Empresas por defecto"
+
+#: app/Services/TransStrings.php:470
+msgid "Delete Automation"
+msgstr "Borrar la automatización"
+
+#: app/Services/TransStrings.php:478
+msgid "Delete Sequence"
+msgstr "Borrar secuencia"
+
+#: app/Services/TransStrings.php:481
+msgid "Delete connected contact when a user get deleted"
+msgstr "Borrar contacto conectado cuando se borra un usuario"
+
+#: app/Services/TransStrings.php:494
+msgid "Divi Bloom Integration"
+msgstr "Integración de Divi Bloom"
+
+#: app/Services/TransStrings.php:495
+msgid "Divi Themes"
+msgstr "Temas Divi"
+
+#: app/Services/TransStrings.php:509
+msgid "Drafts"
+msgstr "Borradores"
+
+#: app/Services/TransStrings.php:527
+msgid "Edit Emails"
+msgstr "Editar correos electrónicos"
+
+#: app/Services/TransStrings.php:538
+msgid "Edit Template"
+msgstr "Editar plantilla"
+
+#: app/Services/TransStrings.php:540
+msgid "Editor is loading. Please wait"
+msgstr "El editor se está cargando. Espere por favor"
+
+#: app/Services/TransStrings.php:542
+msgid "Elementor Pro Form Integration"
+msgstr "Integración de formularios Elementor Pro"
+
+#: app/Services/TransStrings.php:555
+msgid "Email Configuration"
+msgstr "Configuración de correo electrónico"
+
+#: app/Services/TransStrings.php:558
+msgid "Email Footer Type"
+msgstr "Tipo de pie de página"
+
+#: app/Services/TransStrings.php:560
+msgid "Email History"
+msgstr "Historial de correo electrónico"
+
+#: app/Services/TransStrings.php:601
+msgid "Empty"
+msgstr "Vacío"
+
+#: app/Services/TransStrings.php:602
+msgid "Enable Campaign Archive Frontend Feature"
+msgstr "Activar la función de archivo de campañas en el frontend"
+
+#: app/Services/TransStrings.php:603
+msgid "Enable Company Module for Contacts"
+msgstr "Activar el módulo de empresa para los contactos"
+
+#: app/Services/TransStrings.php:606
+msgid "Enable Quick Contact Navigation"
+msgstr "Activar la navegación rápida por los contactos"
+
+#: app/Services/TransStrings.php:1030
+msgid "Enable this feature if you want Quick navigation bar for navigating next or previous contacts easily from single contact screen"
+msgstr "Activa esta función si quieres una barra de navegación rápida para navegar fácilmente por los contactos siguientes o anteriores desde la pantalla de un solo contacto"
+
+#: app/Services/TransStrings.php:621
+msgid "Every Monday"
+msgstr "Todos los lunes"
+
+#: app/Services/TransStrings.php:622
+msgid "Every Saturday"
+msgstr "Todos los sábados"
+
+#: app/Services/TransStrings.php:624
+msgid "Every Thursday"
+msgstr "Todos los jueves"
+
+#: app/Services/TransStrings.php:625
+msgid "Every Tuesday"
+msgstr "Todos los martes"
+
+#: app/Services/TransStrings.php:626
+msgid "Every Wednesday"
+msgstr "Todos los miércoles"
+
+#: app/Services/TransStrings.php:634
+msgid "Experimental Settings"
+msgstr "Ajustes experimentales"
+
+#: app/Services/TransStrings.php:638
+msgid "Export Template"
+msgstr "Exportar plantilla"
+
+#: app/Services/TransStrings.php:657
+msgid "Fluent Forms Integration"
+msgstr "Integración de Fluent Forms"
+
+#: app/Services/TransStrings.php:692
+msgid "Funnel Report"
+msgstr "Informe del embudo"
+
+#: app/Services/TransStrings.php:160
+msgid "If you add any new step to your automation after some contacts completed the automation, you can resume the newly added steps to the existing completed contacts."
+msgstr "Si añades algún paso nuevo a tu automatización después de que algunos contactos hayan completado la automatización, puedes reanudar los pasos recién añadidos a los contactos ya completados."
+
+#: app/Services/TransStrings.php:733
+msgid "If you want to disable auto-syncing"
+msgstr "Si quieres desactivar la sincronización automática"
+
+#: app/Services/TransStrings.php:734
+msgid "Immediately"
+msgstr "Inmediatamente"
+
+#: app/Services/TransStrings.php:753
+msgid "Include Contact Info in Personal Data export by WP"
+msgstr "Incluir información de contacto en la exportación de datos personales por WP"
+
+#: app/Services/TransStrings.php:779
+msgid "Invalid schedule date range"
+msgstr "Intervalo de fechas de programación no válido"
+
+#: app/Services/TransStrings.php:800
+msgid "Launch Visual Editor"
+msgstr "Iniciar el editor visual"
+
+#: app/Services/TransStrings.php:801
+msgid "Learn More"
+msgstr "Saber más"
+
+#: app/Services/TransStrings.php:821
+msgid "List the campaigns if the title match the provided keyword"
+msgstr "Listar las campañas si el título coincide con la palabra clave proporcionada"
+
+#: app/Services/TransStrings.php:829
+msgid "Loading....."
+msgstr "Cargando..."
+
+#: app/Services/TransStrings.php:833
+msgid "MEMBERSHIP INTEGRATION:"
+msgstr "INTEGRACIÓN DE LOS MIEMBROS:"
+
+#: app/Services/TransStrings.php:857
+msgid "Max Campaigns to list (max 50)"
+msgstr "Campañas máximas a listar (máx. 50)"
+
+#: app/Services/TransStrings.php:865
+msgid "Monthly"
+msgstr "Mensual"
+
+#: app/Services/TransStrings.php:874
+msgid "Navigation"
+msgstr "Navegación"
+
+#: app/Services/TransStrings.php:165
+msgid "New steps are synced for your completed contacts"
+msgstr "Los nuevos pasos se sincronizan con los contactos completados"
+
+#: app/Services/TransStrings.php:893
+msgid "No Thanks"
+msgstr "No, gracias"
+
+#: app/Services/TransStrings.php:904
+msgid "No additional information available for this contact. Related data like purchase history, membership, course info will be shown."
+msgstr "No hay información adicional disponible para este contacto. Se mostrarán datos relacionados como historial de compras, afiliación, información sobre cursos."
+
+#: app/Services/TransStrings.php:914
+msgid "Notes"
+msgstr "Notas"
+
+#: app/Services/TransStrings.php:916
+msgid "Notes export feature is only available on pro version"
+msgstr "La función de exportación de notas sólo está disponible en la versión Pro"
+
+#: app/Services/TransStrings.php:932
+msgid "Oxygen Builder Integration"
+msgstr "Integración de Oxygen Builder"
+
+#: app/Services/TransStrings.php:933
+msgid "Page"
+msgstr "Página"
+
+#: app/Services/TransStrings.php:936
+msgid "Path: "
+msgstr "Ruta: "
+
+#: app/Services/TransStrings.php:946
+msgid "Please Field Option Values"
+msgstr "Por favor, valores de opción de campo"
+
+#: app/Services/TransStrings.php:1014
+msgid "Profile"
+msgstr "Perfil"
+
+#: app/Services/TransStrings.php:1108
+msgid "Save & close"
+msgstr "Guardar y cerrar"
+
+#: app/Services/TransStrings.php:1114
+msgid "Saved"
+msgstr "Guardado"
+
+#: app/Services/TransStrings.php:1145
+msgid "Select Companies"
+msgstr "Seleccionar empresas"
+
+#: app/Services/Funnel/Actions/ApplyCompanyAction.php:40
+#: app/Services/Funnel/Actions/ApplyCompanyAction.php:41
+#: app/Services/Funnel/Actions/DetachCompanyAction.php:40
+#: app/Services/Funnel/Actions/DetachCompanyAction.php:41
+msgid "Select Company"
+msgstr "Seleccionar empresa"
+
+#: app/Services/TransStrings.php:1147
+msgid "Select Contact"
+msgstr "Seleccionar contacto"
+
+#: app/Services/TransStrings.php:1181
+msgid "Select custom contacts by advanced filters"
+msgstr "Seleccionar contactos personalizados mediante filtros avanzados"
+
+#: app/Services/TransStrings.php:1212
+msgid "Sending To Contacts"
+msgstr "Envío a contactos"
+
+#: app/Services/TransStrings.php:1223
+msgid "Set Email Sequence"
+msgstr "Establecer secuencia de correo electrónico"
+
+#: app/Services/TransStrings.php:1224
+msgid "Set Email Subject & Body"
+msgstr "Establecer asunto y cuerpo del correo electrónico"
+
+#: app/Services/TransStrings.php:1227
+msgid "Set Property"
+msgstr "Establecer propiedad"
+
+#: app/Services/TransStrings.php:1229
+msgid "Set Tags"
+msgstr "Establecer etiquetas"
+
+#: app/Services/TransStrings.php:1247
+msgid "Show IF in Selected Tag"
+msgstr "Mostrar IF en la etiqueta seleccionada"
+
+#: app/Services/TransStrings.php:1271
+msgid "Social Links"
+msgstr "Enlaces sociales"
+
+#: app/Services/TransStrings.php:1282
+msgid "Sorry, the selected plugins could not be installed"
+msgstr "Lo sentimos, no se han podido instalar los plugins seleccionados"
+
+#: app/Services/TransStrings.php:161
+msgid "Sync new steps to completed contacts"
+msgstr "Sincronizar los nuevos pasos con los contactos completados"
+
+#: app/Services/TransStrings.php:1317
+msgid "Sync new steps to existing completed contacts"
+msgstr "Sincronizar los nuevos pasos con los contactos ya completados"
+
+#: app/Services/TransStrings.php:1328
+msgid "Template export is only available on pro version of FluentCRM"
+msgstr "La exportación de plantillas sólo está disponible en la versión Pro de FluentCRM"
+
+#: app/Services/TransStrings.php:1329
+msgid "Test email successfully sent to"
+msgstr "Correo electrónico de prueba enviado correctamente a"
+
+#: app/Services/TransStrings.php:1336
+msgid "This email footer text will be used to this email only"
+msgstr "Este texto sólo se utilizará para este correo electrónico"
+
+#: app/Services/TransStrings.php:24
+msgid "This subject will not be used to send emails. Please set A/B testing subjects"
+msgstr "Este asunto no se utilizará para enviar correos electrónicos. Establecer asunto de pruebas A/B"
+
+#: app/Services/TransStrings.php:1340
+msgid "ThriveArchitect"
+msgstr "ThriveArchitect"
+
+#: app/Services/TransStrings.php:1341
+msgid "ThriveThemes integration"
+msgstr "Integración con ThriveThemes"
+
+#: app/Services/TransStrings.php:1376
+msgid "Unknown error"
+msgstr "Error desconocido"
+
+#: app/Services/TransStrings.php:1383
+msgid "Update Companies"
+msgstr "Actualizar empresas"
+
+#: app/Services/TransStrings.php:1395
+msgid "Updating "
+msgstr "Actualizando "
+
+#: app/Services/TransStrings.php:1396
+msgid "Upgrade to FluentCRM Pro"
+msgstr "Actualizar a FluentCRM Pro"
+
+#: app/Services/TransStrings.php:1401
+msgid "Use Custom Email Footer"
+msgstr "Utilizar un pie de página personalizado"
+
+#: app/Services/TransStrings.php:1403
+msgid "Use Global Email Footer"
+msgstr "Utilizar el pie de página global del correo electrónico"
+
+#: app/Services/TransStrings.php:1436
+msgid "View Sequence"
+msgstr "Ver secuencia"
+
+#: app/Services/TransStrings.php:1443
+msgid "WPFusion Integration"
+msgstr "Integración de WPFusion"
+
+#: app/Services/TransStrings.php:1445
+msgid "Wait "
+msgstr "Esperar "
+
+#: app/Services/TransStrings.php:1456
+msgid "Weekly"
+msgstr "Semanal"
+
+#: app/Services/TransStrings.php:1472
+msgid "Yes, Count me in!"
+msgstr "Sí, ¡cuenta conmigo!"
+
+#: app/Services/TransStrings.php:447
+msgid "Your selected date and time format will be shown on different views."
+msgstr "El formato de fecha y hora seleccionado se mostrará en diferentes vistas."
+
+#: app/Services/TransStrings.php:1517
+msgid "associate data with FluentCRM"
+msgstr "asociar datos con FluentCRM"
+
+#: app/Services/Helper.php:2297 app/Services/TransStrings.php:1593
+msgid "keep blank for current time"
+msgstr "mantener en blanco para la hora actual"
+
+#: app/Services/TransStrings.php:452
+msgid "December"
+msgstr "Diciembre"
+
+#: app/Services/TransStrings.php:917
+msgid "November"
+msgstr "Noviembre"
+
+#: app/Services/TransStrings.php:920
+msgid "October"
+msgstr "Octubre"
+
+#: app/Services/TransStrings.php:1214
+msgid "September"
+msgstr "Septiembre"
+
+#: app/Services/TransStrings.php:153
+msgid "August"
+msgstr "Agosto"
+
+#: app/Services/TransStrings.php:644
+msgid "February"
+msgstr "Febrero"
+
+#: app/Services/TransStrings.php:781
+msgid "January"
+msgstr "Enero"
+
+#: app/Services/TransStrings.php:493
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: app/Services/TransStrings.php:608
+msgid "Enabled"
+msgstr "Activo"
+
+#: app/Services/TransStrings.php:419
+msgid "Current Date & Time (server):"
+msgstr "Hora y fecha actual (servidor):"
+
+#: app/Services/TransStrings.php:1204
+msgid "Send emails if"
+msgstr "Enviar correos electrónicos si"
+
+#: app/Services/TransStrings.php:1149
+msgid "Select Day of the month"
+msgstr "Seleccionar día del mes"
+
+#: app/Services/TransStrings.php:1461
+msgid "Which time you would like to schedule"
+msgstr "¿A qué hora te gustaría programar?"
+
+#: app/Services/TransStrings.php:782
+msgid "July"
+msgstr "Julio"
+
+#: app/Services/TransStrings.php:783
+msgid "June"
+msgstr "Junio"
+
+#: app/Services/TransStrings.php:859
+msgid "May"
+msgstr "Mayo"
+
+#: app/Services/TransStrings.php:139
+msgid "April"
+msgstr "Abril"
+
+#: app/Services/TransStrings.php:852
+msgid "March"
+msgstr "Marzo"
+
+#: app/Services/TransStrings.php:623
+msgid "Every Sunday"
+msgstr "Cada domingo"
+
+#: app/Services/TransStrings.php:1150
+msgid "Select Day of the week"
+msgstr "Seleccionar día de la semana"
+
+#: app/Services/TransStrings.php:1206
+msgid "Send to Draft"
+msgstr "Enviar a borrador"
+
+#: app/Services/TransStrings.php:989
+msgid "Previous Emails"
+msgstr "Correos electrónicos previos"
+
+#: app/Services/TransStrings.php:1210
+msgid "Sending Conditions"
+msgstr "Condiciones de envío"
+
+#: app/Services/TransStrings.php:727
+msgid "How often you want to send this email?"
+msgstr "¿Con qué frecuencia quieres enviar este correo electrónico?"
+
+#: app/Services/TransStrings.php:1190
+msgid "Select which day you want to send email"
+msgstr "Selecciona qué día quieres enviar el correo electrónico"
+
+#: app/Services/TransStrings.php:262
+msgid "Cancel This email"
+msgstr "Cancelar este correo electrónico"
+
+#: app/Services/TransStrings.php:1651
+msgid "time unit"
+msgstr "unidad de tiempo"
+
+#: app/Services/TransStrings.php:144
+msgid "Are you sure you want to delete this Sequence?"
+msgstr "¿Estás seguro de que quieres borrar esta secuencia?"
+
+#: app/Services/TransStrings.php:1377
+msgid "Do you really want to leave? you have unsaved changes!"
+msgstr "¿Seguro de que quieres irte? ¡Tienes cambios sin guardar!"
+
+#: app/Services/TransStrings.php:1234
+msgid "Please set date and time to send this campaign"
+msgstr "Por favor establece hora y fecha para enviar esta campaña"
+
+#: app/Services/TransStrings.php:1097
+msgid "Revenue Report"
+msgstr "Informe de ganancias"
+
+#: app/Services/TransStrings.php:972
+msgid "Please select the filters"
+msgstr "Por favor selecciona los filtros"
+
+#: app/Services/TransStrings.php:952
+msgid "Please Select Tags first"
+msgstr "Por favor, primero selecciona las etiquetas"
+
+#: app/Services/TransStrings.php:617
+msgid "Estimated Contacts:"
+msgstr "Contactos estimados:"
+
+#: app/Services/TransStrings.php:593
+msgid "Emails are being scheduled and sending in the background at the same time"
+msgstr "Los correos electrónicos se están programando y enviando en segundo plano al mismo tiempo"
+
+#: app/Services/TransStrings.php:1479
+msgid "You need pro version to use this feature"
+msgstr "Necesitas la versión Pro para usar esta característica"
+
+#: app/Services/TransStrings.php:1191
+msgid "Select Date & Time Range that you want to send the emails"
+msgstr "Selecciona el rango de hora y fecha que quieres para enviar los correos electrónicos"
+
+#: app/Services/TransStrings.php:894
+msgid "No changes found"
+msgstr "No se encontraron cambios"
+
+#: app/Services/TransStrings.php:1084
+msgid "Require FluentCRM Pro"
+msgstr "Requiere FluentCRM Pro"
+
+#: app/Services/TransStrings.php:196
+msgid "By Advanced Filter"
+msgstr "Por filtro avanzado"
+
+#: app/Services/TransStrings.php:642
+msgid "Features of Fluent SMTP Plugin"
+msgstr "Características del plugin Fluent SMTP"
+
+#: app/Services/TransStrings.php:1189
+msgid "Select which day of the month to send email"
+msgstr "Seleccionar qué día del mes enviar el correo electrónico"
+
+#: app/Services/TransStrings.php:1250
+msgid "Show Individual Recipients"
+msgstr "Mostrar destinatarios individuales"
+
+#: app/Services/TransStrings.php:318
+msgid "Company marked as primary"
+msgstr "Empresa marcada como principal"
+
+#: app/Services/TransStrings.php:302
+msgid "Companies imported successfully"
+msgstr "Empresa importada correctamente"
+
+#: app/Services/TransStrings.php:970
+msgid "Please select companies first"
+msgstr "Por favor, primero selecciona las empresas"
+
+#: app/Services/TransStrings.php:1600
+msgid "May be remove"
+msgstr "Puede ser eliminado"
+
+#: app/Services/TransStrings.php:1112
+msgid "Save as dynamic Segment"
+msgstr "Guardar como segmento dinámico"
+
+#: app/Services/TransStrings.php:598
+msgid "Emails are currently on processing"
+msgstr "Los correos electrónicos están siendo procesados"
+
+#: app/Services/TransStrings.php:906
+msgid "Not Empty"
+msgstr "No está vacío"
+
+#: app/Services/TransStrings.php:640
+msgid "Facebook Company Page URL"
+msgstr "URL de la página de Facebook de la empresa"
+
+#: app/Services/TransStrings.php:816
+msgid "LinkedIn Company Page URL"
+msgstr "URL del perfil de LinkedIn de la empresa"
+
+#: app/Services/TransStrings.php:953
+msgid "Please Upload a CSV first"
+msgstr "Por favor, primero sube un CSV"
+
+#: app/Services/TransStrings.php:304
+msgid "Company / Business"
+msgstr "Empresa / Negocio"
+
+#: app/Services/TransStrings.php:67
+msgid "Add To Company"
+msgstr "Añadir a la empresa"
+
+#: app/Services/TransStrings.php:46
+msgid "Add Existing"
+msgstr "Añadir uno existente"
+
+#: app/Services/TransStrings.php:309
+msgid "Company Logo"
+msgstr "Logo de la empresa"
+
+#: app/Services/Helper.php:242 app/Services/TransStrings.php:312
+msgid "Company Name"
+msgstr "Nombre de la empresa"
+
+#: app/Services/TransStrings.php:449
+msgid "Day"
+msgstr "Día"
+
+#: app/Services/TransStrings.php:737
+msgid "Import CSV"
+msgstr "Importar CSV"
+
+#: app/Services/TransStrings.php:864
+msgid "Month"
+msgstr "Mes"
+
+#: app/Services/TransStrings.php:1469
+msgid "Year"
+msgstr "Año"
+
+#: app/Services/TransStrings.php:1063
+msgid "Remove"
+msgstr "Eliminar"
+
+#: app/Services/TransStrings.php:918
+msgid "Number of Employees"
+msgstr "Número de empleados"
+
+#: app/Services/TransStrings.php:738
+msgid "Import Companies"
+msgstr "Importar compañías"
+
+#: app/Services/TransStrings.php:76
+msgid "Add existing contacts"
+msgstr "Añadir contactos existentes"
+
+#: app/Services/TransStrings.php:896
+msgid "No contacts found based on your search"
+msgstr "No se encontró contactos basados en tu búsqueda"
+
+#: app/Services/TransStrings.php:405
+msgid "Create contact & Assign"
+msgstr "Crear y asignar contacto"
+
+#: app/Services/TransStrings.php:378
+msgid "Create & Add Another"
+msgstr "Crear y añadir otro"
+
+#: app/Services/TransStrings.php:361
+msgid "Contacts doesn't exist in the company will be skipped"
+msgstr "Los contactos que no existan en la compañía serán omitidos"
+
+#: app/Services/TransStrings.php:128
+msgid "Contacts already in the company will be skipped"
+msgstr "Los contactos que ya existan en la compañía serán omitidos"
+
+#: app/Services/TransStrings.php:86
+msgid "Are you sure you want to add contacts to selected company?"
+msgstr "¿Estás seguro de que quieres añadir los contactos a la compañía seleccionada?"
+
+#: app/Services/TransStrings.php:1074
+msgid "Are you sure you want to remove contacts to selected company?"
+msgstr "¿Estás seguro de que quieres eliminar los contactos en la compañía seleccionada?"
+
+#: app/Services/TransStrings.php:1724
+msgid "In Progress"
+msgstr "En progreso"
+
+#: app/Services/AutoSubscribe.php:265
+msgid "Automatically fill WooCommerce Checkout field value with current contact data"
+msgstr "Llenar automáticamente en WooCommerce los campos de pago con los datos actuales del contacto"
+
+#: app/Services/TransStrings.php:227 app/Services/TransStrings.php:1121
+msgid "Are you sure to proceed?"
+msgstr "¿Estás seguro de proceder?"
+
+#: app/Services/TransStrings.php:228
+msgid "Note: The associated contacts in this campaign will receive emails shortly."
+msgstr "Nota: Los contactos asociados a esta campaña recibirán en breve los correos electrónicos."
+
+#: app/Services/TransStrings.php:895
+msgid "No companies found based on your search"
+msgstr "No se encontró compañías basadas en tu búsqueda"
+
+#: app/Http/Controllers/FunnelController.php:960
+msgid "Synced successfully"
+msgstr "Sincronizado correctamente"
+
+#: app/Services/TransStrings.php:1131
+msgid "Search Companies"
+msgstr "Buscar empresas"
+
+#: app/Services/TransStrings.php:14
+msgid "+ Add"
+msgstr "+ Añadir"
+
+#: app/Services/TransStrings.php:42
+msgid "Add Company"
+msgstr "Añadir empresa"
+
+#: app/Services/TransStrings.php:94
+msgid "Address"
+msgstr "Dirección"
+
+#: app/Hooks/Handlers/AdminMenu.php:96 app/Hooks/Handlers/AdminMenu.php:97
+#: app/Hooks/Handlers/AdminMenu.php:325 app/Services/TransStrings.php:301
+msgid "Companies"
+msgstr "Empresas"
+
+#: app/Services/Helper.php:1495 app/Services/TransStrings.php:303
+msgid "Company"
+msgstr "Empresa"
+
+#: app/Models/Company.php:56
+msgid "Company Logo URL"
+msgstr "URL del logotipo de la empresa"
+
+#: app/Models/Company.php:51
+msgid "Company Name *"
+msgstr "Nombre de la empresa*"
+
+#: app/Services/TransStrings.php:316
+msgid "Company Type"
+msgstr "Tipo de empresa"
+
+#: app/Models/Company.php:68
+msgid "Facebook URL"
+msgstr "URL de Facebook"
+
+#: app/Models/Company.php:54 app/Services/TransStrings.php:760
+msgid "Industry"
+msgstr "Industria"
+
+#: app/Models/Company.php:67
+msgid "LinkedIn URL"
+msgstr "URL de LinkedIn"
+
+#: app/Models/Subscriber.php:749 app/Services/TransStrings.php:996
+msgid "Primary Company"
+msgstr "Empresa principal"
+
+#: app/Services/TransStrings.php:1135
+msgid "Search contact"
+msgstr "Buscar contacto"
+
+#: app/Models/Company.php:69
+msgid "Twitter URL"
+msgstr "URL de Twitter"
+
+#: app/Hooks/Handlers/PurchaseHistory.php:142
+#: app/Hooks/Handlers/PurchaseHistory.php:338
+#: app/Hooks/Handlers/PurchaseHistory.php:371
+msgid "View Order"
+msgstr "Ver pedido"
+
+#: app/Services/TransStrings.php:297
+msgid "Color"
+msgstr "Color"
+
+#: app/Services/TransStrings.php:667
+msgid "Font Family"
+msgstr "Familia de la fuente"
+
+#: app/Services/TransStrings.php:812
+msgid "Line Height"
+msgstr "Altura de línea"
+
+#: app/Services/TransStrings.php:328
+msgid "Compliance"
+msgstr "Cumplimiento"
+
+#: app/Services/TransStrings.php:632
+msgid "Experimental Features"
+msgstr "Características experimentales"
+
+#: app/Services/TransStrings.php:1123
+msgid "Scheduled"
+msgstr "Programado"
+
+#: app/Services/TransStrings.php:1320
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: app/Services/TransStrings.php:1334
+msgid "This Month"
+msgstr "Este mes"
+
+#: fluent-crm.php:53
+msgid "Upgrade to Pro"
+msgstr "Actualizar a Pro"
+
+#: app/Services/TransStrings.php:1654
+msgid "to insert post/page links"
+msgstr "para insertar enlaces de entrada/página"
+
+#: app/Services/TransStrings.php:743
+msgid "Import Template"
+msgstr "Importar plantilla"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:198
+msgid "Skip name update if existing contact have old data (per primary field)"
+msgstr "Omitir la actualización del nombre si el contacto existente tiene datos antiguos (por campo principal)"
+
+#: app/Services/Stats.php:18
+msgid "Active Contacts"
+msgstr "Contactos activos"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:533
+msgid "Select Country"
+msgstr "Seleccionar país"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:81
+#: app/Hooks/Handlers/PrefFormHandler.php:162
+#: app/Services/TransStrings.php:1393
+msgid "Update info"
+msgstr "Actualizar info"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:524
+#: app/Services/TransStrings.php:1491
+msgid "Zip Code"
+msgstr "Código postal"
+
+#: app/Services/TransStrings.php:945
+msgid "Please"
+msgstr "Por favor"
+
+#: app/Services/TransStrings.php:1343
+msgid "Tips"
+msgstr "Consejos"
+
+#: app/Hooks/Handlers/CountryNames.php:497
+msgid "Kosovo"
+msgstr "Kosovo"
+
+#: app/Services/CrmMigrator/ConvertKitMigrator.php:30
+#: app/Services/CrmMigrator/MailChimpMigrator.php:32
+#: app/Services/CrmMigrator/MailerLiteMigrator.php:29
+msgid "API Key"
+msgstr "Clave API"
+
+#: app/Services/CrmMigrator/DripMigrator.php:29
+msgid "API Token"
+msgstr "Token de API"
+
+#: app/Services/CrmMigrator/DripMigrator.php:36
+msgid "Account ID"
+msgstr "ID de cuenta"
+
+#: app/Services/TransStrings.php:154
+msgid "Auto Create"
+msgstr "Creación automática"
+
+#: app/Services/TransStrings.php:281
+msgid "Check the documentation"
+msgstr "Revisa la documentación"
+
+#: app/Services/TransStrings.php:344
+msgid "Connect"
+msgstr "Conectar"
+
+#: app/Services/TransStrings.php:345
+msgid "Connect with"
+msgstr "Conectar con"
+
+#: app/Services/CrmMigrator/ConvertKitMigrator.php:31
+msgid "ConvertKit API Key"
+msgstr "Clave API de ConvertKit"
+
+#: app/Services/TransStrings.php:647
+msgid "Field"
+msgstr "Campo"
+
+#: app/Services/CrmMigrator/MailChimpMigrator.php:33
+msgid "MailChimp API Key"
+msgstr "Clave API de MailChimp"
+
+#: app/Services/CrmMigrator/MailerLiteMigrator.php:30
+msgid "MailerLite API Key"
+msgstr "Clave de la API de MailerLite"
+
+#: app/Services/TransStrings.php:861
+msgid "Migrating"
+msgstr "Migrando"
+
+#: app/Services/TransStrings.php:1113
+msgid "Save as template"
+msgstr "Guardar como plantilla"
+
+#: app/Services/TransStrings.php:1259
+msgid "Skip"
+msgstr "Saltar"
+
+#: fluent-crm.php:48
+msgid "Support"
+msgstr "Soporte"
+
+#: app/Services/TransStrings.php:1326
+msgid "Template Name"
+msgstr "Nombre de la plantilla"
+
+#: app/Services/TransStrings.php:1578
+msgid "has been completed."
+msgstr "se ha completado"
+
+#: app/Services/Helper.php:1705 app/Services/TransStrings.php:32
+msgid "Active"
+msgstr "Activo"
+
+#: app/Services/TransStrings.php:191
+msgid "Button"
+msgstr "Botón"
+
+#: app/Services/TransStrings.php:335
+msgid "Condition:"
+msgstr "Condición:"
+
+#: app/Services/Libs/Parser/ShortcodeParser.php:252
+msgid "Confirm Subscription"
+msgstr "Confirmar suscripción"
+
+#: app/Services/TransStrings.php:512
+msgid "Drop file here or"
+msgstr "Arrastrar archivo aquí o"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:238
+msgid "Email Sent From Funnel: "
+msgstr "Correo electrónico enviado desde: "
+
+#: app/Services/TransStrings.php:614
+msgid "Error Details"
+msgstr "Detalles del error"
+
+#: app/Services/TransStrings.php:628
+msgid "Example:"
+msgstr "Ejemplo:"
+
+#: app/Services/Helper.php:1706
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: app/Models/Campaign.php:687 app/Models/CampaignUrlMetric.php:173
+#: app/Services/TransStrings.php:1095
+msgid "Revenue"
+msgstr "Ingresos"
+
+#: app/Services/TransStrings.php:1274
+msgid "Something went wrong!"
+msgstr "¡Algo salió mal!"
+
+#: app/Services/TransStrings.php:1318
+msgid "Syncing..."
+msgstr "Sincronizando ..."
+
+#: app/Services/TransStrings.php:1514
+msgid "after"
+msgstr "después"
+
+#: app/Services/TransStrings.php:1519
+msgid "before"
+msgstr "antes"
+
+#: app/Services/TransStrings.php:1556
+msgid "documentation"
+msgstr "documentación"
+
+#: app/Services/TransStrings.php:1557
+msgid "does not equal"
+msgstr "no es igual"
+
+#: app/Services/TransStrings.php:1567
+msgid "ends with"
+msgstr "termina con"
+
+#: app/Services/TransStrings.php:1568
+msgid "equal"
+msgstr "igual"
+
+#: app/Services/TransStrings.php:1585
+msgid "includes"
+msgstr "incluye"
+
+#: app/Services/TransStrings.php:1636
+msgid "starts with"
+msgstr "comienza con"
+
+#: app/Services/TransStrings.php:73
+msgid "Add Value"
+msgstr "Añadir valor"
+
+#: app/Services/TransStrings.php:116
+msgid "All Products"
+msgstr "Todos los productos"
+
+#: app/Services/TransStrings.php:126
+msgid "Almost Done!"
+msgstr "¡Casi listo!"
+
+#: app/Http/Controllers/SettingsController.php:322
+msgid "Amazon SES"
+msgstr "Amazon SES"
+
+#: app/Services/TransStrings.php:137
+msgid "Apply Tags"
+msgstr "Aplicar etiquetas"
+
+#: app/Services/Helper.php:673
+msgid "Black"
+msgstr "Negro"
+
+#: app/Services/TransStrings.php:185
+msgid "Broadcast"
+msgstr "Mensajes"
+
+#: app/Services/TransStrings.php:193 assets/block_editor/latest-post-index.js:1
+#: assets/block_editor/product-index.js:1
+msgid "Button Text"
+msgstr "Texto del botón"
+
+#: app/Services/TransStrings.php:194
+msgid "Button URL"
+msgstr "URL del botón"
+
+#: app/Services/TransStrings.php:195
+msgid "By"
+msgstr "Por"
+
+#: app/Services/Funnel/Actions/ApplyCompanyAction.php:21
+#: app/Services/Funnel/Actions/ApplyListAction.php:21
+#: app/Services/Funnel/Actions/ApplyTagAction.php:21
+#: app/Services/Funnel/Actions/DetachCompanyAction.php:21
+#: app/Services/Funnel/Actions/DetachListAction.php:21
+#: app/Services/Funnel/Actions/DetachTagAction.php:21
+#: app/Services/Funnel/Actions/WaitTimeAction.php:22
+#: app/Services/TransStrings.php:201
+msgid "CRM"
+msgstr "CRM"
+
+#: app/Services/TransStrings.php:245
+msgid "Campaign Performance"
+msgstr "Rendimiento de campaña"
+
+#: app/Models/CustomContactField.php:127
+msgid "Checkboxes"
+msgstr "Casillas de verificación"
+
+#: app/Services/TransStrings.php:324
+msgid "Complete"
+msgstr "Completar"
+
+#: app/Services/TransStrings.php:326
+msgid "Complete Installation"
+msgstr "Instalación completa"
+
+#: app/Services/TransStrings.php:343
+msgid "Congratulations"
+msgstr "Felicitaciones"
+
+#: app/Services/TransStrings.php:379
+msgid "Create Campaign"
+msgstr "Crear campaña"
+
+#: app/Services/TransStrings.php:418
+msgid "Current"
+msgstr "Actual"
+
+#: app/Models/CustomEmailCampaign.php:26
+msgid "Custom Email"
+msgstr "Correo electrónico personalizado"
+
+#: app/Services/Helper.php:258 app/Services/Helper.php:1570
+#: app/Services/TransStrings.php:428
+msgid "Custom Fields"
+msgstr "Campos personalizados"
+
+#: app/Hooks/Handlers/PurchaseHistory.php:63
+#: app/Hooks/Handlers/PurchaseHistory.php:96
+#: app/Hooks/Handlers/PurchaseHistory.php:521 app/Services/TransStrings.php:433
+msgid "Customer Summary"
+msgstr "Resumen del cliente"
+
+#: app/Services/Helper.php:678
+msgid "Cyan bluish gray"
+msgstr "Gris azulado cian"
+
+#: app/Services/TransStrings.php:440
+msgid "Data Cleanup"
+msgstr "Limpieza de datos"
+
+#: app/Services/TransStrings.php:448
+msgid "Dates"
+msgstr "Fechas"
+
+#: app/Services/TransStrings.php:451
+msgid "Days Ago"
+msgstr "Días atras"
+
+#: app/Services/TransStrings.php:1559
+msgid "Don't have a license key?"
+msgstr "¿No tienes una clave de licencia?"
+
+#: app/Services/Helper.php:1634
+msgid "EDD"
+msgstr "EDD"
+
+#: app/Services/TransStrings.php:613
+msgid "Error"
+msgstr "Error"
+
+#: app/Services/TransStrings.php:668
+msgid "Font Size"
+msgstr "Tamaño de la fuente"
+
+#: app/Hooks/Handlers/AdminMenu.php:443
+msgid "Get Pro"
+msgstr "Obtén la versión Pro"
+
+#: app/Services/TransStrings.php:713
+msgid "Goals"
+msgstr "Objetivos"
+
+#: app/Services/TransStrings.php:716
+msgid "Great!"
+msgstr "¡Genial!"
+
+#: app/Services/TransStrings.php:751
+msgid "In"
+msgstr "En"
+
+#: app/Services/TransStrings.php:764
+msgid "Installed"
+msgstr "Instalado"
+
+#: app/Services/TransStrings.php:765
+msgid "Integration Settings"
+msgstr "Parámetros de integración"
+
+#: app/Services/TransStrings.php:771
+msgid "Integrations"
+msgstr "Integraciones"
+
+#: app/Services/Helper.php:749
+msgid "Larger"
+msgstr "Más grande"
+
+#: app/Services/TransStrings.php:787
+msgid "Last 3 months"
+msgstr "Últimos 3 meses"
+
+#: app/Services/Helper.php:1426
+msgid "Last Email Open"
+msgstr "Último correo electrónico abierto"
+
+#: app/Services/Helper.php:1421
+msgid "Last Email Sent"
+msgstr "Último correo electrónico enviado"
+
+#: app/Services/TransStrings.php:794
+msgid "Last Purchase Date"
+msgstr "Última fecha de compra"
+
+#: app/Services/TransStrings.php:795
+msgid "Last month"
+msgstr "Último mes"
+
+#: app/Services/TransStrings.php:796
+msgid "Last order"
+msgstr "Última inscripción"
+
+#: app/Services/TransStrings.php:797
+msgid "Last quarter"
+msgstr "Hace 4 meses"
+
+#: app/Services/TransStrings.php:798
+msgid "Last week"
+msgstr "La semana pasada"
+
+#: app/Http/Controllers/ImporterController.php:301 app/Services/Helper.php:1741
+msgid "LearnDash"
+msgstr "LearnDash"
+
+#: app/Http/Controllers/ImporterController.php:364
+msgid "LearnPress"
+msgstr "LearnPress"
+
+#: app/Services/TransStrings.php:805
+msgid "Let's Go"
+msgstr "Vamos"
+
+#: app/Functions/helpers.php:1125 app/Services/TransStrings.php:807
+msgid "Lifetime Value"
+msgstr "Valor de por vida"
+
+#: app/Http/Controllers/ImporterController.php:292 app/Services/Helper.php:1798
+msgid "LifterLMS"
+msgstr "LifterLMS"
+
+#: app/Services/Helper.php:703
+msgid "Light green cyan"
+msgstr "Verde claro cian"
+
+#: app/Services/TransStrings.php:811
+msgid "Line"
+msgstr "Línea"
+
+#: app/Services/Helper.php:698
+msgid "Luminous vivid amber"
+msgstr "Luminoso ámbar intenso"
+
+#: app/Services/Helper.php:693
+msgid "Luminous vivid orange"
+msgstr "Luminoso color naranja intenso"
+
+#: app/Services/TransStrings.php:835
+msgid "Manage APIs"
+msgstr "Gestionar APIs"
+
+#: app/Services/TransStrings.php:855
+msgid "Match Type"
+msgstr "Tipo de coincidencia"
+
+#: app/Models/CustomContactField.php:102
+msgid "Multi Line Text"
+msgstr "Texto de líneas múltiples"
+
+#: app/Services/TransStrings.php:887
+msgid "No Comparison"
+msgstr "Sin comparación"
+
+#: app/Services/TransStrings.php:1673
+msgid "No time right now? If you don’t want to go through the wizard, you can skip and return to the WordPress dashboard. Come back anytime if you change your mind!"
+msgstr "¿No tienes tiempo en este momento? Si no quieres pasar por el asistente puedes saltártelo y volver al panel. ¡Puedes volver en cualquier momento si cambias de opinión!"
+
+#: app/Models/CustomContactField.php:107
+msgid "Numeric Field"
+msgstr "Campo numérico"
+
+#: app/Services/TransStrings.php:919
+msgid "OR"
+msgstr "O"
+
+#: app/Services/TransStrings.php:921
+msgid "Oops!"
+msgstr "¡Vaya!"
+
+#: app/Services/TransStrings.php:928
+msgid "Operator"
+msgstr "Operador"
+
+#: app/Http/Controllers/ImporterController.php:319
+msgid "Paid Membership Pro"
+msgstr "Paid Membership Pro"
+
+#: app/Services/Helper.php:713
+msgid "Pale cyan blue"
+msgstr "Azul cian pálido"
+
+#: app/Services/Helper.php:688
+msgid "Pale pink"
+msgstr "Rosa pálido"
+
+#: app/Services/TransStrings.php:988
+msgid "Previous"
+msgstr "Anterior"
+
+#: app/Services/TransStrings.php:990
+msgid "Previous Month"
+msgstr "Mes anterior"
+
+#: app/Services/TransStrings.php:991
+msgid "Previous Period"
+msgstr "Período anterior"
+
+#: app/Services/TransStrings.php:992
+msgid "Previous Quarter"
+msgstr "Trimestre anterior"
+
+#: app/Services/TransStrings.php:993
+msgid "Previous Year"
+msgstr "Año anterior"
+
+#: app/Hooks/CLI/Commands.php:136 app/Http/Controllers/UsersController.php:87
+#: app/Services/TransStrings.php:1010
+msgid "Processing"
+msgstr "Procesando"
+
+#: app/Services/TransStrings.php:1021
+msgid "Purchase Count"
+msgstr "Recuento de compras"
+
+#: app/Services/TransStrings.php:1023
+msgid "Purchase one here"
+msgstr "Compra uno aquí"
+
+#: app/Hooks/Handlers/PurchaseHistory.php:532
+msgid "Purchased Products"
+msgstr "Productos comprados"
+
+#: app/Services/TransStrings.php:1029
+msgid "Quick Stats"
+msgstr "Estadísticas rápidas"
+
+#: app/Services/TransStrings.php:1038
+msgid "Read the documentation"
+msgstr "Leer la documentación"
+
+#: app/Services/TransStrings.php:1062
+msgid "Reload Page"
+msgstr "Volver a cargar la página"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:251
+msgid "Remove Contact Tags"
+msgstr "Eliminar etiquetas de contacto"
+
+#: app/Services/TransStrings.php:1082
+msgid "Report Type:"
+msgstr "Tipo de informe:"
+
+#: app/Http/Controllers/ImporterController.php:337
+msgid "Restrict Content Pro"
+msgstr "Restrict Content Pro"
+
+#: app/Services/TransStrings.php:1093
+msgid "Resume Sending"
+msgstr "Reanudar Envío"
+
+#: app/Services/TransStrings.php:1105
+msgid "Sales"
+msgstr "Ventas"
+
+#: app/Hooks/CLI/Commands.php:50
+msgid "Scheduled Emails"
+msgstr "Correos programados"
+
+#: app/Services/TransStrings.php:1132
+msgid "Search Results for:"
+msgstr "Resultados de búsqueda para:"
+
+#: app/Services/TransStrings.php:1161
+msgid "Select Option"
+msgstr "Seleccionar opción"
+
+#: app/Services/TransStrings.php:1209
+msgid "Sending"
+msgstr "Enviando"
+
+#: app/Services/Helper.php:731
+msgid "Small"
+msgstr "Pequeño"
+
+#: app/Services/TransStrings.php:1273
+msgid "Something is wrong!"
+msgstr "¡Algo está mal!"
+
+#: app/Services/TransStrings.php:1296
+msgid "Step 1"
+msgstr "Paso 1"
+
+#: app/Services/TransStrings.php:1297
+msgid "Step 2"
+msgstr "Paso 2"
+
+#: app/Services/TransStrings.php:1311
+msgid "Success"
+msgstr "Éxito"
+
+#: app/Services/TransStrings.php:1313
+msgid "Summary"
+msgstr "Resumen"
+
+#: app/Services/TransStrings.php:1321
+msgid "Tag Name"
+msgstr "Nombre de la etiqueta"
+
+#: app/Services/TransStrings.php:1330
+msgid "Text Color"
+msgstr "Color de texto"
+
+#: app/Models/Subscriber.php:735
+msgid "Timezone"
+msgstr "Zona horaria"
+
+#: app/Services/TransStrings.php:1349
+msgid "Tomorrow"
+msgstr "Mañana"
+
+#: app/Services/TransStrings.php:1351
+msgid "Top Selling Products"
+msgstr "Productos más vendidos"
+
+#: app/Hooks/Handlers/PurchaseHistory.php:187
+#: app/Hooks/Handlers/PurchaseHistory.php:436
+#: app/Http/Controllers/CampaignAnalyticsController.php:115
+#: app/Http/Controllers/CampaignAnalyticsController.php:166
+#: app/Http/Controllers/CampaignAnalyticsController.php:184
+#: app/Services/TransStrings.php:1688
+msgid "Total"
+msgstr "Total"
+
+#: app/Services/TransStrings.php:1357
+msgid "Total Order Count"
+msgstr "Recuento total de pedidos"
+
+#: app/Services/TransStrings.php:1360
+msgid "Total:"
+msgstr "Total:"
+
+#: app/Http/Controllers/ImporterController.php:310
+msgid "TutorLMS"
+msgstr "TutorLMS"
+
+#: app/Services/TransStrings.php:1386
+msgid "Update Field"
+msgstr "Campo de actualización"
+
+#: app/Http/Controllers/SettingsController.php:246
+msgid "Valid"
+msgstr "Válido"
+
+#: app/Services/TransStrings.php:1414
+msgid "Value"
+msgstr "Valor"
+
+#: app/Http/Controllers/CompanyController.php:294
+#: app/Http/Controllers/CompanyController.php:298
+#: app/Http/Controllers/SubscriberController.php:205
+#: app/Http/Controllers/SubscriberController.php:209
+msgid "Value is not valid"
+msgstr "El valor no es valido"
+
+#: app/Services/TransStrings.php:1427
+msgid "View All"
+msgstr "Mostrar todas"
+
+#: app/Services/TransStrings.php:1438
+msgid "View Settings"
+msgstr "Ver ajustes"
+
+#: app/Services/Helper.php:718
+msgid "Vivid cyan blue"
+msgstr "Azul cian vívido"
+
+#: app/Services/Helper.php:708
+msgid "Vivid green cyan"
+msgstr "Color verde cian intenso"
+
+#: app/Services/Helper.php:723
+msgid "Vivid purple"
+msgstr "Morado vivo"
+
+#: app/Services/Helper.php:1327
+msgid "WP User ID"
+msgstr "ID de usuario"
+
+#: app/Services/TransStrings.php:1458
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: app/Services/Helper.php:683
+msgid "White"
+msgstr "Blanco"
+
+#: app/Services/TransStrings.php:1468
+msgid "Working"
+msgstr "Trabajando"
+
+#: app/Services/TransStrings.php:1478
+msgid "You license key is valid and activated"
+msgstr "Su clave de licencia es válida y está activada"
+
+#: app/Services/TransStrings.php:1483
+msgid "Your License Key"
+msgstr "Tu licencia"
+
+#: app/Services/TransStrings.php:1513
+msgid "actions"
+msgstr "acciones"
+
+#: app/Services/TransStrings.php:1518
+msgid "at"
+msgstr "en"
+
+#: app/Services/TransStrings.php:1533
+msgid "compare to"
+msgstr "comparar"
+
+#: app/Services/TransStrings.php:1536
+msgid "condition"
+msgstr "condición"
+
+#: app/Services/TransStrings.php:1548
+msgid "date"
+msgstr "fecha"
+
+#: app/Services/TransStrings.php:1549
+msgid "days"
+msgstr "días"
+
+#: app/Services/TransStrings.php:1574
+msgid "follow this tutorial"
+msgstr "seguir este tutorial"
+
+#: app/Services/TransStrings.php:1601
+msgid "n/a"
+msgstr "n/a"
+
+#: app/Services/TransStrings.php:1607
+msgid "older than"
+msgstr "más antiguo que"
+
+#: app/Services/TransStrings.php:1610
+#: app/views/external/manage_subscription_form.php:39
+msgid "or"
+msgstr "o"
+
+#: app/Services/TransStrings.php:1611
+msgid "order"
+msgstr "pedido"
+
+#: app/Services/TransStrings.php:1637
+msgid "status"
+msgstr "estado"
+
+#: app/Hooks/Handlers/ExternalPages.php:115
+#: app/Hooks/Handlers/ExternalPages.php:170
+msgid "success"
+msgstr "éxito"
+
+#: app/Services/TransStrings.php:1660
+msgid "total"
+msgstr "total"
+
+#: app/Services/TransStrings.php:1674
+msgid "what we collect"
+msgstr "qué información recopilamos"
+
+#: app/Services/TransStrings.php:1470
+msgid "Year to Date"
+msgstr "Este año hasta hoy"
+
+#: app/Services/TransStrings.php:23
+msgid "APIs"
+msgstr "APIs"
+
+#: app/Services/TransStrings.php:157
+msgid "Automation Name"
+msgstr "Nombre de la automatización"
+
+#: app/Services/TransStrings.php:436
+msgid "Danger Zone"
+msgstr "Zona peligrosa"
+
+#: app/Services/TransStrings.php:500
+msgid "Documentation"
+msgstr "Documentación"
+
+#: app/Services/TransStrings.php:707
+msgid "Getting Started"
+msgstr "Cómo comenzar"
+
+#: app/Services/TransStrings.php:814
+msgid "Link Title"
+msgstr "Título del enlace"
+
+#: app/Services/TransStrings.php:1398
+msgid "Upload"
+msgstr "Subir"
+
+#: app/Services/TransStrings.php:1619
+msgid "published"
+msgstr "publicado"
+
+#: app/Services/RoleBasedTagging.php:59
+msgid "Tags to be added"
+msgstr "Etiquetas a añadir"
+
+#: app/Hooks/Handlers/AdminMenu.php:219 app/Hooks/Handlers/AdminMenu.php:220
+msgid "SMTP"
+msgstr "SMTP"
+
+#: app/Services/Libs/Parser/ShortcodeParser.php:239
+msgid "Email Preference"
+msgstr "Preferencia de correo electrónico"
+
+#: app/Services/Stats.php:170
+msgid "Create an Automation"
+msgstr "Crear una automatización"
+
+#: app/Services/Stats.php:163
+msgid "Create a Campaign"
+msgstr "Crear una campaña"
+
+#: app/Services/Stats.php:156 app/Services/TransStrings.php:739
+msgid "Import Contacts"
+msgstr "Importar contactos"
+
+#: app/Services/Stats.php:149
+msgid "Create a Tag"
+msgstr "Crear una etiqueta"
+
+#: app/Services/Stats.php:65
+msgid "Pending Emails"
+msgstr "Correos electrónicos pendientes"
+
+#: app/Services/RoleBasedTagging.php:60
+msgid "Tags to be removed"
+msgstr "Etiquetas a eliminar"
+
+#: app/Services/RoleBasedTagging.php:58
+msgid "Target User Role"
+msgstr "Perfil de usuario objetivo"
+
+#: app/Services/Helper.php:474
+msgid "Classic Editor"
+msgstr "Editor clásico"
+
+#: app/Http/Controllers/CampaignAnalyticsController.php:147
+msgid "(customer missing)"
+msgstr "(falta cliente)"
+
+#: app/Http/Controllers/CampaignAnalyticsController.php:96
+msgid "M j, Y"
+msgstr "M j, Y"
+
+#: app/Http/Controllers/CampaignAnalyticsController.php:75
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: app/Http/Controllers/SubscriberController.php:371
+msgid "contact has been successfully updated."
+msgstr "el contacto ha sido actualizado correctamente."
+
+#: app/Services/TransStrings.php:1314
+msgid "Sunday"
+msgstr "Domingo"
+
+#: app/Services/TransStrings.php:1106
+msgid "Saturday"
+msgstr "Sábado"
+
+#: app/Services/TransStrings.php:682
+msgid "Friday"
+msgstr "Viernes"
+
+#: app/Services/TransStrings.php:1342
+msgid "Thursday"
+msgstr "Jueves"
+
+#: app/Services/TransStrings.php:1455
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: app/Services/TransStrings.php:863
+msgid "Monday"
+msgstr "Lunes"
+
+#: app/Services/TransStrings.php:968
+msgid "Please select allowed days to send emails"
+msgstr "Por favor, selecciona los días permitidos para enviar correos electrónicos"
+
+#: app/Services/TransStrings.php:607
+msgid "Enable Specific Days Only"
+msgstr "Activar solo días específicos"
+
+#: app/Services/TransStrings.php:1366
+msgid "Tuesday"
+msgstr "Martes"
+
+#: app/Hooks/Handlers/AdminMenu.php:230 app/Hooks/Handlers/AdminMenu.php:231
+#: app/Hooks/Handlers/AdminMenu.php:1481 app/Hooks/Handlers/AdminMenu.php:1482
+msgid "Help"
+msgstr "Ayuda"
+
+#: app/Hooks/Handlers/AdminMenu.php:277
+msgid "Thank you for using <a href=\"%s\">FluentCRM</a>."
+msgstr "Gracias por usar <a href=\"%s\">FluentCRM</a>."
+
+#: app/Services/AutoSubscribe.php:237
+msgid "Sign me up for the newsletter!"
+msgstr "¡Suscríbeme al boletín!"
+
+#: app/Http/Controllers/FormsController.php:236
+msgid "Form has been created"
+msgstr "El formulario ha sido creado"
+
+#: app/Http/Controllers/CampaignController.php:1339
+msgid "Campaign has been updated"
+msgstr "La campaña ha sido actualizada"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:118
+#: app/Services/TransStrings.php:725
+msgid "Hours"
+msgstr "Horas"
+
+#: app/Hooks/Handlers/AdminBar.php:77 app/Hooks/Handlers/AdminBar.php:89
+msgid "Search Contacts"
+msgstr "Buscar contactos"
+
+#: app/Hooks/Handlers/AdminBar.php:82
+msgid "Load More"
+msgstr "Cargar más"
+
+#: app/Http/Controllers/FormsController.php:310
+msgid "Subscription Form"
+msgstr "Formulario de suscripción"
+
+#: app/Http/Controllers/CompanyController.php:730
+#: app/Http/Controllers/CustomContactFieldsController.php:35
+msgid "Fields saved successfully!"
+msgstr "¡Campos guardados correctamente!"
+
+#: app/Http/Controllers/SettingsController.php:219
+msgid "Email Body is required"
+msgstr "El cuerpo del correo electrónico es obligatorio"
+
+#: app/Http/Controllers/SettingsController.php:218
+msgid "Email Subject is required"
+msgstr "El asunto del correo electrónico es obligatorio"
+
+#: app/Services/Funnel/Benchmarks/RemoveFromTagBenchmark.php:56
+msgid "Select a Tag"
+msgstr "Seleccionar una etiqueta"
+
+#: app/Services/Funnel/Benchmarks/RemoveFromTagBenchmark.php:48
+msgid "Tag Removed From Contact"
+msgstr "Etiqueta eliminada del contacto"
+
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:60
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:60
+#: app/Services/Funnel/Benchmarks/RemoveFromTagBenchmark.php:60
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:60
+msgid "Run When"
+msgstr "Ejecutar cuando"
+
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:48
+msgid "List Removed From Contact"
+msgstr "Lista eliminada del contacto"
+
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:69
+msgid "contact added in all of the selected Tags"
+msgstr "contacto añadido en todas las etiquetas seleccionadas"
+
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:65
+msgid "contact added in any of the selected Tags"
+msgstr "contacto añadido en cualquiera de las etiquetas seleccionadas"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:98
+msgid "Wait Time"
+msgstr "Tiempo de espera"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:23
+#: app/Services/Funnel/Actions/WaitTimeAction.php:72
+msgid "Wait X Days/Hours"
+msgstr "Esperar X días/horas"
+
+#: app/Services/Funnel/Actions/ApplyListAction.php:42
+#: app/Services/Funnel/Actions/DetachListAction.php:42
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:56
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:56
+#: app/Services/TransStrings.php:1155
+msgid "Select List"
+msgstr "Seleccionar la lista"
+
+#: app/Services/ExternalIntegrations/BricksBuilderIntegration.php:81
+#: app/Services/Funnel/Actions/ApplyListAction.php:41
+#: app/Services/Funnel/Actions/DetachListAction.php:41
+#: app/Services/Funnel/Benchmarks/ListAppliedBenchmark.php:55
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:55
+msgid "Select Lists"
+msgstr "Seleccionar las listas"
+
+#: app/Services/Funnel/Actions/ApplyListAction.php:22
+msgid "Apply List"
+msgstr "Aplicar la lista"
+
+#: app/Services/PermissionManager.php:28
+msgid "CRM Dashboard"
+msgstr "Escritorio CRM"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:59
+msgid "Send Email to"
+msgstr "Enviar correo electrónico a"
+
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:84
+msgid "Select Roles"
+msgstr "Seleccionar los perfiles"
+
+#: app/Services/Funnel/Actions/ApplyTagAction.php:22
+msgid "Apply Tag"
+msgstr "Aplicar la etiqueta"
+
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:112
+#: app/Services/Funnel/Triggers/FluentFormSubscriptionCancelledTrigger.php:61
+#: app/Services/Funnel/Triggers/FluentFormSubscriptionPaymentReceivedTrigger.php:102
+#: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:46
+msgid "Subscription Status"
+msgstr "Estado de la suscripción"
+
+#: app/Services/TransStrings.php:1560
+msgid "draft"
+msgstr "borrador"
+
+#: app/Services/Funnel/Benchmarks/RemoveFromTagBenchmark.php:23
+msgid "Tag Removed"
+msgstr "Etiqueta eliminada"
+
+#: app/Hooks/Handlers/ExternalPages.php:99 app/Services/TransStrings.php:1569
+msgid "failed"
+msgstr "fallido"
+
+#: app/Services/TransStrings.php:1618
+msgid "processing"
+msgstr "procesando"
+
+#: app/Services/Funnel/Benchmarks/RemoveFromListBenchmark.php:23
+msgid "List Removed"
+msgstr "Lista eliminada"
+
+#: app/Services/TransStrings.php:1535
+msgid "completed"
+msgstr "completado"
+
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:23
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:48
+msgid "Tag Applied"
+msgstr "Etiqueta aplicada"
+
+#: app/Services/TransStrings.php:1631
+msgid "sent"
+msgstr "enviado"
+
+#: app/Services/TransStrings.php:1547
+msgid "customer"
+msgstr "cliente"
+
+#: app/Services/TransStrings.php:1638
+msgid "statuses"
+msgstr "estados"
+
+#: app/Services/PermissionManager.php:95
+msgid "Manage Forms"
+msgstr "Gestionar los formularios"
+
+#: app/Functions/helpers.php:511 app/Functions/helpers.php:562
+#: app/Services/TransStrings.php:1523
+msgid "Bounced"
+msgstr "Rebotado"
+
+#: app/Services/AutoSubscribe.php:54 app/Services/AutoSubscribe.php:141
+#: app/Services/AutoSubscribe.php:299
+msgid "Assign Tags"
+msgstr "Asignar etiquetas"
+
+#: app/Services/TransStrings.php:1598
+msgid "list"
+msgstr "lista"
+
+#: app/Services/TransStrings.php:1645
+msgid "tag"
+msgstr "etiqueta"
+
+#: app/Services/TransStrings.php:1599
+msgid "lists"
+msgstr "listas"
+
+#: app/Services/TransStrings.php:1627
+msgid "scheduled"
+msgstr "programado"
+
+#: app/Services/TransStrings.php:1646
+msgid "tags"
+msgstr "etiquetas"
+
+#: app/Services/TransStrings.php:1562
+msgid "edit"
+msgstr "editar"
+
+#: app/Services/TransStrings.php:1594
+msgid "lead"
+msgstr "cliente potencial"
+
+#: app/Services/TransStrings.php:1563
+msgid "eg: Active Contacts"
+msgstr "ej.: Contactos activos"
+
+#: app/Hooks/Handlers/AdminBar.php:81
+msgid "Sorry no contact found"
+msgstr "Lo siento no se encontraron contactos"
+
+#: app/Http/Controllers/CsvController.php:44
+msgid "The file must be a valid CSV."
+msgstr "El archivo debe ser un CSV válido."
+
+#: app/Services/Funnel/Actions/ApplyCompanyAction.php:35
+#: app/Services/Funnel/Actions/ApplyListAction.php:35
+msgid "Select which list will be added to the contact"
+msgstr "Selecciona qué lista será añadida al contacto"
+
+#: app/Services/Funnel/Actions/DetachListAction.php:23
+msgid "Remove this contact from the selected lists"
+msgstr "Quitar este contacto de las listas seleccionadas"
+
+#: app/Services/Funnel/Actions/DetachListAction.php:22
+msgid "Remove From List"
+msgstr "Quitar de la lista"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:90
+msgid "Schedule this email to a specific date"
+msgstr "Programar este correo electrónico para una fecha específica"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:63
+msgid "Send To the contact"
+msgstr "Enviar al contacto"
+
+#: app/Services/Funnel/Actions/ApplyListAction.php:23
+msgid "Add contact to the selected lists"
+msgstr "Añadir contacto a las listas seleccionadas"
+
+#: app/Services/AutoSubscribe.php:40 app/Services/AutoSubscribe.php:128
+#: app/Services/AutoSubscribe.php:286
+msgid "Assign List"
+msgstr "Asignar lista"
+
+#: app/Functions/helpers.php:512 app/Functions/helpers.php:563
+#: app/Services/TransStrings.php:1534
+msgid "Complained"
+msgstr "Queja"
+
+#: app/Http/Controllers/SettingsController.php:128
+#: assets/block_editor/woo-product-index.js:1
+msgid "Design Template"
+msgstr "Plantilla de diseño"
+
+#: app/Http/Controllers/SetupController.php:44
+msgid "Installation has been completed"
+msgstr "La instalación se ha completado"
+
+#: app/Hooks/Handlers/CountryNames.php:541
+msgid "Macao"
+msgstr "Macao"
+
+#: app/Hooks/Handlers/CountryNames.php:545
+msgid "North Macedonia"
+msgstr "Macedonia del Norte"
+
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:94
+#: app/Services/Funnel/Triggers/FluentFormSubscriptionPaymentReceivedTrigger.php:84
+msgid "Select Form Field"
+msgstr "Seleccionar campo de formulario"
+
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:78
+#: app/Services/Funnel/Triggers/FluentFormSubscriptionPaymentReceivedTrigger.php:68
+msgid "Select your form"
+msgstr "Selecciona tu formulario"
+
+#: app/Hooks/Handlers/AdminBar.php:78
+msgid "Type and press enter"
+msgstr "Escribe y pulsa Intro"
+
+#: app/Hooks/Handlers/CountryNames.php:993
+msgid "Virgin Islands (British)"
+msgstr "Islas Vírgenes Británicas"
+
+#: app/Hooks/Handlers/CountryNames.php:997
+msgid "Virgin Islands (US)"
+msgstr "Islas Vírgenes (EE.UU.)"
+
+#: app/Services/TransStrings.php:1512
+msgid "action"
+msgstr "acción"
+
+#: app/Services/TransStrings.php:1528
+msgid "cancelled"
+msgstr "cancelado"
+
+#: app/Services/Funnel/FunnelHelper.php:172
+msgid "country"
+msgstr "país"
+
+#: app/Services/TransStrings.php:1527
+msgid "cancel"
+msgstr "cancelar"
+
+#: app/Services/TransStrings.php:1538
+msgid "confirm"
+msgstr "confirmar"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:79 app/Services/TransStrings.php:1490
+msgid "ZIP Code"
+msgstr "Código postal"
+
+#: app/Services/Helper.php:2304 app/Services/TransStrings.php:1484
+msgid "Your Note Title"
+msgstr "Título de tu nota"
+
+#: app/Services/TransStrings.php:1457
+msgid "Weeks"
+msgstr "Semanas"
+
+#: app/Services/Helper.php:1683 app/Services/TransStrings.php:1471
+msgid "Yes"
+msgstr "Sí"
+
+#: app/Http/Controllers/CampaignAnalyticsController.php:167
+#: app/Services/TransStrings.php:1426
+msgid "View"
+msgstr "Ver"
+
+#: app/Services/TransStrings.php:1442
+msgid "WP Users"
+msgstr "Usuarios de WP"
+
+#: app/Services/TransStrings.php:1431
+msgid "View Emails"
+msgstr "Ver los correos electrónicos"
+
+#: app/Services/TransStrings.php:1449
+msgid "Warning"
+msgstr "Advertencia"
+
+#: app/Services/TransStrings.php:1435
+msgid "View Reports"
+msgstr "Ver los informes"
+
+#: app/Services/TransStrings.php:1434
+msgid "View Report"
+msgstr "Ver el informe"
+
+#: app/Functions/helpers.php:648 app/Services/TransStrings.php:912
+msgid "Note"
+msgstr "Nota"
+
+#: app/Functions/helpers.php:651
+msgid "Meeting"
+msgstr "Reunión"
+
+#: app/Functions/helpers.php:655
+msgid "Invoice: Sent"
+msgstr "Factura: Enviada"
+
+#: app/Functions/helpers.php:657
+msgid "Invoice: Paid"
+msgstr "Factura: Pagada"
+
+#: app/Functions/helpers.php:653
+msgid "Quote: Accepted"
+msgstr "Presupuesto: Aceptado"
+
+#: app/Functions/helpers.php:652
+msgid "Quote: Sent"
+msgstr "Presupuesto: Enviado"
+
+#: app/Functions/helpers.php:654
+msgid "Quote: Refused"
+msgstr "Presupuesto: Rechazado"
+
+#: app/Functions/helpers.php:649
+msgid "Call"
+msgstr "Llamada"
+
+#: app/Functions/helpers.php:594
+#: app/Http/Controllers/CampaignAnalyticsController.php:163
+#: app/Http/Controllers/CampaignAnalyticsController.php:181
+msgid "Customer"
+msgstr "Cliente"
+
+#: app/Functions/helpers.php:593
+msgid "Lead"
+msgstr "Cliente potencial"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:124
+msgid "FluentCRM List"
+msgstr "Lista de FluentCRM"
+
+#: app/Services/Reporting.php:138
+msgid "Entrance"
+msgstr "Entrada"
+
+#: app/Functions/helpers.php:659
+msgid "Transaction"
+msgstr "Transacción"
+
+#: app/Services/Helper.php:235 app/Services/TransStrings.php:941
+msgid "Phone Number"
+msgstr "Número de teléfono"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:77
+#: app/Hooks/Handlers/PrefFormHandler.php:502 app/Models/Company.php:63
+#: app/Models/Subscriber.php:738 app/Services/CrmMigrator/BaseMigrator.php:39
+#: app/Services/Funnel/FunnelHelper.php:164 app/Services/Helper.php:231
+#: app/Services/Helper.php:1298 app/Services/TransStrings.php:286
+msgid "City"
+msgstr "Ciudad"
+
+#: app/Services/Helper.php:194 app/Services/Helper.php:1266
+#: app/Services/TransStrings.php:347
+msgid "Contact"
+msgstr "Contacto"
+
+#: app/Services/Helper.php:265
+msgid "General"
+msgstr "General"
+
+#: app/Services/Helper.php:289
+msgid "Business Address"
+msgstr "Dirección del negocio"
+
+#: app/Services/TransStrings.php:28
+msgid "Action"
+msgstr "Acción"
+
+#: app/Services/Helper.php:291 app/Services/TransStrings.php:1708
+msgid "Site URL"
+msgstr "URL del sitio"
+
+#: app/Services/TransStrings.php:140
+msgid "Archived"
+msgstr "Archivado"
+
+#: app/Services/TransStrings.php:205
+msgid "CSV"
+msgstr "CSV"
+
+#: app/Services/TransStrings.php:207
+msgid "CSV Headers"
+msgstr "Cabeceras CSV"
+
+#: app/Services/TransStrings.php:175
+msgid "Basic Information"
+msgstr "Información básica"
+
+#: app/Services/TransStrings.php:192
+msgid "Button Preview"
+msgstr "Vista previa del botón"
+
+#: app/Services/TransStrings.php:234
+msgid "Campaign"
+msgstr "Campaña"
+
+#: app/Services/TransStrings.php:295
+msgid "Close"
+msgstr "Cerrar"
+
+#: app/Services/TransStrings.php:266
+msgid "Change"
+msgstr "Cambiar"
+
+#: app/Services/TransStrings.php:265
+msgid "Category"
+msgstr "Categoría"
+
+#: app/Services/TransStrings.php:251
+msgid "Campaign Term"
+msgstr "Término de la campaña"
+
+#: app/Hooks/CLI/Commands.php:132 app/Services/TransStrings.php:327
+msgid "Completed"
+msgstr "Completado"
+
+#: app/Services/TransStrings.php:330
+msgid "Compose"
+msgstr "Componer"
+
+#: app/Services/TransStrings.php:338
+msgid "Conditions"
+msgstr "Condiciones"
+
+#: app/Services/TransStrings.php:337
+msgid "Conditionals"
+msgstr "Condicionales"
+
+#: app/Services/TransStrings.php:298
+msgid "Columns"
+msgstr "Columnas"
+
+#: app/Hooks/Handlers/PurchaseHistory.php:178
+#: app/Hooks/Handlers/PurchaseHistory.php:426
+#: app/Http/Controllers/CampaignAnalyticsController.php:114
+#: app/Http/Controllers/CampaignAnalyticsController.php:165
+#: app/Http/Controllers/CampaignAnalyticsController.php:183
+#: app/Models/CustomContactField.php:132 app/Services/TransStrings.php:442
+msgid "Date"
+msgstr "Fecha"
+
+#: app/Services/Stats.php:177 app/Services/TransStrings.php:397
+msgid "Create a Form"
+msgstr "Crear un formulario"
+
+#: app/Services/TransStrings.php:394
+msgid "Create Template"
+msgstr "Crear una plantilla"
+
+#: app/Services/TransStrings.php:414
+msgid "Created"
+msgstr "Creado"
+
+#: app/Services/Helper.php:2309 app/Services/TransStrings.php:489
+msgid "Description"
+msgstr "Descripción"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:114
+#: app/Services/TransStrings.php:450
+msgid "Days"
+msgstr "Días"
+
+#: app/Functions/helpers.php:656
+msgid "Invoice: Part Paid"
+msgstr "Factura: Parcialmente pagada"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:52
+msgid "Configuration required!"
+msgstr "¡Configuración obligatoria!"
+
+#: app/Services/ExternalIntegrations/BricksBuilderIntegration.php:61
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:175
+#: app/Services/Funnel/Actions/ApplyTagAction.php:42
+#: app/Services/Funnel/Actions/DetachTagAction.php:41
+#: app/Services/Funnel/Benchmarks/RemoveFromTagBenchmark.php:55
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:56
+#: app/Services/Funnel/Benchmarks/TagAppliedBenchmark.php:57
+#: app/Services/TransStrings.php:1167
+msgid "Select Tags"
+msgstr "Seleccionar las etiquetas"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:185
+#: app/Services/TransStrings.php:1228
+msgid "Set Tag"
+msgstr "Establecer la etiqueta"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:164
+msgid "Other Fields"
+msgstr "Otros campos"
+
+#: app/Models/Subscriber.php:733 app/Services/CrmMigrator/BaseMigrator.php:27
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:156
+#: app/Services/Helper.php:222
+msgid "Full Name"
+msgstr "Nombre completo"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:142
+#: app/Services/TransStrings.php:547
+msgid "Email Address"
+msgstr "Dirección de correo electrónico"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:134
+#: app/Services/TransStrings.php:997
+msgid "Primary Fields"
+msgstr "Campos principales"
+
+#: app/Services/Helper.php:114
+msgid "Overview"
+msgstr "Resumen"
+
+#: app/Services/TransStrings.php:1430
+msgid "View Contacts"
+msgstr "Ver los contactos"
+
+#: app/Models/Company.php:62 app/Models/Subscriber.php:740
+#: app/Services/CrmMigrator/BaseMigrator.php:38
+#: app/Services/Funnel/FunnelHelper.php:160 app/Services/Helper.php:233
+#: app/Services/Helper.php:1308 app/Services/TransStrings.php:979
+msgid "Postal Code"
+msgstr "Código postal"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:78
+#: app/Hooks/Handlers/PrefFormHandler.php:513 app/Models/Company.php:64
+#: app/Models/Subscriber.php:739 app/Services/CrmMigrator/BaseMigrator.php:40
+#: app/Services/Funnel/FunnelHelper.php:168 app/Services/Helper.php:232
+#: app/Services/Helper.php:1303 app/Services/TransStrings.php:1293
+msgid "State"
+msgstr "Provincia"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:76
+#: app/Hooks/Handlers/PrefFormHandler.php:491 app/Models/Company.php:61
+#: app/Models/Subscriber.php:737 app/Services/CrmMigrator/BaseMigrator.php:37
+#: app/Services/Funnel/FunnelHelper.php:156 app/Services/Helper.php:230
+#: app/Services/Helper.php:1293 app/Services/TransStrings.php:98
+msgid "Address Line 2"
+msgstr "Dirección, línea 2"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:75
+#: app/Hooks/Handlers/PrefFormHandler.php:480 app/Models/Company.php:60
+#: app/Models/Subscriber.php:736 app/Services/CrmMigrator/BaseMigrator.php:36
+#: app/Services/Funnel/FunnelHelper.php:152 app/Services/Helper.php:229
+#: app/Services/Helper.php:1288 app/Services/TransStrings.php:97
+msgid "Address Line 1"
+msgstr "Dirección, línea 1"
+
+#: app/Services/Helper.php:227
+msgid "Contact ID"
+msgstr "ID del contacto"
+
+#: app/Services/Helper.php:228 app/Services/TransStrings.php:1410
+msgid "User ID"
+msgstr "ID del usuario"
+
+#: app/Models/Subscriber.php:730 app/Services/CrmMigrator/BaseMigrator.php:24
+#: app/Services/Funnel/FunnelHelper.php:148 app/Services/Helper.php:223
+#: app/Services/TransStrings.php:870
+msgid "Name Prefix"
+msgstr "Prefijo del nombre"
+
+#: app/Services/Helper.php:160 app/Services/Helper.php:2235
+#: app/Services/TransStrings.php:915
+msgid "Notes & Activities"
+msgstr "Notas y actividades"
+
+#: app/Services/Helper.php:226
+msgid "Contact Email"
+msgstr "Correo electrónico de contacto"
+
+#: app/Services/Helper.php:288 app/Services/TransStrings.php:189
+msgid "Business Name"
+msgstr "Nombre del negocio"
+
+#: app/Services/TransStrings.php:48
+msgid "Add More"
+msgstr "Añadir más"
+
+#: app/Services/TransStrings.php:49
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: app/Services/TransStrings.php:81
+msgid "Add to List"
+msgstr "Añadir a la lista"
+
+#: app/Services/TransStrings.php:63
+msgid "Add Tags"
+msgstr "Añadir etiquetas"
+
+#: app/Services/TransStrings.php:115
+msgid "All Lists"
+msgstr "Todas las listas"
+
+#: app/Services/TransStrings.php:171
+msgid "Back To Campaigns"
+msgstr "Volver a las campañas"
+
+#: app/Services/TransStrings.php:170
+msgid "Back"
+msgstr "Volver"
+
+#: app/Services/TransStrings.php:123
+msgid "Create Your First Email Sequence"
+msgstr "Crea tu primer secuencia de correo electrónico"
+
+#: app/Services/TransStrings.php:156
+msgid "Automation Funnels"
+msgstr "Automatización de embudos"
+
+#: app/Services/TransStrings.php:155
+msgid "Automation Funnel"
+msgstr "Automatización de embudo"
+
+#: app/Services/TransStrings.php:119
+msgid "All available subscribers"
+msgstr "Todos los suscriptores disponibles"
+
+#: app/Services/TransStrings.php:204
+msgid "CRON Job Status"
+msgstr "Estado de las tareas CRON"
+
+#: app/Services/TransStrings.php:172
+msgid "Back to Sequence"
+msgstr "Volver a la secuencia"
+
+#: app/Services/TransStrings.php:246
+msgid "Campaign Recipients"
+msgstr "Destinatarios de la campaña"
+
+#: app/Services/TransStrings.php:244
+msgid "Campaign Name (required)"
+msgstr "Nombre de la campaña (obligatorio)"
+
+#: app/Services/TransStrings.php:241
+msgid "Campaign Details"
+msgstr "Detalles de la campaña"
+
+#: app/Services/TransStrings.php:240
+msgid "Campaign Content"
+msgstr "Contenido de la campaña"
+
+#: app/Services/TransStrings.php:248
+msgid "Campaign Settings"
+msgstr "Ajustes de la campaña"
+
+#: app/Services/TransStrings.php:242
+msgid "Campaign Link Clicks"
+msgstr "Clics en los enlaces de la campaña"
+
+#: app/Services/TransStrings.php:235
+msgid "Campaign Actions"
+msgstr "Acciones de la campaña"
+
+#: app/Services/TransStrings.php:249
+msgid "Campaign Source (required)"
+msgstr "Fuente de la campaña (obligatorio)"
+
+#: app/Services/TransStrings.php:292
+msgid "Clicked"
+msgstr "Clics"
+
+#: app/Services/TransStrings.php:290
+msgid "Click Rate"
+msgstr "Tasa de clics"
+
+#: app/Services/TransStrings.php:282
+msgid "Choose New"
+msgstr "Elegir nuevo"
+
+#: app/Services/TransStrings.php:260
+msgid "Cancel Editing"
+msgstr "Cancelar la edición"
+
+#: app/Services/TransStrings.php:252
+msgid "Campaign Title"
+msgstr "Título de la campaña"
+
+#: app/Services/TransStrings.php:342
+msgid "Confirm Import"
+msgstr "Confirmar la importación"
+
+#: app/Services/TransStrings.php:350
+msgid "Contact Field"
+msgstr "Campo de contacto"
+
+#: app/Services/TransStrings.php:325
+msgid "Complete Import"
+msgstr "Completar la importación"
+
+#: app/Services/TransStrings.php:422
+msgid "Custom Contact Field"
+msgstr "Campo de contacto personalizado"
+
+#: app/Services/TransStrings.php:490
+msgid "Design Your Button"
+msgstr "Diseña tu botón"
+
+#: app/Services/TransStrings.php:468
+msgid "Delete"
+msgstr "Borrar"
+
+#: app/Services/TransStrings.php:467
+msgid "Delay"
+msgstr "Retraso"
+
+#: app/Services/TransStrings.php:487
+msgid "Delivery Date & time"
+msgstr "Fecha y hora de la entrega"
+
+#: app/Services/TransStrings.php:488
+msgid "Delivery time"
+msgstr "Hora de la entrega"
+
+#: app/Services/TransStrings.php:486
+msgid "Delivery Date"
+msgstr "Fecha de la entrega"
+
+#: app/Services/TransStrings.php:30
+msgid "Action Type"
+msgstr "Tipo de acción"
+
+#: app/Services/TransStrings.php:50
+msgid "Add New Condition"
+msgstr "Añadir nueva condición"
+
+#: app/Services/Helper.php:290
+msgid "Admin Email"
+msgstr "Correo electrónico del administrador"
+
+#: app/Services/TransStrings.php:112
+msgid "All Done"
+msgstr "Todo hecho"
+
+#: app/Services/TransStrings.php:133
+msgid "Apply"
+msgstr "Aplicar"
+
+#: app/Services/TransStrings.php:178
+msgid "Benchmarks"
+msgstr "Referencia"
+
+#: app/Services/TransStrings.php:181
+msgid "Body Background Color"
+msgstr "Color de fondo del cuerpo"
+
+#: app/Services/TransStrings.php:1002
+msgid "Change Subscription Status"
+msgstr "Cambiar el estado de la suscripción"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:217
+msgid "Conditional Logics"
+msgstr "Lógicas condicionales"
+
+#: app/Services/TransStrings.php:365
+msgid "Contains"
+msgstr "Contiene"
+
+#: app/Services/TransStrings.php:366
+msgid "Content Background Color"
+msgstr "Color de fondo del contenido"
+
+#: app/Services/TransStrings.php:367
+msgid "Content Font Family"
+msgstr "Familia de fuentes de contenido"
+
+#: app/Services/TransStrings.php:369
+msgid "Continue"
+msgstr "Continuar"
+
+#: app/Services/TransStrings.php:377
+msgid "Create"
+msgstr "Crear"
+
+#: app/Services/TransStrings.php:386
+msgid "Create New Campaign"
+msgstr "Crear una nueva campaña"
+
+#: app/Services/TransStrings.php:390
+msgid "Create New Template"
+msgstr "Crear nueva plantilla"
+
+#: app/Services/TransStrings.php:506
+msgid "Draft"
+msgstr "Borrador"
+
+#: app/Services/TransStrings.php:510
+msgid "Drop"
+msgstr "Soltar"
+
+#: app/Services/TransStrings.php:513
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: app/Services/TransStrings.php:525
+msgid "Edit Connection"
+msgstr "Editar conexión"
+
+#: app/Services/TransStrings.php:532
+msgid "Edit Note"
+msgstr "Editar nota"
+
+#: app/Services/TransStrings.php:537
+msgid "Edit Subject"
+msgstr "Editar asunto"
+
+#: app/Services/TransStrings.php:578
+msgid "Email Settings"
+msgstr "Ajustes del correo electrónico"
+
+#: app/Services/TransStrings.php:610
+msgid "End date"
+msgstr "Fecha de finalización"
+
+#: app/Services/TransStrings.php:611
+msgid "Ends With"
+msgstr "Termina con"
+
+#: app/Services/TransStrings.php:612
+msgid "Equal"
+msgstr "Igual"
+
+#: app/Services/TransStrings.php:615
+msgid "Errors"
+msgstr "Errores"
+
+#: app/Services/TransStrings.php:618
+msgid "Event Name"
+msgstr "Nombre del evento"
+
+#: app/Services/TransStrings.php:635
+msgid "Export"
+msgstr "Exportar"
+
+#: app/Services/TransStrings.php:636
+msgid "Export Contacts"
+msgstr "Exportar contactos"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:117
+msgid "Feed Name"
+msgstr "Nombre del conector"
+
+#: app/Functions/helpers.php:660
+msgid "Feedback"
+msgstr "Feedback"
+
+#: app/Services/TransStrings.php:648
+msgid "Field Type"
+msgstr "Tipo de campo"
+
+#: app/Services/TransStrings.php:653
+msgid "Filter by status"
+msgstr "Filtrar por estado"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:138
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:168
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:86
+#: app/Services/Funnel/Triggers/FluentFormSubscriptionPaymentReceivedTrigger.php:76
+msgid "Form Field"
+msgstr "Campo de formulario"
+
+#: app/Services/TransStrings.php:685
+msgid "From Email Address"
+msgstr "Correo del remitente"
+
+#: app/Services/TransStrings.php:717
+msgid "Greater Than"
+msgstr "Mas grande que"
+
+#: app/Services/TransStrings.php:722
+msgid "Headings Font Family"
+msgstr "Tipo de fuente de la cabecera"
+
+#: app/Models/Subscriber.php:742 app/Services/TransStrings.php:729
+msgid "IP Address"
+msgstr "Dirección IP"
+
+#: app/Services/TransStrings.php:758
+msgid "Incomplete"
+msgstr "Incompleto"
+
+#: app/Services/TransStrings.php:762
+msgid "Insert"
+msgstr "Insertar"
+
+#: app/Services/TransStrings.php:784
+msgid "Key"
+msgstr "Clave"
+
+#: app/Services/TransStrings.php:786
+msgid "Label"
+msgstr "Etiqueta"
+
+#: app/Services/TransStrings.php:804
+msgid "Less Than"
+msgstr "Menos que"
+
+#: app/Services/TransStrings.php:806
+msgid "License Management"
+msgstr "Gestión de licencias"
+
+#: app/Services/TransStrings.php:819
+msgid "List"
+msgstr "Lista"
+
+#: app/Services/TransStrings.php:823
+msgid "Loading"
+msgstr "Cargando"
+
+#: app/Services/TransStrings.php:828
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: app/Services/TransStrings.php:830
+msgid "Logo"
+msgstr "Logo"
+
+#: app/Services/TransStrings.php:217
+msgid "Looks like you did not broadcast any email campaign yet"
+msgstr "Parece que aún no has creado ninguna campaña de correo electrónico"
+
+#: app/Services/TransStrings.php:836
+msgid "Managers"
+msgstr "Administradores"
+
+#: app/Services/Funnel/Actions/WaitTimeAction.php:122
+#: app/Services/TransStrings.php:862
+msgid "Minutes"
+msgstr "Minutos"
+
+#: app/Services/TransStrings.php:866
+msgid "Months"
+msgstr "Meses"
+
+#: app/Services/TransStrings.php:872
+msgid "Name that will be used to send emails"
+msgstr "Nombre que se utilizará para enviar los correos electrónicos"
+
+#: app/Services/TransStrings.php:880
+msgid "Next Run"
+msgstr "Próxima ejecución"
+
+#: app/Services/TransStrings.php:881
+msgid "Next Step"
+msgstr "Próximo paso"
+
+#: app/Services/TransStrings.php:884
+msgid "Next step"
+msgstr "Siguiente paso"
+
+#: app/Services/Helper.php:1684 app/Services/TransStrings.php:885
+msgid "No"
+msgstr "No"
+
+#: app/Services/TransStrings.php:889
+msgid "No Data Available"
+msgstr "No hay datos disponibles"
+
+#: app/Services/TransStrings.php:890
+msgid "No Data Found"
+msgstr "Datos no encontrados"
+
+#: app/Services/TransStrings.php:899
+msgid "No lists found"
+msgstr "No se encontraron listas"
+
+#: app/Services/TransStrings.php:902
+msgid "No tags found"
+msgstr "No se han encontrado etiquetas"
+
+#: app/Services/TransStrings.php:905
+msgid "Not Contains"
+msgstr "Contiene"
+
+#: app/Services/TransStrings.php:907
+msgid "Not Equal"
+msgstr "No es Igual"
+
+#: app/Services/TransStrings.php:926
+msgid "Opened"
+msgstr "Abierto"
+
+#: app/Functions/helpers.php:508 app/Functions/helpers.php:559
+#: app/Services/Funnel/Triggers/FluentFormSubscriptionCancelledTrigger.php:58
+#: app/Services/Helper.php:1707 app/Services/TransStrings.php:938
+#: app/Services/TransStrings.php:1612
+msgid "Pending"
+msgstr "Pendiente"
+
+#: app/Services/TransStrings.php:939
+msgid "Permissions"
+msgstr "Permisos"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:73 app/Services/TransStrings.php:942
+msgid "Phone/Mobile"
+msgstr "Teléfono/Móvil"
+
+#: app/Services/TransStrings.php:1000 app/views/admin/menu_page.php:15
+msgid "Pro"
+msgstr "Pro"
+
+#: app/Services/Helper.php:127
+msgid "Purchase History"
+msgstr "Historial de compra"
+
+#: app/Services/Helper.php:483
+msgid "Raw HTML"
+msgstr "HTML Raw"
+
+#: app/Services/TransStrings.php:1040
+msgid "Reason:"
+msgstr "Motivo:"
+
+#: app/Services/TransStrings.php:1055
+msgid "Recipients"
+msgstr "Destinatarios"
+
+#: app/Services/TransStrings.php:1070
+msgid "Remove Tags"
+msgstr "Quitar las etiquetas"
+
+#: app/Services/TransStrings.php:1079
+msgid "Reply to Email (Optional)"
+msgstr "Responder al correo electrónico (opcional)"
+
+#: app/Services/TransStrings.php:1080
+msgid "Reply to Name"
+msgstr "Responder al nombre"
+
+#: app/Services/TransStrings.php:1081
+msgid "Reply to Name (Optional)"
+msgstr "Responder al nombre (opcional)"
+
+#: app/Hooks/Handlers/AdminMenu.php:199 app/Hooks/Handlers/AdminMenu.php:200
+#: app/Hooks/Handlers/AdminMenu.php:429 app/Hooks/Handlers/AdminMenu.php:1460
+#: app/Hooks/Handlers/AdminMenu.php:1461 app/Services/TransStrings.php:1083
+msgid "Reports"
+msgstr "Informes"
+
+#: app/Services/TransStrings.php:1085
+msgid "Resend"
+msgstr "Reenviar"
+
+#: app/Services/TransStrings.php:1092
+msgid "Resume"
+msgstr "Reanudar"
+
+#: app/Services/TransStrings.php:1103
+msgid "Run Manually"
+msgstr "Ejecutar manualmente"
+
+#: app/Services/TransStrings.php:1107
+msgid "Save"
+msgstr "Guardar"
+
+#: app/Services/TransStrings.php:1110
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: app/Services/TransStrings.php:1111
+msgid "Save Template"
+msgstr "Guardar plantilla"
+
+#: app/Services/TransStrings.php:1116
+msgid "Schedule"
+msgstr "Programar"
+
+#: app/Services/TransStrings.php:1117
+msgid "Schedule Campaign"
+msgstr "Programar campaña"
+
+#: app/Services/TransStrings.php:1118
+msgid "Schedule Time"
+msgstr "Tiempo programado"
+
+#: app/Services/TransStrings.php:1125
+msgid "Scheduled At"
+msgstr "Programado en"
+
+#: app/Services/TransStrings.php:1134
+msgid "Search by title..."
+msgstr "Buscar por título…"
+
+#: app/Services/TransStrings.php:1139
+msgid "Select A List"
+msgstr "Seleccionar una lista"
+
+#: app/Services/TransStrings.php:1153
+msgid "Select Field Type"
+msgstr "Seleccionar tipo de campo"
+
+#: app/Services/Funnel/Actions/ApplyTagAction.php:43
+#: app/Services/Funnel/Actions/DetachTagAction.php:42
+#: app/Services/TransStrings.php:1166
+msgid "Select Tag"
+msgstr "Seleccionar etiqueta"
+
+#: app/Services/TransStrings.php:1169
+msgid "Select Template"
+msgstr "Selecciona una plantilla"
+
+#: app/Http/Controllers/ImporterController.php:196
+#: app/Services/TransStrings.php:1170
+msgid "Select User Roles"
+msgstr "Elegir perfiles de usuario"
+
+#: app/Services/TransStrings.php:1174
+msgid "Select a List"
+msgstr "Seleccionar una lista"
+
+#: app/Services/TransStrings.php:1180
+msgid "Select country"
+msgstr "Selecciona país"
+
+#: app/Services/TransStrings.php:1194
+msgid "Send"
+msgstr "Enviar"
+
+#: app/Services/Funnel/Actions/SendEmailAction.php:28
+#: app/Services/Funnel/Actions/SendEmailAction.php:53
+#: app/Services/TransStrings.php:1195
+msgid "Send Custom Email"
+msgstr "Enviar correo electrónico personalizado"
+
+#: app/Services/TransStrings.php:1203
+msgid "Send a test email"
+msgstr "Enviar un correo electrónico de prueba"
+
+#: app/Services/TransStrings.php:1213
+msgid "Sent"
+msgstr "Enviado"
+
+#: app/Services/TransStrings.php:1215
+msgid "Sequence"
+msgstr "Secuencia"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:55
+msgid "Set FluentCRM"
+msgstr "Establecer FluentCRM"
+
+#: app/Services/TransStrings.php:1237
+msgid "Settings Updated."
+msgstr "Ajustes actualizados."
+
+#: app/Services/TransStrings.php:1239
+msgid "Setup"
+msgstr "Configuración"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:192
+msgid "Skip if contact already exist in FluentCRM"
+msgstr "Omitir si el contacto ya existe en FluentCRM"
+
+#: app/Services/TransStrings.php:1289
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#: app/Services/TransStrings.php:1291
+msgid "Started At"
+msgstr "Empezó en"
+
+#: app/Services/TransStrings.php:1292
+msgid "Starts With"
+msgstr "Empieza en"
+
+#: app/Services/TransStrings.php:1294
+msgid "Stats"
+msgstr "Estadísticas"
+
+#: app/Functions/helpers.php:507 app/Functions/helpers.php:558
+#: app/Services/Funnel/Triggers/FluentFormSubscriptionCancelledTrigger.php:54
+#: app/Services/TransStrings.php:1303 app/Services/TransStrings.php:1642
+msgid "Subscribed"
+msgstr "Suscrito"
+
+#: app/Services/TransStrings.php:1304
+msgid "Subscriber"
+msgstr "Suscriptor"
+
+#: app/Hooks/CLI/Commands.php:30 app/Services/TransStrings.php:1307
+msgid "Subscribers"
+msgstr "Suscriptores"
+
+#: app/Services/TransStrings.php:1327
+msgid "Template Title"
+msgstr "Título de la plantilla"
+
+#: app/Services/TransStrings.php:1347
+msgid "To"
+msgstr "Hasta"
+
+#: app/Services/TransStrings.php:1350
+msgid "Tools"
+msgstr "Herramientas"
+
+#: app/Services/TransStrings.php:1352
+msgid "Total Clicks"
+msgstr "Clics totales"
+
+#: app/Services/TransStrings.php:1362
+msgid "Trigger"
+msgstr "Activador"
+
+#: app/Hooks/Handlers/EventTrackingHandler.php:260 app/Models/Company.php:57
+#: app/Services/Helper.php:1380 app/Services/Helper.php:2285
+#: app/Services/TransStrings.php:1370
+msgid "Type"
+msgstr "Tipo"
+
+#: app/Services/Helper.php:295
+msgid "Unsubscribe URL"
+msgstr "URL de cancelación de suscripciones"
+
+#: app/Functions/helpers.php:509 app/Functions/helpers.php:560
+#: app/Hooks/Handlers/ExternalPages.php:658 app/Services/TransStrings.php:1379
+#: app/Services/TransStrings.php:1666
+msgid "Unsubscribed"
+msgstr "Dados de baja"
+
+#: app/Services/TransStrings.php:1384
+msgid "Update Contact"
+msgstr "Actualizar contacto"
+
+#: app/Services/TransStrings.php:1385
+msgid "Update Custom Field"
+msgstr "Actualiza campo personalizado"
+
+#: app/Services/TransStrings.php:1389
+msgid "Update Settings"
+msgstr "Actualizar ajustes"
+
+#: app/Services/TransStrings.php:1399
+msgid "Upload CSV"
+msgstr "Subir CSV"
+
+#: app/Services/TransStrings.php:1408
+msgid "User Email"
+msgstr "Correo electrónico del usuario"
+
+#: app/Services/TransStrings.php:1409
+msgid "User Email Address"
+msgstr "Dirección de correo electrónico del usuario"
+
+#: app/Services/AutoSubscribe.php:68 app/Services/AutoSubscribe.php:178
+#: app/Services/AutoSubscribe.php:336 app/Services/TransStrings.php:502
+msgid "Double Opt-In"
+msgstr "Doble validación"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:174
+#: app/Services/TransStrings.php:355
+msgid "Contact Tags"
+msgstr "Etiquetas de contactos"
+
+#: app/Functions/helpers.php:658
+msgid "Invoice: Refunded"
+msgstr "Factura: Reembolsada"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:54
+msgid "FluentCRM is not configured yet! Please configure your FluentCRM api first"
+msgstr "¡FluentCRM aún no está configurado! Por favor configura primero tu API de FluentCRM"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:36
+msgid "Connect FluentCRM with WP Fluent Forms and subscribe a contact when a form is submitted."
+msgstr "Conecta FluentCRM con Fluent Forms y suscribe un contacto cuando se envíe un formulario."
+
+#: app/Services/TransStrings.php:83
+msgid "Add to Tags"
+msgstr "Añadir a etiquetas"
+
+#: app/Services/TransStrings.php:79
+msgid "Add or Remove"
+msgstr "Añadir o eliminar"
+
+#: app/Services/TransStrings.php:77
+msgid "Add new Manager"
+msgstr "Añadir nuevo administrador"
+
+#: app/Services/TransStrings.php:74
+msgid "Add a Sequence Email"
+msgstr "Añadir una secuencia de correos electrónicos"
+
+#: app/Services/TransStrings.php:64
+msgid "Add Tags to Subscribers"
+msgstr "Añadir etiquetas a suscriptores"
+
+#: app/Services/TransStrings.php:62
+msgid "Add Subscribers"
+msgstr "Añadir suscriptores"
+
+#: app/Services/TransStrings.php:188
+msgid "Business Full Address"
+msgstr "Dirección completa del negocio"
+
+#: app/Services/TransStrings.php:118
+msgid "All available contacts"
+msgstr "Todos los contactos disponibles"
+
+#: app/Services/TransStrings.php:210
+msgid "Contacts processed so far..."
+msgstr "Contactos procesados hasta ahora..."
+
+#: app/Services/TransStrings.php:199
+msgid "By List & Tag"
+msgstr "Por lista y etiqueta"
+
+#: app/Services/TransStrings.php:198
+msgid "By Dynamic Segment"
+msgstr "Por segmentos dinámicos"
+
+#: app/Services/TransStrings.php:214
+msgid "Current Server Time (Based on your Site Settings)"
+msgstr "Hora actual del servidor (Basado en los ajustes de tu sitio)"
+
+#: app/Services/TransStrings.php:113
+msgid "All Email Activities"
+msgstr "Todas las actividades de correo electrónico"
+
+#: app/Services/TransStrings.php:221
+msgid "Please provide email body."
+msgstr "Por favor, añade el cuerpo del correo electrónico."
+
+#: app/Services/TransStrings.php:220
+msgid "Please provide email Subject."
+msgstr "Por favor, escribe el asunto del correo electrónico."
+
+#: app/Services/TransStrings.php:219
+msgid "Please provide email Body."
+msgstr "Por favor, añade el cuerpo del correo electrónico."
+
+#: app/Services/TransStrings.php:216
+msgid "If you think everything is alright. You can broadcast/Schedule the emails now."
+msgstr "Si crees que ya todo está bien, puedes enviar/programar ahora los correos electrónicos."
+
+#: app/Services/TransStrings.php:284
+msgid "Choose a List"
+msgstr "Escoge una lista"
+
+#: app/Services/TransStrings.php:273
+msgid "Change Contact Type"
+msgstr "Cambiar el tipo de contacto"
+
+#: app/Services/TransStrings.php:232
+msgid "contacts has been processed"
+msgstr "los contactos han sido procesados"
+
+#: app/Services/TransStrings.php:299
+msgid "Comma Separated (,)"
+msgstr "Separado por comas (,)"
+
+#: app/Services/TransStrings.php:225
+msgid "Select Subscribers who open the emails"
+msgstr "Seleccionar suscriptores que abrieron los correos electrónicos"
+
+#: app/Services/TransStrings.php:224
+msgid "Select Subscribers who did not open email"
+msgstr "Seleccionar suscriptores que no abrieron los correos electrónicos"
+
+#: app/Services/TransStrings.php:223
+msgid "Select Subscribers who click selected links"
+msgstr "Seleccionar suscriptores que hicieron clic en los enlaces seleccionados"
+
+#: app/Services/TransStrings.php:229
+msgid "Send or schedule campaign emails"
+msgstr "Enviar o programar campañas de correo electrónico"
+
+#: app/Services/TransStrings.php:398
+msgid "Create a New Automation"
+msgstr "Crear una nueva automatización"
+
+#: app/Services/TransStrings.php:389
+msgid "Create New Sequence"
+msgstr "Crear una nueva secuencia"
+
+#: app/Services/TransStrings.php:383
+msgid "Create Email Template"
+msgstr "Crear una plantilla de correo electrónico"
+
+#: app/Services/TransStrings.php:376
+msgid "Please provide Name of this Segment"
+msgstr "Por favor provea un nombre a este segmento"
+
+#: app/Services/TransStrings.php:331
+msgid "Compose Your Email Body"
+msgstr "Redacta el cuerpo de tu correo electrónico"
+
+#: app/Services/TransStrings.php:364
+msgid "Contacts that are invalid"
+msgstr "Contactos que son no válidos"
+
+#: app/Services/TransStrings.php:482
+msgid "Delete older data more than?"
+msgstr "¿Borrar datos más antiguos que?"
+
+#: app/Services/TransStrings.php:534
+msgid "Edit Recipients"
+msgstr "Editar destinatarios"
+
+#: app/Services/TransStrings.php:526
+msgid "Edit Email Body"
+msgstr "Editar cuerpo de correo electrónico"
+
+#: app/Services/TransStrings.php:539
+msgid "Edit The Form"
+msgstr "Editar el formulario"
+
+#: app/Services/TransStrings.php:505
+msgid "Download sample file"
+msgstr "Descarga el archivo de muestra"
+
+#: app/Services/TransStrings.php:629
+msgid "Excluded Contacts"
+msgstr "Contactos excluidos"
+
+#: app/Services/TransStrings.php:639
+msgid "Exporting... Please wait"
+msgstr "Exportando... Por favor espera"
+
+#: app/Services/TransStrings.php:687
+msgid "Total Revenue from this funnel"
+msgstr "Ganancias totales de este embudo"
+
+#: app/Services/TransStrings.php:616
+msgid "Errors Found"
+msgstr "Errores encontrados"
+
+#: app/Services/TransStrings.php:776
+msgid "Internal Title"
+msgstr "Título interno"
+
+#: app/Services/TransStrings.php:775
+msgid "Internal Subtitle"
+msgstr "Subtítulo interno"
+
+#: app/Services/TransStrings.php:774
+msgid "Internal Label"
+msgstr "Etiqueta interna"
+
+#: app/Services/TransStrings.php:772
+msgid "Internal Campaign Title"
+msgstr "Título de campaña interno"
+
+#: app/Services/TransStrings.php:754
+msgid "Included Contacts"
+msgstr "Contactos incluidos"
+
+#: app/Services/TransStrings.php:749
+msgid "Importing now..."
+msgstr "Importando ahora..."
+
+#: app/Http/Controllers/ImporterController.php:207
+#: app/Services/TransStrings.php:744
+msgid "Import Users Now"
+msgstr "Importar usuarios ahora"
+
+#: app/Services/TransStrings.php:736
+msgid "Import Automation Funnel"
+msgstr "Importar automatización"
+
+#: app/Services/TransStrings.php:719
+msgid "Suggesting value: Between 600 to 800"
+msgstr "Valor sugerido: Entre 600 y 800"
+
+#: app/Services/TransStrings.php:718
+msgid "Grow Your Audience"
+msgstr "Haz crecer tu audiencia"
+
+#: app/Services/TransStrings.php:709
+msgid "Global Email Settings"
+msgstr "Ajustes globales del correo electrónico"
+
+#: app/Services/TransStrings.php:699
+msgid "Get FluentCRM Pro"
+msgstr "Obtén FluentCRM Pro"
+
+#: app/Services/TransStrings.php:697 assets/block_editor/latest-post-index.js:1
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: app/Services/TransStrings.php:691
+msgid "Funnel Name"
+msgstr "Nombre del embudo"
+
+#: app/Services/TransStrings.php:827
+msgid "Loading Settings..."
+msgstr "Cargando ajustes..."
+
+#: app/Services/TransStrings.php:825
+msgid "Loading Editor..."
+msgstr "Cargando editor..."
+
+#: app/Services/TransStrings.php:824
+msgid "Loading Campaign Data..."
+msgstr "Cargando datos de campaña..."
+
+#: app/Services/TransStrings.php:799
+msgid "Latest Action"
+msgstr "Última acción"
+
+#: app/Services/TransStrings.php:790
+msgid "Last Changed"
+msgstr "Último cambio"
+
+#: app/Services/TransStrings.php:777
+msgid "Invalid Emails:"
+msgstr "Correos electrónicos no válidos"
+
+#: app/Services/TransStrings.php:845
+msgid "Contacts that are duplicate"
+msgstr "Contactos duplicados"
+
+#: app/Services/TransStrings.php:844
+msgid "Completed. You can close this modal now"
+msgstr "Completado. Ahora puedes cerrar esta ventana emergente"
+
+#: app/Services/ExternalIntegrations/FluentForm/FluentFormInit.php:57
+msgid "FluentCRM Profile"
+msgstr "Perfil en FluentCRM"
+
+#: app/Functions/helpers.php:662
+msgid "Facebook Post"
+msgstr "Entrada de Facebook"
+
+#: app/Services/TransStrings.php:20
+msgid "A/B Testing Result"
+msgstr "Resultados de prueba A/B"
+
+#: app/Services/Helper.php:460
+msgid "Plain Centered"
+msgstr "Plano centrado"
+
+#: app/Services/Helper.php:453
+msgid "Simple Boxed"
+msgstr "Caja simple"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:265
+msgid "Enable This feed"
+msgstr "Activar este feed"
+
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:157
+msgid "If First Name & Last Name is not available full name will be used to get first name and last name"
+msgstr "Si los valores de nombre y el apellido no están disponibles, el nombre completo será usado para obtener el nombre y el apellido"
+
+#: app/Services/TransStrings.php:215
+msgid "Email body successfully updated"
+msgstr "El cuerpo del correo electrónico se ha actualizado correctamente."
+
+#: app/Hooks/CLI/Commands.php:42 app/Hooks/Handlers/AdminMenu.php:389
+#: app/Services/TransStrings.php:114
+msgid "All Emails"
+msgstr "Todos los correos electrónicos"
+
+#: app/Services/TransStrings.php:1372 assets/block_editor/index.js:15
+#: assets/block_editor_58/index.js:13
+msgid "URL"
+msgstr "URL"
+
+#: app/Services/TransStrings.php:521 assets/block_editor/index.js:17
+#: assets/block_editor_58/index.js:15
+msgid "Edit"
+msgstr "Editar"
+
+#: app/Services/TransStrings.php:1537
+#: assets/block_editor/fluent_conditional_block.js:1
+#: assets/block_editor/index.js:15
+msgid "conditional"
+msgstr "condicional"
+
+#: app/Hooks/Handlers/AdminMenu.php:357 app/Hooks/Handlers/AdminMenu.php:1413
+#: app/Hooks/Handlers/AdminMenu.php:1414 app/Services/Helper.php:119
+#: app/Services/TransStrings.php:595
+msgid "Emails"
+msgstr "Correos electrónicos"
+
+#: app/Http/Controllers/SetupController.php:65
+#: app/Http/Controllers/SetupController.php:83
+#: app/Http/Controllers/SetupController.php:106
+msgid "Sorry! you do not have permission to install plugin"
+msgstr "Lo siento, no tienes permisos para instalar plugins"
+
+#: app/Http/Controllers/SetupController.php:74
+msgid "FluentSMTP plugin has been installed and activated successfully"
+msgstr "El plugin FluentSMTP ha sido instalado y activado correctamente"
+
+#: app/Services/TransStrings.php:514
+msgid "Dynamic Segments"
+msgstr "Segmentos dinámicos"
+
+#: app/Services/TransStrings.php:943
+msgid "Pick a date"
+msgstr "Seleccionar una fecha"
+
+#: app/Services/Helper.php:1349 app/Services/TransStrings.php:788
+msgid "Last Activity"
+msgstr "Última actividad"
+
+#: app/Services/TransStrings.php:174
+msgid "Basic Info"
+msgstr "Información básica"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:74
+#: app/Hooks/Handlers/PrefFormHandler.php:434 app/Services/Helper.php:237
+#: app/Services/Helper.php:1344 app/Services/Helper.php:1359
+#: app/Services/TransStrings.php:446
+msgid "Date of Birth"
+msgstr "Fecha de nacimiento"
+
+#: app/Services/TransStrings.php:356
+msgid "Contact Type"
+msgstr "Tipo de contacto"
+
+#: app/Services/TransStrings.php:51
+msgid "Add New Contact"
+msgstr "Añadir un nuevo contacto"
+
+#: app/Services/TransStrings.php:878
+msgid "Next"
+msgstr "Siguiente"
+
+#: app/Http/Controllers/ImporterController.php:57
+#: app/Services/TransStrings.php:1467
+msgid "WordPress Users"
+msgstr "Usuarios de WordPress"
+
+#: app/Http/Controllers/ImporterController.php:52
+#: app/Services/TransStrings.php:206
+msgid "CSV File"
+msgstr "Archivo CSV"
+
+#: app/Services/TransStrings.php:339
+msgid "Configuration"
+msgstr "Configuración"
+
+#: app/Services/TransStrings.php:730
+msgid "Identifiers"
+msgstr "Identificadores"
+
+#: app/Services/TransStrings.php:980
+msgid "Prefix"
+msgstr "Prefijo"
+
+#: app/Services/TransStrings.php:1184
+msgid "Select lists"
+msgstr "Seleccionar listas"
+
+#: app/Services/TransStrings.php:1186
+msgid "Select tags"
+msgstr "Seleccionar etiquetas"
+
+#: app/Services/TransStrings.php:354
+msgid "Contact Source"
+msgstr "Origen del contacto"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:80 app/Models/Company.php:65
+#: app/Models/Subscriber.php:741 app/Services/CrmMigrator/BaseMigrator.php:41
+#: app/Services/Helper.php:234 app/Services/Helper.php:1313
+#: app/Services/TransStrings.php:374
+msgid "Country"
+msgstr "País"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:415 app/Models/Subscriber.php:743
+#: app/Services/CrmMigrator/BaseMigrator.php:28
+#: app/Services/Funnel/FunnelHelper.php:176 app/Services/Helper.php:1322
+#: app/Services/TransStrings.php:940
+msgid "Phone"
+msgstr "Teléfono"
+
+#: app/Services/TransStrings.php:1136
+msgid "Search..."
+msgstr "Buscar..."
+
+#: app/Services/TransStrings.php:654
+msgid "Filtered by"
+msgstr "Filtrado por"
+
+#: app/Services/TransStrings.php:341
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: app/Services/TransStrings.php:259
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: app/Services/TransStrings.php:735
+msgid "Import"
+msgstr "Importar"
+
+#: app/Services/TransStrings.php:33
+msgid "Add"
+msgstr "Añadir"
+
+#: app/Services/TransStrings.php:869
+msgid "Name"
+msgstr "Nombre"
+
+#: app/Http/Controllers/ReportingController.php:90
+#: app/Http/Controllers/SubscriberController.php:628
+msgid "Selected emails has been deleted"
+msgstr "Los correos electrónicos seleccionados han sido borrados"
+
+#: app/Services/TransStrings.php:1172
+msgid "Select Your CSV Delimiter"
+msgstr "Selecciona tu delimitador CSV"
+
+#: app/Models/Subscriber.php:744 app/Services/Helper.php:1340
+#: app/Services/TransStrings.php:1283
+msgid "Source"
+msgstr "Fuente"
+
+#: app/Services/TransStrings.php:285
+msgid "Choose an option:"
+msgstr "Elige una opción:"
+
+#: app/Services/Helper.php:1354 app/Services/TransStrings.php:415
+msgid "Created At"
+msgstr "Creado el"
+
+#: app/Services/TransStrings.php:417
+msgid "Cumulative"
+msgstr "Acumulativo"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:71
+#: app/Http/Controllers/CampaignAnalyticsController.php:112
+#: app/Services/Helper.php:2302 app/Services/TransStrings.php:1344
+msgid "Title"
+msgstr "Título"
+
+#: app/Services/TransStrings.php:761
+msgid "Info"
+msgstr "Información"
+
+#: app/Hooks/Handlers/PurchaseHistory.php:193
+#: app/Hooks/Handlers/PurchaseHistory.php:442 app/Services/TransStrings.php:31
+msgid "Actions"
+msgstr "Acciones"
+
+#: app/Services/TransStrings.php:1245
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: app/Http/Controllers/CampaignAnalyticsController.php:111
+#: app/Http/Controllers/SubscriberController.php:834
+#: app/Services/TransStrings.php:728
+msgid "ID"
+msgstr "ID"
+
+#: app/Hooks/CLI/Commands.php:162 app/Hooks/CLI/Commands.php:376
+#: app/Hooks/CLI/Commands.php:584 app/Hooks/Handlers/PurchaseHistory.php:183
+#: app/Hooks/Handlers/PurchaseHistory.php:431
+#: app/Http/Controllers/CampaignAnalyticsController.php:113
+#: app/Http/Controllers/CampaignAnalyticsController.php:164
+#: app/Http/Controllers/CampaignAnalyticsController.php:182
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:263
+#: app/Services/Helper.php:236 app/Services/Helper.php:1371
+#: app/Services/TransStrings.php:1295
+msgid "Status"
+msgstr "Estado"
+
+#: app/Functions/helpers.php:650 app/Hooks/Handlers/PrefFormHandler.php:72
+#: app/Hooks/Handlers/PrefFormHandler.php:400 app/Models/Subscriber.php:734
+#: app/Services/Funnel/Actions/SendEmailAction.php:27
+#: app/Services/Funnel/FunnelHelper.php:138 app/Services/Helper.php:1284
+#: app/Services/TransStrings.php:546
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: app/Services/TransStrings.php:1319
+msgid "System Defined"
+msgstr "Definido por el sistema"
+
+#: app/Services/TransStrings.php:382
+msgid "Create Custom Segment"
+msgstr "Crear un segmento personalizado"
+
+#: app/Services/TransStrings.php:38
+msgid "Add Address Info"
+msgstr "Añadir la información de la dirección"
+
+#: app/Services/TransStrings.php:444
+msgid "Date Added"
+msgstr "Fecha añadida"
+
+#: app/Services/TransStrings.php:789
+msgid "Last Change Date"
+msgstr "Fecha del último cambio"
+
+#: app/Services/TransStrings.php:197
+msgid "By Date"
+msgstr "Por fecha"
+
+#: app/Services/TransStrings.php:384
+msgid "Create Form"
+msgstr "Crear un formulario"
+
+#: app/Services/TransStrings.php:528
+msgid "Edit Form"
+msgstr "Editar el formulario"
+
+#: app/Services/TransStrings.php:1177
+msgid "Select a template"
+msgstr "Seleccionar una plantilla"
+
+#: app/Services/TransStrings.php:984
+msgid "Preview Form"
+msgstr "Vista previa del formulario"
+
+#: app/Services/TransStrings.php:396
+msgid "Create Your First Form"
+msgstr "Crea tu primer formulario"
+
+#: app/Services/TransStrings.php:45
+msgid "Add Custom Data"
+msgstr "Añadir datos personalizados"
+
+#: app/Services/TransStrings.php:565
+msgid "Email Open Stats"
+msgstr "Estadísticas de apertura de los correos electrónicos"
+
+#: app/Services/TransStrings.php:572
+msgid "Email Sending Stats"
+msgstr "Estadísticas de envío de los correos electrónicos"
+
+#: app/Services/TransStrings.php:1308
+msgid "Subscribers Growth"
+msgstr "Crecimiento de suscriptores"
+
+#: app/Services/TransStrings.php:530
+msgid "Edit Integration Settings"
+msgstr "Editar los ajustes de integración"
+
+#: app/Services/TransStrings.php:1028
+msgid "Quick Overview"
+msgstr "Vista rápida"
+
+#: app/Services/TransStrings.php:399
+msgid "Create a New Form"
+msgstr "Crear un nuevo formulario"
+
+#: app/Services/TransStrings.php:351
+msgid "Contact ID:"
+msgstr "ID del contacto:"
+
+#: app/Services/TransStrings.php:416
+msgid "Created at"
+msgstr "Creado el"
+
+#: app/Services/TransStrings.php:672 app/Services/TransStrings.php:680
+msgid "Fluent Forms that are connected with your CRM"
+msgstr "Fluent Forms que están conectados con tu CRM"
+
+#: app/Services/TransStrings.php:675
+msgid "Looks Like you did not create any forms yet!"
+msgstr "Parece que aún no has creado ningún formulario."
+
+#: app/Services/TransStrings.php:409
+msgid "Paste the following shortcode to any page or post to start growing your audience"
+msgstr "Pega el siguiente shortcode a cualquier página o entrada para comenzar a aumentar tu audiencia"
+
+#: app/Services/TransStrings.php:681
+msgid "If you need to create and connect more advanced forms please use Fluent Forms."
+msgstr "Si necesitas crear y conectar formularios más avanzados, por favor usa Fluent Forms."
+
+#: app/Services/TransStrings.php:1284
+msgid "Select Source from where you want to import your contacts"
+msgstr "Selecciona la fuente desde donde quieres importar tus contactos"
+
+#: app/Services/TransStrings.php:882
+msgid "Next [Map Columns]"
+msgstr "Siguiente [Relacionar columnas]"
+
+#: app/Http/Controllers/CampaignController.php:1376
+msgid "Campaign has been successfully duplicated"
+msgstr "La campaña se ha duplicado correctamente"
+
+#: app/Http/Controllers/FunnelController.php:752
+msgid "Subscribed has been removed from this automation funnel"
+msgstr "El suscriptor se ha eliminado de esta automatización"
+
+#: app/Http/Controllers/FunnelController.php:720
+msgid "Funnel has been successfully cloned"
+msgstr "El embudo ha sido clonado correctamente"
+
+#: app/Http/Controllers/SettingsController.php:530
+msgid "Scheduled Email Sending"
+msgstr "Envío de correo electrónico programado"
+
+#: app/Http/Controllers/SettingsController.php:509
+#: app/Http/Controllers/SettingsController.php:531
+msgid "Scheduled Automation Tasks"
+msgstr "Tareas de automatización programadas"
+
+#: app/Hooks/Handlers/ExternalPages.php:575
+msgid "Sorry, No email found based on your data"
+msgstr "Lo siento, no se encontraron correos electrónicos basados en tus datos"
+
+#: app/Hooks/CLI/Commands.php:38 app/Hooks/Handlers/AdminMenu.php:176
+#: app/Hooks/Handlers/AdminMenu.php:177 app/Hooks/Handlers/AdminMenu.php:409
+#: app/Hooks/Handlers/AdminMenu.php:1453 app/Hooks/Handlers/AdminMenu.php:1454
+#: app/Services/TransStrings.php:166
+msgid "Automations"
+msgstr "Automatizaciones"
+
+#. translators: accessibility text for the publish landmark region.
+#: app/Services/TransStrings.php:1020 assets/block_editor/index.js:13
+#: assets/block_editor_58/index.js:11
+msgid "Publish"
+msgstr "Publicar"
+
+#: app/Hooks/Handlers/ActivationHandler.php:33 boot/app.php:58
+msgid "Every Minute (FluentCRM)"
+msgstr "Cada minuto (FluentCRM)"
+
+#: app/views/admin/setup_wizard.php:6
+msgid "FluentCRM - Setup Wizard"
+msgstr "FluentCRM - Asistente de configuración"
+
+#: app/views/external/manage_subscription_form.php:35
+msgid "Update Profile"
+msgstr "Actualizar el perfil"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:83
+#: app/views/external/manage_subscription_form.php:26
+msgid "Mailing List Groups"
+msgstr "Grupos de la lista de correo"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:70
+#: app/Hooks/Handlers/PrefFormHandler.php:374 app/Models/Subscriber.php:732
+#: app/Services/CrmMigrator/BaseMigrator.php:26
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:152
+#: app/Services/Funnel/FunnelHelper.php:134 app/Services/Helper.php:225
+#: app/Services/Helper.php:1279 app/Services/TransStrings.php:792
+#: app/views/external/manage_subscription_form.php:20
+#: app/views/external/manage_subscription_form.php:21
+msgid "Last Name"
+msgstr "Apellido(s)"
+
+#: app/Hooks/Handlers/PrefFormHandler.php:69
+#: app/Hooks/Handlers/PrefFormHandler.php:359 app/Models/Subscriber.php:731
+#: app/Services/CrmMigrator/BaseMigrator.php:25
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:148
+#: app/Services/Funnel/FunnelHelper.php:130 app/Services/Helper.php:224
+#: app/Services/Helper.php:1274 app/Services/TransStrings.php:656
+#: app/views/external/manage_subscription_form.php:14
+#: app/views/external/manage_subscription_form.php:16
+msgid "First Name"
+msgstr "Nombre"
+
+#: app/views/external/confirmation.php:8
+msgid "Email Confirmation"
+msgstr "Confirmación de correo electrónico"
+
+#: app/Hooks/Handlers/ExternalPages.php:376
+msgid "Please let us know a reason"
+msgstr "Haznos saber una razón"
+
+#: app/Hooks/Handlers/ExternalPages.php:375 app/Services/TransStrings.php:1482
+#: app/views/external/manage_subscription_form.php:9
+#: app/views/external/manage_subscription_request_form.php:38
+#: app/views/external/unsubscribe_request_form.php:38
+msgid "Your Email Address"
+msgstr "Tu dirección de correo electrónico"
+
+#: app/Hooks/Handlers/ExternalPages.php:373
+#: app/Hooks/Handlers/ExternalPages.php:377
+#: app/Services/Libs/Parser/ShortcodeParser.php:226
+#: app/Services/TransStrings.php:1378
+#: app/views/external/manage_subscription_form.php:39
+#: app/views/external/unsubscribe.php:19
+msgid "Unsubscribe"
+msgstr "Cancelar la suscripción"
+
+#: app/Services/Helper.php:643
+msgid "Easy Digital Downloads"
+msgstr "Easy Digital Downloads"
+
+#: app/Services/Helper.php:642
+msgid "EDD Purchase History"
+msgstr "Historial de compra de EDD"
+
+#: app/Services/Helper.php:636 app/Services/Helper.php:1580
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: app/Services/Helper.php:635
+msgid "Woocommerce Purchase History"
+msgstr "Historial de compras de Woocommerce"
+
+#: app/Services/Stats.php:32
+msgid "Emails Sent"
+msgstr "Correos electrónicos enviados"
+
+#: app/Http/Controllers/CampaignController.php:547
+#: app/Services/TransStrings.php:1487
+msgid "Your campaign email has been scheduled"
+msgstr "Tu campaña de correo electrónico ha sido programada"
+
+#: app/Http/Controllers/CampaignController.php:464
+#: app/Services/TransStrings.php:1192
+msgid "Selected emails are deleted"
+msgstr "Los correos electrónicos seleccionados han sido eliminados."
+
+#: app/Http/Controllers/CampaignController.php:249
+#: app/Services/TransStrings.php:1279
+msgid "Sorry! No subscribers found based on your selection"
+msgstr "¡Lo siento! No se encontraron suscriptores según tu selección"
+
+#: app/Http/Controllers/SetupController.php:57
+msgid "Fluent Forms has been installed and activated"
+msgstr "Fluent Forms Se ha instalado y activado"
+
+#: app/Http/Controllers/SettingsController.php:478
+#: app/Http/Controllers/SettingsController.php:994
+msgid "Settings has been updated"
+msgstr "Los ajustes se han actualizado"
+
+#: app/Http/Controllers/SettingsController.php:238
+msgid "Double Opt-in settings has been updated"
+msgstr "Configuración de Double Opt-in actualizada"
+
+#: app/Http/Controllers/SettingsController.php:80
+msgid "Settings Updated"
+msgstr "Ajustes actualizados"
+
+#: app/Http/Controllers/FunnelController.php:193
+msgid "Funnel has been deleted"
+msgstr "El embudo ha sido borrado"
+
+#: app/Http/Controllers/FunnelController.php:175
+msgid "Funnel has been created. Please configure now"
+msgstr "Se ha creado el embudo. Configúralo ahora"
+
+#: app/Http/Controllers/CompanyController.php:709
+#: app/Http/Controllers/SubscriberController.php:771
+msgid "Note successfully deleted"
+msgstr "Nota borrada correctamente"
+
+#: app/Http/Controllers/CompanyController.php:690
+#: app/Http/Controllers/SubscriberController.php:752
+msgid "Note successfully updated"
+msgstr "Nota actualizada correctamente"
+
+#: app/Http/Controllers/SubscriberController.php:701
+msgid "Note successfully added"
+msgstr "Nota añadida correctamente"
+
+#: app/Http/Controllers/SubscriberController.php:488
+msgid "Subscriber successfully updated"
+msgstr "Suscriptor actualizado correctamente"
+
+#: app/Http/Controllers/SubscriberController.php:315
+#: app/Http/Controllers/SubscriberController.php:396
+msgid "Provided email already assigned to another subscriber."
+msgstr "El correo electrónico proporcionado ya se ha asignado a otro suscriptor."
+
+#: app/Http/Controllers/SubscriberController.php:296
+msgid "subscriber"
+msgid_plural "subscribers"
+msgstr[0] "suscriptor"
+msgstr[1] "suscriptores"
+
+#: app/Http/Controllers/TagsController.php:223
+msgid "Successfully removed the tag."
+msgstr "Etiqueta eliminada correctamente."
+
+#: app/Hooks/Handlers/FormSubmissions.php:23
+#: app/Http/Controllers/DocsController.php:62
+#: app/Http/Controllers/SetupController.php:159
+#: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:30
+#: app/Services/Funnel/Triggers/FluentFormSubscriptionCancelledTrigger.php:28
+#: app/Services/Funnel/Triggers/FluentFormSubscriptionPaymentReceivedTrigger.php:29
+msgid "Fluent Forms"
+msgstr "Fluent Forms"
+
+#: app/Hooks/Handlers/FormSubmissions.php:22
+msgid "Form Submissions (Fluent Forms)"
+msgstr "Envíos de formularios (Fluent Forms)"
+
+#: app/Hooks/Handlers/AutoSubscribeHandler.php:125
+#: app/Services/AutoSubscribe.php:86
+msgid "Subscribe to newsletter"
+msgstr "Suscríbete al boletín"
+
+#: app/Hooks/Handlers/ExternalPages.php:1251
+msgid "Your provided information has been successfully updated"
+msgstr "La información que nos has facilitado se ha actualizado correctamente"
+
+#: app/Hooks/Handlers/ExternalPages.php:1206
+msgid "The new email has been used to another account. Please use a new email address"
+msgstr "El nuevo correo electrónico se ha utilizado para otra cuenta. Utilice una nueva dirección de correo electrónico"
+
+#: app/Hooks/Handlers/ExternalPages.php:1198
+msgid "Email is not valid. Please provide a valid email"
+msgstr "La dirección de correo no es válida. Proporciona una que sea válida"
+
+#: app/Hooks/Handlers/ExternalPages.php:1173
+msgid "Sorry! No subscriber found in the database"
+msgstr "¡Lo siento! No se encontró ningún suscriptor en la base de datos"
+
+#: app/Hooks/Handlers/ExternalPages.php:558
+msgid "Other (fill in reason below)"
+msgstr "Otro (escribe una razón abajo)"
+
+#: app/Hooks/Handlers/ExternalPages.php:557
+msgid "The emails are spam"
+msgstr "Los correos electrónicos son spam"
+
+#: app/Hooks/Handlers/ExternalPages.php:556
+msgid "The emails are inappropriate"
+msgstr "Los correos electrónicos son inapropiados"
+
+#: app/Hooks/Handlers/ExternalPages.php:555
+msgid "I never signed up for this email list"
+msgstr "Nunca me suscribí a esta lista de correo electrónico"
+
+#: app/Hooks/Handlers/ExternalPages.php:554
+msgid "I no longer want to receive these emails"
+msgstr "No quiero volver a recibir esos correos electrónicos"
+
+#: app/Hooks/Handlers/CountryNames.php:765
+msgid "Saint Kitts and Nevis"
+msgstr "San Cristóbal y Nieves"
+
+#: app/Hooks/Handlers/CountryNames.php:745
+msgid "Romania"
+msgstr "Rumania"
+
+#: app/Hooks/Handlers/CountryNames.php:1021
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: app/Hooks/Handlers/CountryNames.php:1017
+msgid "Zambia"
+msgstr "Zambia"
+
+#: app/Hooks/Handlers/CountryNames.php:1013
+msgid "Yemen"
+msgstr "Yemen"
+
+#: app/Hooks/Handlers/CountryNames.php:1009
+msgid "Samoa"
+msgstr "Samoa"
+
+#: app/Hooks/Handlers/CountryNames.php:1005
+msgid "Western Sahara"
+msgstr "Sáhara Occidental"
+
+#: app/Hooks/Handlers/CountryNames.php:1001
+msgid "Wallis and Futuna"
+msgstr "Islas Wallis y Futuna"
+
+#: app/Hooks/Handlers/CountryNames.php:989
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: app/Hooks/Handlers/CountryNames.php:985
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: app/Hooks/Handlers/CountryNames.php:981
+msgid "Vatican"
+msgstr "Ciudad del Vaticano"
+
+#: app/Hooks/Handlers/CountryNames.php:977
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: app/Hooks/Handlers/CountryNames.php:973
+msgid "Uzbekistan"
+msgstr "Uzbekistán"
+
+#: app/Hooks/Handlers/CountryNames.php:969
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: app/Hooks/Handlers/CountryNames.php:913
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: app/Hooks/Handlers/CountryNames.php:909
+msgid "Togo"
+msgstr "Togo"
+
+#: app/Hooks/Handlers/CountryNames.php:905
+msgid "Timor-Leste"
+msgstr "Timor Oriental"
+
+#: app/Hooks/Handlers/CountryNames.php:901
+msgid "Thailand"
+msgstr "Tailandia"
+
+#: app/Hooks/Handlers/CountryNames.php:893
+msgid "Tajikistan"
+msgstr "Tayikistán"
+
+#: app/Hooks/Handlers/CountryNames.php:889
+msgid "Taiwan"
+msgstr "Taiwán"
+
+#: app/Hooks/Handlers/CountryNames.php:885
+msgid "Syria"
+msgstr "Siria"
+
+#: app/Hooks/Handlers/CountryNames.php:881
+msgid "Switzerland"
+msgstr "Suiza"
+
+#: app/Hooks/Handlers/CountryNames.php:877
+msgid "Sweden"
+msgstr "Suecia"
+
+#: app/Hooks/Handlers/CountryNames.php:873
+msgid "Swaziland"
+msgstr "Swazilandia"
+
+#: app/Hooks/Handlers/CountryNames.php:869
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard y Jan Mayen"
+
+#: app/Hooks/Handlers/CountryNames.php:865
+msgid "Suriname"
+msgstr "Surinam"
+
+#: app/Hooks/Handlers/CountryNames.php:861
+msgid "Sudan"
+msgstr "Sudán"
+
+#: app/Hooks/Handlers/CountryNames.php:857
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: app/Hooks/Handlers/CountryNames.php:797
+msgid "Saudi Arabia"
+msgstr "Arabia Saudita"
+
+#: app/Hooks/Handlers/CountryNames.php:793
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "Santo Tomé y Príncipe"
+
+#: app/Hooks/Handlers/CountryNames.php:789
+msgid "San Marino"
+msgstr "San Marino"
+
+#: app/Hooks/Handlers/CountryNames.php:785
+msgid "Saint Vincent and the Grenadines"
+msgstr "San Vicente y las Granadinas"
+
+#: app/Hooks/Handlers/CountryNames.php:781
+msgid "Saint Pierre and Miquelon"
+msgstr "San Pedro y Miquelón"
+
+#: app/Hooks/Handlers/CountryNames.php:777
+msgid "Saint Martin (Dutch part)"
+msgstr "San Martín​ (parte holandesa)"
+
+#: app/Hooks/Handlers/CountryNames.php:773
+msgid "Saint Martin (French part)"
+msgstr "San Martín (parte francesa)"
+
+#: app/Hooks/Handlers/CountryNames.php:769
+msgid "Saint Lucia"
+msgstr "Santa Lucía"
+
+#: app/Hooks/Handlers/CountryNames.php:761
+msgid "Saint Helena"
+msgstr "Santa Elena"
+
+#: app/Hooks/Handlers/CountryNames.php:757
+msgid "Saint Barth&eacute;lemy"
+msgstr "San Bartolomé"
+
+#: app/Hooks/Handlers/CountryNames.php:753
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: app/Hooks/Handlers/CountryNames.php:749
+msgid "Russia"
+msgstr "Rusia"
+
+#: app/Hooks/Handlers/CountryNames.php:741
+msgid "Reunion"
+msgstr "Reunión"
+
+#: app/Hooks/Handlers/CountryNames.php:677
+msgid "Northern Mariana Islands"
+msgstr "Islas Marianas del Norte"
+
+#: app/Hooks/Handlers/CountryNames.php:673
+msgid "Norfolk Island"
+msgstr "Isla Norfolk"
+
+#: app/Hooks/Handlers/CountryNames.php:669
+msgid "Niue"
+msgstr "Niué"
+
+#: app/Hooks/Handlers/CountryNames.php:665
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: app/Hooks/Handlers/CountryNames.php:661
+msgid "Niger"
+msgstr "Níger"
+
+#: app/Hooks/Handlers/CountryNames.php:657
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: app/Hooks/Handlers/CountryNames.php:653
+msgid "New Zealand"
+msgstr "Nueva Zelanda"
+
+#: app/Hooks/Handlers/CountryNames.php:649
+msgid "New Caledonia"
+msgstr "Nueva Caledonia"
+
+#: app/Hooks/Handlers/CountryNames.php:553
+msgid "Malawi"
+msgstr "Malaui"
+
+#: app/Hooks/Handlers/CountryNames.php:629
+msgid "Myanmar"
+msgstr "Birmania"
+
+#: app/Hooks/Handlers/CountryNames.php:517
+msgid "Lesotho"
+msgstr "Lesoto"
+
+#: app/Hooks/Handlers/CountryNames.php:417
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: app/Hooks/Handlers/CountryNames.php:269
+msgid "Djibouti"
+msgstr "Yibuti"
+
+#: app/Hooks/Handlers/CountryNames.php:645
+msgid "Netherlands"
+msgstr "Países Bajos"
+
+#: app/Hooks/Handlers/CountryNames.php:641
+msgid "Nepal"
+msgstr "Nepal"
+
+#: app/Hooks/Handlers/CountryNames.php:637
+msgid "Nauru"
+msgstr "Nauru"
+
+#: app/Hooks/Handlers/CountryNames.php:633
+msgid "Namibia"
+msgstr "Namibia"
+
+#: app/Hooks/Handlers/CountryNames.php:625
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: app/Hooks/Handlers/CountryNames.php:621
+msgid "Morocco"
+msgstr "Marruecos"
+
+#: app/Hooks/Handlers/CountryNames.php:557
+msgid "Malaysia"
+msgstr "Malasia"
+
+#: app/Hooks/Handlers/CountryNames.php:549
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: app/Hooks/Handlers/CountryNames.php:537
+msgid "Luxembourg"
+msgstr "Luxemburgo"
+
+#: app/Hooks/Handlers/CountryNames.php:533
+msgid "Lithuania"
+msgstr "Lituania"
+
+#: app/Hooks/Handlers/CountryNames.php:529
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: app/Hooks/Handlers/CountryNames.php:525
+msgid "Libya"
+msgstr "Libia"
+
+#: app/Hooks/Handlers/CountryNames.php:521
+msgid "Liberia"
+msgstr "Liberia"
+
+#: app/Hooks/Handlers/CountryNames.php:513
+msgid "Lebanon"
+msgstr "Líbano"
+
+#: app/Hooks/Handlers/CountryNames.php:509
+msgid "Latvia"
+msgstr "Letonia"
+
+#: app/Hooks/Handlers/CountryNames.php:505
+msgid "Laos"
+msgstr "Laos"
+
+#: app/Hooks/Handlers/CountryNames.php:501
+msgid "Kyrgyzstan"
+msgstr "Kirguistán"
+
+#: app/Hooks/Handlers/CountryNames.php:433
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: app/Hooks/Handlers/CountryNames.php:429
+msgid "India"
+msgstr "India"
+
+#: app/Hooks/Handlers/CountryNames.php:425
+msgid "Iceland"
+msgstr "Islandia"
+
+#: app/Hooks/Handlers/CountryNames.php:421
+msgid "Hungary"
+msgstr "Hungría"
+
+#: app/Hooks/Handlers/CountryNames.php:413
+msgid "Honduras"
+msgstr "Honduras"
+
+#: app/Hooks/Handlers/CountryNames.php:409
+msgid "Heard Island and McDonald Islands"
+msgstr "Islas Heard y McDonald"
+
+#: app/Hooks/Handlers/CountryNames.php:405
+msgid "Haiti"
+msgstr "Haití"
+
+#: app/Hooks/Handlers/CountryNames.php:401
+msgid "Guyana"
+msgstr "Guayana"
+
+#: app/Hooks/Handlers/CountryNames.php:397
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bisáu"
+
+#: app/Hooks/Handlers/CountryNames.php:393
+msgid "Guinea"
+msgstr "Guinea"
+
+#: app/Hooks/Handlers/CountryNames.php:389
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: app/Hooks/Handlers/CountryNames.php:385
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: app/Hooks/Handlers/CountryNames.php:381
+msgid "Guam"
+msgstr "Guam"
+
+#: app/Hooks/Handlers/CountryNames.php:377
+msgid "Guadeloupe"
+msgstr "Guadalupe"
+
+#: app/Hooks/Handlers/CountryNames.php:313
+msgid "Faroe Islands"
+msgstr "Islas Feroe"
+
+#: app/Hooks/Handlers/CountryNames.php:309
+msgid "Falkland Islands"
+msgstr "Islas Malvinas"
+
+#: app/Hooks/Handlers/CountryNames.php:305
+msgid "Ethiopia"
+msgstr "Etiopía"
+
+#: app/Hooks/Handlers/CountryNames.php:301
+msgid "Estonia"
+msgstr "Estonia"
+
+#: app/Hooks/Handlers/CountryNames.php:297
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: app/Hooks/Handlers/CountryNames.php:293
+msgid "Equatorial Guinea"
+msgstr "Guinea Ecuatorial"
+
+#: app/Hooks/Handlers/CountryNames.php:289
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: app/Hooks/Handlers/CountryNames.php:285
+msgid "Egypt"
+msgstr "Egipto"
+
+#: app/Hooks/Handlers/CountryNames.php:281
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: app/Hooks/Handlers/CountryNames.php:277
+msgid "Dominican Republic"
+msgstr "República Dominicana"
+
+#: app/Hooks/Handlers/CountryNames.php:273
+msgid "Dominica"
+msgstr "Dominica"
+
+#: app/Hooks/Handlers/CountryNames.php:265
+msgid "Denmark"
+msgstr "Dinamarca"
+
+#: app/Hooks/Handlers/CountryNames.php:257
+msgid "Cyprus"
+msgstr "Chipre"
+
+#: app/Hooks/Handlers/CountryNames.php:193
+msgid "Cayman Islands"
+msgstr "Islas Caimán"
+
+#: app/Hooks/Handlers/CountryNames.php:189
+msgid "Cape Verde"
+msgstr "Cabo Verde"
+
+#: app/Hooks/Handlers/CountryNames.php:185
+msgid "Canada"
+msgstr "Canadá"
+
+#: app/Hooks/Handlers/CountryNames.php:181
+msgid "Cameroon"
+msgstr "Camerún"
+
+#: app/Hooks/Handlers/CountryNames.php:177
+msgid "Cambodia"
+msgstr "Camboya"
+
+#: app/Hooks/Handlers/CountryNames.php:173
+msgid "Burundi"
+msgstr "Burundi"
+
+#: app/Hooks/Handlers/CountryNames.php:169
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: app/Hooks/Handlers/CountryNames.php:165
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: app/Hooks/Handlers/CountryNames.php:161
+msgid "Brunei"
+msgstr "Brunei"
+
+#: app/Hooks/Handlers/CountryNames.php:157
+msgid "British Indian Ocean Territory"
+msgstr "Territorio Británico del Océano Índico"
+
+#: app/Hooks/Handlers/CountryNames.php:153
+msgid "Brazil"
+msgstr "Brasil"
+
+#: app/Hooks/Handlers/CountryNames.php:149
+msgid "Bouvet Island"
+msgstr "Isla Bouvet"
+
+#: app/Hooks/Handlers/CountryNames.php:145
+msgid "Botswana"
+msgstr "Botsuana"
+
+#: app/Hooks/Handlers/CountryNames.php:141
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia y Herzegovina"
+
+#: app/Http/Controllers/CampaignAnalyticsController.php:136
+msgid "View Order Details"
+msgstr "Ver detalles del pedido"
+
+#: app/Hooks/Handlers/PurchaseHistory.php:147
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] "%1$s por %2$s producto"
+msgstr[1] "%1$s por %2$s productos"
+
+#: app/Hooks/Handlers/CountryNames.php:965
+msgid "United States (US) Minor Outlying Islands"
+msgstr "Islas Ultramarinas Menores de los Estados Unidos"
+
+#: app/Hooks/Handlers/CountryNames.php:961
+msgid "United States (US)"
+msgstr "Estados Unidos (EE.UU.)"
+
+#: app/Hooks/Handlers/CountryNames.php:957
+msgid "United Kingdom (UK)"
+msgstr "Reino Unido (UK)"
+
+#: app/Hooks/Handlers/CountryNames.php:953
+msgid "United Arab Emirates"
+msgstr "Emiratos Árabes Unidos"
+
+#: app/Hooks/Handlers/CountryNames.php:949
+msgid "Ukraine"
+msgstr "Ucrania"
+
+#: app/Hooks/Handlers/CountryNames.php:945
+msgid "Uganda"
+msgstr "Uganda"
+
+#: app/Hooks/Handlers/CountryNames.php:941
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: app/Hooks/Handlers/CountryNames.php:937
+msgid "Turks and Caicos Islands"
+msgstr "Islas Turcas y Caicos"
+
+#: app/Hooks/Handlers/CountryNames.php:933
+msgid "Turkmenistan"
+msgstr "Turkmenistán"
+
+#: app/Hooks/Handlers/CountryNames.php:929
+msgid "Turkey"
+msgstr "Turquía"
+
+#: app/Hooks/Handlers/CountryNames.php:925
+msgid "Tunisia"
+msgstr "Túnez"
+
+#: app/Hooks/Handlers/CountryNames.php:921
+msgid "Trinidad and Tobago"
+msgstr "Trinidad y Tobago"
+
+#: app/Hooks/Handlers/CountryNames.php:917
+msgid "Tonga"
+msgstr "Tonga"
+
+#: app/Hooks/Handlers/CountryNames.php:737
+msgid "Qatar"
+msgstr "Catar"
+
+#: app/Hooks/Handlers/CountryNames.php:733
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: app/Hooks/Handlers/CountryNames.php:729
+msgid "Portugal"
+msgstr "Portugal"
+
+#: app/Hooks/Handlers/CountryNames.php:725
+msgid "Poland"
+msgstr "Polonia"
+
+#: app/Hooks/Handlers/CountryNames.php:721
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: app/Hooks/Handlers/CountryNames.php:717
+msgid "Philippines"
+msgstr "Filipinas"
+
+#: app/Hooks/Handlers/CountryNames.php:713
+msgid "Peru"
+msgstr "Perú"
+
+#: app/Hooks/Handlers/CountryNames.php:709
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: app/Hooks/Handlers/CountryNames.php:705
+msgid "Papua New Guinea"
+msgstr "Papua Nueva Guinea"
+
+#: app/Hooks/Handlers/CountryNames.php:701
+msgid "Panama"
+msgstr "Panamá"
+
+#: app/Hooks/Handlers/CountryNames.php:697
+msgid "Palestinian Territory"
+msgstr "Territorio Palestino"
+
+#: app/Hooks/Handlers/CountryNames.php:693
+msgid "Pakistan"
+msgstr "Pakistán"
+
+#: app/Hooks/Handlers/CountryNames.php:689
+msgid "Oman"
+msgstr "Omán"
+
+#: app/Hooks/Handlers/CountryNames.php:685
+msgid "Norway"
+msgstr "Noruega"
+
+#: app/Hooks/Handlers/CountryNames.php:681
+msgid "North Korea"
+msgstr "Corea del Norte"
+
+#: app/Hooks/Handlers/CountryNames.php:493
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: app/Hooks/Handlers/CountryNames.php:489
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: app/Hooks/Handlers/CountryNames.php:485
+msgid "Kenya"
+msgstr "Kenia"
+
+#: app/Hooks/Handlers/CountryNames.php:481
+msgid "Kazakhstan"
+msgstr "Kazajistán"
+
+#: app/Hooks/Handlers/CountryNames.php:477
+msgid "Jordan"
+msgstr "Jordania"
+
+#: app/Hooks/Handlers/CountryNames.php:253
+msgid "Cura&ccedil;ao"
+msgstr "Curazao"
+
+#: app/Hooks/Handlers/CountryNames.php:373
+msgid "Grenada"
+msgstr "Granada"
+
+#: app/Hooks/Handlers/CountryNames.php:329
+msgid "French Guiana"
+msgstr "Guayana Francesa"
+
+#: app/Hooks/Handlers/CountryNames.php:317
+msgid "Fiji"
+msgstr "Fiyi"
+
+#: app/Hooks/Handlers/CountryNames.php:473
+msgid "Jersey"
+msgstr "Jersey"
+
+#: app/Hooks/Handlers/CountryNames.php:469
+msgid "Japan"
+msgstr "Japón"
+
+#: app/Hooks/Handlers/CountryNames.php:465
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: app/Hooks/Handlers/CountryNames.php:461
+msgid "Ivory Coast"
+msgstr "Costa de Marfil"
+
+#: app/Hooks/Handlers/CountryNames.php:457
+msgid "Italy"
+msgstr "Italia"
+
+#: app/Hooks/Handlers/CountryNames.php:453
+msgid "Israel"
+msgstr "Israel"
+
+#: app/Hooks/Handlers/CountryNames.php:449
+msgid "Isle of Man"
+msgstr "Isla de Man"
+
+#: app/Hooks/Handlers/CountryNames.php:445
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: app/Hooks/Handlers/CountryNames.php:441
+msgid "Iraq"
+msgstr "Irak"
+
+#: app/Hooks/Handlers/CountryNames.php:437
+msgid "Iran"
+msgstr "Irán"
+
+#: app/Hooks/Handlers/CountryNames.php:249
+msgid "Cuba"
+msgstr "Cuba"
+
+#: app/Hooks/Handlers/CountryNames.php:245
+msgid "Croatia"
+msgstr "Croacia"
+
+#: app/Hooks/Handlers/CountryNames.php:241
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: app/Hooks/Handlers/CountryNames.php:237
+msgid "Cook Islands"
+msgstr "Islas Cook"
+
+#: app/Hooks/Handlers/CountryNames.php:233
+msgid "Congo (Kinshasa)"
+msgstr "Congo (Kinshasa)"
+
+#: app/Hooks/Handlers/CountryNames.php:229
+msgid "Congo (Brazzaville)"
+msgstr "Congo (Brazzaville)"
+
+#: app/Hooks/Handlers/CountryNames.php:225
+msgid "Comoros"
+msgstr "Comoros"
+
+#: app/Hooks/Handlers/CountryNames.php:221
+msgid "Colombia"
+msgstr "Colombia"
+
+#: app/Hooks/Handlers/CountryNames.php:217
+msgid "Cocos (Keeling) Islands"
+msgstr "Islas Cocos (Keeling)"
+
+#: app/Hooks/Handlers/CountryNames.php:213
+msgid "Christmas Island"
+msgstr "Isla de Navidad"
+
+#: app/Hooks/Handlers/CountryNames.php:209
+msgid "China"
+msgstr "China"
+
+#: app/Hooks/Handlers/CountryNames.php:205
+msgid "Chile"
+msgstr "Chile"
+
+#: app/Hooks/Handlers/CountryNames.php:201
+msgid "Chad"
+msgstr "Chad"
+
+#: app/Hooks/Handlers/CountryNames.php:197
+msgid "Central African Republic"
+msgstr "República Centroafricana"
+
+#: app/Hooks/Handlers/CountryNames.php:369
+msgid "Greenland"
+msgstr "Groenlandia"
+
+#: app/Hooks/Handlers/CountryNames.php:365
+msgid "Greece"
+msgstr "Grecia"
+
+#: app/Hooks/Handlers/CountryNames.php:361
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: app/Hooks/Handlers/CountryNames.php:357
+msgid "Ghana"
+msgstr "Ghana"
+
+#: app/Hooks/Handlers/CountryNames.php:353
+msgid "Germany"
+msgstr "Alemania"
+
+#: app/Hooks/Handlers/CountryNames.php:349
+msgid "Georgia"
+msgstr "Georgia"
+
+#: app/Hooks/Handlers/CountryNames.php:345
+msgid "Gambia"
+msgstr "Gambia"
+
+#: app/Hooks/Handlers/CountryNames.php:341
+msgid "Gabon"
+msgstr "Gabón"
+
+#: app/Hooks/Handlers/CountryNames.php:337
+msgid "French Southern Territories"
+msgstr "Territorios Australes Franceses"
+
+#: app/Hooks/Handlers/CountryNames.php:333
+msgid "French Polynesia"
+msgstr "Polinesia Francesa"
+
+#: app/Hooks/Handlers/CountryNames.php:325
+msgid "France"
+msgstr "Francia"
+
+#: app/Hooks/Handlers/CountryNames.php:321
+msgid "Finland"
+msgstr "Finlandia"
+
+#: app/Hooks/Handlers/CountryNames.php:897
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: app/Hooks/Handlers/CountryNames.php:853
+msgid "Spain"
+msgstr "España"
+
+#: app/Hooks/Handlers/CountryNames.php:849
+msgid "South Sudan"
+msgstr "Sudán del Sur"
+
+#: app/Hooks/Handlers/CountryNames.php:845
+msgid "South Korea"
+msgstr "Corea del Sur"
+
+#: app/Hooks/Handlers/CountryNames.php:841
+msgid "South Georgia/Sandwich Islands"
+msgstr "Islas Georgias y Sandwich del Sur"
+
+#: app/Hooks/Handlers/CountryNames.php:837
+msgid "South Africa"
+msgstr "Sudáfrica"
+
+#: app/Hooks/Handlers/CountryNames.php:833
+msgid "Somalia"
+msgstr "Somalia"
+
+#: app/Hooks/Handlers/CountryNames.php:53
+msgid "Anguilla"
+msgstr "Anguila"
+
+#: app/Hooks/Handlers/CountryNames.php:829
+msgid "Solomon Islands"
+msgstr "Islas Salomón"
+
+#: app/Hooks/Handlers/CountryNames.php:825
+msgid "Slovenia"
+msgstr "Eslovenia"
+
+#: app/Hooks/Handlers/CountryNames.php:821
+msgid "Slovakia"
+msgstr "Eslovaquia"
+
+#: app/Hooks/Handlers/CountryNames.php:817
+msgid "Singapore"
+msgstr "Singapur"
+
+#: app/Hooks/Handlers/CountryNames.php:813
+msgid "Sierra Leone"
+msgstr "Sierra Leona"
+
+#: app/Hooks/Handlers/CountryNames.php:809
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: app/Hooks/Handlers/CountryNames.php:805
+msgid "Serbia"
+msgstr "Serbia"
+
+#: app/Hooks/Handlers/CountryNames.php:801
+msgid "Senegal"
+msgstr "Senegal"
+
+#: app/Hooks/Handlers/CountryNames.php:137
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, San Eustaquio y Saba"
+
+#: app/Hooks/Handlers/CountryNames.php:133
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: app/Hooks/Handlers/CountryNames.php:129
+msgid "Bhutan"
+msgstr "Bután"
+
+#: app/Hooks/Handlers/CountryNames.php:125
+msgid "Bermuda"
+msgstr "Bermudas"
+
+#: app/Hooks/Handlers/CountryNames.php:121
+msgid "Benin"
+msgstr "Benín"
+
+#: app/Hooks/Handlers/CountryNames.php:117
+msgid "Belize"
+msgstr "Belice"
+
+#: app/Hooks/Handlers/CountryNames.php:113
+msgid "Belau"
+msgstr "Belau"
+
+#: app/Hooks/Handlers/CountryNames.php:617
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: app/Hooks/Handlers/CountryNames.php:613
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: app/Hooks/Handlers/CountryNames.php:609
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: app/Hooks/Handlers/CountryNames.php:605
+msgid "Monaco"
+msgstr "Mónaco"
+
+#: app/Hooks/Handlers/CountryNames.php:601
+msgid "Moldova"
+msgstr "Moldavia"
+
+#: app/Hooks/Handlers/CountryNames.php:597
+msgid "Micronesia"
+msgstr "Micronesia"
+
+#: app/Hooks/Handlers/CountryNames.php:593
+msgid "Mexico"
+msgstr "México"
+
+#: app/Hooks/Handlers/CountryNames.php:589
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: app/Hooks/Handlers/CountryNames.php:585
+msgid "Mauritius"
+msgstr "Mauricio"
+
+#: app/Hooks/Handlers/CountryNames.php:581
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: app/Hooks/Handlers/CountryNames.php:577
+msgid "Martinique"
+msgstr "Martinica"
+
+#: app/Hooks/Handlers/CountryNames.php:573
+msgid "Marshall Islands"
+msgstr "Islas Marshall"
+
+#: app/Hooks/Handlers/CountryNames.php:569
+msgid "Malta"
+msgstr "Malta"
+
+#: app/Hooks/Handlers/CountryNames.php:565
+msgid "Mali"
+msgstr "Mali"
+
+#: app/Hooks/Handlers/CountryNames.php:561
+msgid "Maldives"
+msgstr "Maldivas"
+
+#: app/Hooks/Handlers/CountryNames.php:77
+msgid "Australia"
+msgstr "Australia"
+
+#: app/Hooks/Handlers/CountryNames.php:73
+msgid "Aruba"
+msgstr "Aruba"
+
+#: app/Hooks/Handlers/CountryNames.php:69
+msgid "Armenia"
+msgstr "Armenia"
+
+#: app/Hooks/Handlers/CountryNames.php:65
+msgid "Argentina"
+msgstr "Argentina"
+
+#: app/Hooks/Handlers/CountryNames.php:61
+msgid "Antigua and Barbuda"
+msgstr "Antigua y Barbuda"
+
+#: app/Hooks/Handlers/CountryNames.php:57
+msgid "Antarctica"
+msgstr "Antártida"
+
+#: app/Hooks/Handlers/CountryNames.php:49
+msgid "Angola"
+msgstr "Angola"
+
+#: app/Hooks/Handlers/CountryNames.php:45
+msgid "Andorra"
+msgstr "Andorra"
+
+#: app/Hooks/Handlers/CountryNames.php:41
+msgid "American Samoa"
+msgstr "Samoa Americana"
+
+#: app/Hooks/Handlers/CountryNames.php:37
+msgid "Algeria"
+msgstr "Argelia"
+
+#: app/Hooks/Handlers/CountryNames.php:33
+msgid "Albania"
+msgstr "Albania"
+
+#: app/Hooks/Handlers/CountryNames.php:25
+msgid "Afghanistan"
+msgstr "Afganistán"
+
+#: app/Hooks/Handlers/AdminMenu.php:938
+msgid "Full Size"
+msgstr "Tamaño completo"
+
+#: app/Hooks/Handlers/AdminMenu.php:85 app/Hooks/Handlers/AdminMenu.php:86
+#: app/Hooks/Handlers/AdminMenu.php:307 app/Hooks/Handlers/AdminMenu.php:1406
+#: app/Hooks/Handlers/AdminMenu.php:1407 app/Services/Helper.php:2230
+#: app/Services/TransStrings.php:362
+msgid "Contacts"
+msgstr "Contactos"
+
+#: app/Hooks/Handlers/AdminMenu.php:76 app/Hooks/Handlers/AdminMenu.php:77
+#: app/Hooks/Handlers/AdminMenu.php:299 app/Hooks/Handlers/AdminMenu.php:1399
+#: app/Hooks/Handlers/AdminMenu.php:1400 app/Services/TransStrings.php:439
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: app/Hooks/Handlers/AdminMenu.php:60
+#: app/Services/ExternalIntegrations/BricksBuilderIntegration.php:21
+#: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:27
+#: app/views/emails/classic/Template.php:93
+#: app/views/emails/plain/Template.php:95
+#: app/views/emails/raw_classic/Template.php:37
+#: app/views/emails/simple/Template.php:92
+#: app/views/emails/web_preview/Template.php:14
+msgid "FluentCRM"
+msgstr "FluentCRM"
+
+#: app/Hooks/Handlers/CountryNames.php:97
+msgid "Bangladesh"
+msgstr "Bangladés"
+
+#: app/Hooks/Handlers/CountryNames.php:93
+msgid "Bahrain"
+msgstr "Baréin"
+
+#. Description of the plugin
+#: fluent-crm.php
+msgid "CRM and Email Newsletter Plugin for WordPress"
+msgstr "Plugin de CRM y boletín de correo electrónico para WordPress"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: fluent-crm.php
+msgid "https://fluentcrm.com"
+msgstr "https://fluentcrm.com"
+
+#: app/Hooks/Handlers/AdminMenu.php:937 app/Services/Helper.php:743
+msgid "Large"
+msgstr "Grande"
+
+#: app/Hooks/Handlers/AdminMenu.php:936 app/Services/Helper.php:737
+msgid "Medium"
+msgstr "Mediano"
+
+#: app/Hooks/Handlers/AdminMenu.php:935
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: app/Hooks/Handlers/AdminMenu.php:154 app/Hooks/Handlers/AdminMenu.php:155
+#: app/Hooks/Handlers/AdminMenu.php:383 app/Services/Stats.php:46
+#: app/Services/TransStrings.php:583
+msgid "Email Templates"
+msgstr "Plantillas de correo electrónico"
+
+#: app/Hooks/Handlers/AdminMenu.php:145 app/Hooks/Handlers/AdminMenu.php:146
+#: app/Hooks/Handlers/AdminMenu.php:377 app/Services/Stats.php:101
+#: app/Services/TransStrings.php:576
+msgid "Email Sequences"
+msgstr "Secuencias de correo electrónico"
+
+#: app/Hooks/Handlers/AdminMenu.php:365 app/Services/TransStrings.php:111
+msgid "All Campaigns"
+msgstr "Todas las campañas"
+
+#: app/Services/TransStrings.php:551
+msgid "Email Campaigns"
+msgstr "Campañas de correo electrónico"
+
+#: app/Hooks/Handlers/AdminMenu.php:345
+msgid "Segments"
+msgstr "Segmentos"
+
+#: app/Hooks/CLI/Commands.php:154 app/Hooks/CLI/Commands.php:368
+#: app/Hooks/CLI/Commands.php:576 app/Hooks/Handlers/AdminMenu.php:115
+#: app/Hooks/Handlers/AdminMenu.php:116 app/Hooks/Handlers/AdminMenu.php:339
+#: app/Hooks/Handlers/EventTrackingHandler.php:269 app/Services/Helper.php:1389
+#: app/Services/Stats.php:39 app/Services/TransStrings.php:1323
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: app/Hooks/CLI/Commands.php:158 app/Hooks/CLI/Commands.php:372
+#: app/Hooks/CLI/Commands.php:580 app/Hooks/Handlers/AdminMenu.php:106
+#: app/Hooks/Handlers/AdminMenu.php:107 app/Hooks/Handlers/AdminMenu.php:333
+#: app/Hooks/Handlers/EventTrackingHandler.php:277 app/Services/Helper.php:1397
+#: app/Services/TransStrings.php:822
+msgid "Lists"
+msgstr "Listas"
+
+#: app/Hooks/CLI/Commands.php:26 app/Hooks/Handlers/AdminMenu.php:313
+msgid "All Contacts"
+msgstr "Todos los contactos"
+
+#. translators: accessibility text for the settings landmark region.
+#: app/Hooks/Handlers/AdminMenu.php:190 app/Hooks/Handlers/AdminMenu.php:191
+#: app/Hooks/Handlers/AdminMenu.php:435 app/Hooks/Handlers/AdminMenu.php:1467
+#: app/Hooks/Handlers/AdminMenu.php:1468 app/Services/TransStrings.php:1236
+#: assets/block_editor/index.js:11 assets/block_editor_58/index.js:9
+msgid "Settings"
+msgstr "Ajustes"
+
+#: app/Hooks/Handlers/AdminMenu.php:165 app/Hooks/Handlers/AdminMenu.php:166
+#: app/Hooks/Handlers/AdminMenu.php:401 app/Hooks/Handlers/AdminMenu.php:1446
+#: app/Hooks/Handlers/AdminMenu.php:1447 app/Services/TransStrings.php:679
+msgid "Forms"
+msgstr "Formularios"
+
+#: app/Hooks/CLI/Commands.php:34 app/Hooks/Handlers/AdminMenu.php:127
+#: app/Hooks/Handlers/AdminMenu.php:128 app/Services/Stats.php:25
+#: app/Services/TransStrings.php:257
+msgid "Campaigns"
+msgstr "Campañas"
+
+#: app/Hooks/Handlers/CountryNames.php:109
+msgid "Belgium"
+msgstr "Bélgica"
+
+#: app/Hooks/Handlers/CountryNames.php:105
+msgid "Belarus"
+msgstr "Bielorrusia"
+
+#: app/Hooks/Handlers/CountryNames.php:101
+msgid "Barbados"
+msgstr "Barbados"
+
+#: app/Hooks/Handlers/CountryNames.php:89
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: app/Hooks/Handlers/CountryNames.php:85
+msgid "Azerbaijan"
+msgstr "Azerbaiyán"
+
+#: app/Hooks/Handlers/CountryNames.php:81
+msgid "Austria"
+msgstr "Austria"
+
+#: app/Hooks/Handlers/CountryNames.php:29
+msgid "Åland Islands"
+msgstr "Islas Åland"
+
+#. Plugin Name of the plugin
+#: fluent-crm.php
+msgid "FluentCRM - Marketing Automation For WordPress"
+msgstr "FluentCRM - Marketing Automation For WordPress"
+
+#: config/app.php:6
+msgid "Fluent Crm"
+msgstr "FluentCRM"
+
+#: app/Hooks/Handlers/ExternalPages.php:1246
+msgid "A confirmation email has been sent to %s. Please confirm your email address to resubscribe"
+msgstr "Se ha enviado un correo electrónico a %s. Confirma tu dirección de correo electrónico para volver a suscribirte"
+
+#: app/Hooks/Handlers/ExternalPages.php:1225
+msgid "A confirmation email has been sent to %s. Please confirm your email address to resubscribe with changed email address"
+msgstr "Se ha enviado un correo electrónico a %s. Confirma tu dirección de correo electrónico para volver a suscribirte con el correo electrónico modificado"
+
+#: app/Hooks/Handlers/FunnelHandler.php:247
+#: app/Http/Controllers/FunnelController.php:347
+msgid "Sequence successfully updated"
+msgstr "Secuencia actualizada correctamente"
+
+#: app/Http/Controllers/TemplateController.php:271
+msgid "Template successfully updated"
+msgstr "Plantilla actualizada correctamente"
+
+#: app/views/external/manage_subscription.php:8
+#: app/views/external/manage_subscription.php:27
+msgid "Update your preferences"
+msgstr "Actualiza tus preferencias"
+
+#: app/Hooks/Handlers/ExternalPages.php:324
+#: app/Hooks/Handlers/ExternalPages.php:662
+#: app/views/external/unsubscribe.php:44
+msgid "You’ve successfully unsubscribed from our email list."
+msgstr "Te has dado de baja correctamente de nuestra lista de correo electrónico."

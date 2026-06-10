@@ -1,0 +1,41 @@
+.item{
+    background-color: #414242;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    /* box-shadow: 0 0 5px #ccc; */
+    color: #f9f9f9;
+    display: block;
+    text-align: center;
+}
+
+.item :hover{
+    color: white;
+}
+
+.item p{
+    display: inline-block;
+}
+.item h6{
+    display: inline-block;
+}
+.eliminar{
+
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-left: 0px; */
+    float: right;
+    margin-top: -47px;
+    margin-right: 14px;
+    padding: 4px;
+}
+
+.eliminar :hover{
+    background-color: lightcoral;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}

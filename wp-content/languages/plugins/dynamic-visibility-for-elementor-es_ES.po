@@ -1,0 +1,1922 @@
+# Translation of Plugins - Dynamic Visibility for Elementor - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Dynamic Visibility for Elementor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-01-19 19:11:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Dynamic Visibility for Elementor - Stable (latest release)\n"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:321
+msgid "This element is currently hidden."
+msgstr "Este elemento está actualmente oculto."
+
+#: includes/extensions/dynamic-visibility/triggers/random.php:19
+msgid "Choose the percentage probability that the condition is true"
+msgstr "Elige el porcentaje de probabilidad de que la condición sea cierta"
+
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:34
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:121
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:124
+msgid "Product Type is"
+msgstr "El tipo de producto es"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:750
+msgid "Order Received"
+msgstr "Pedido recibido"
+
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:58
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:140
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:144
+msgid "Product Category in the cart"
+msgstr "Categoría de producto en el carrito"
+
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:46
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:129
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:135
+msgid "Product in the cart"
+msgstr "Producto en el carrito"
+
+#: class/trait/options.php:34
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:25
+msgid "Not empty"
+msgstr "no está vacío"
+
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:24
+msgid "Empty"
+msgstr "esta vacío"
+
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:23
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:36
+msgid "Select..."
+msgstr "Seleccionar…"
+
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:20
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:112
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:116
+msgid "Cart is"
+msgstr "El carrito"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:136
+msgid "Days of the week"
+msgstr "Días de la semana"
+
+#: includes/extensions/dynamic-visibility/triggers/my-fast-app.php:32
+msgid "in the app"
+msgstr "en la aplicación"
+
+#: includes/extensions/dynamic-visibility/triggers/my-fast-app.php:31
+msgid "on the site"
+msgstr "en el sitio"
+
+#: includes/extensions/dynamic-visibility/triggers/my-fast-app.php:30
+msgid "on the site or in the app"
+msgstr "en el sitio o en la aplicación"
+
+#: includes/extensions/dynamic-visibility/triggers/my-fast-app.php:27
+msgid "The visitor is"
+msgstr "El visitante está"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:264
+msgid "Conditional tags Site"
+msgstr "Etiquetas condicionales para el sitio"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:325
+msgid "Conditional Tags - Post"
+msgstr "Etiquetas - Entradas condicionales "
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:70
+msgid "Visible if current post is related to these terms"
+msgstr "Visible si la entrada actual está relacionada con estos términos"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:88
+msgid "Custom Condition"
+msgstr "Condición personalizada"
+
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:201
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:220
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:230
+msgid "Woo Membership"
+msgstr "Woo Membership"
+
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:152
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:195
+msgid "Woo Membership Post"
+msgstr "Entrada de Woo Membership"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:299
+#: includes/extensions/dynamic-visibility/triggers/archive.php:303
+msgid "Term Posts"
+msgstr "Entradas del término"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:279
+#: includes/extensions/dynamic-visibility/triggers/archive.php:294
+msgid "Term has Siblings"
+msgstr "El término tiene hermanos"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:270
+#: includes/extensions/dynamic-visibility/triggers/archive.php:274
+msgid "Term has Parent"
+msgstr "El término tiene padre"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:258
+#: includes/extensions/dynamic-visibility/triggers/archive.php:264
+msgid "Term is Node"
+msgstr "El término es nodo"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:248
+#: includes/extensions/dynamic-visibility/triggers/archive.php:253
+msgid "Term is Leaf"
+msgstr "El término es hoja"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:238
+#: includes/extensions/dynamic-visibility/triggers/archive.php:243
+msgid "Term is Parent"
+msgstr "El término es padre"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:229
+#: includes/extensions/dynamic-visibility/triggers/archive.php:233
+msgid "Term is Root"
+msgstr "El término es raíz"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:230
+msgid "Max Day"
+msgstr "Día máximo"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:683
+#: includes/extensions/dynamic-visibility/triggers/post.php:692
+msgid "Conditional tags Special"
+msgstr "Etiquetas condicionales especiales"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:598
+#: includes/extensions/dynamic-visibility/triggers/post.php:636
+msgid "Post has Friends"
+msgstr "La entrada tiene hermanas amigas"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:580
+#: includes/extensions/dynamic-visibility/triggers/post.php:592
+msgid "Post has Siblings"
+msgstr "La entrada tiene hermanas"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:568
+#: includes/extensions/dynamic-visibility/triggers/post.php:574
+msgid "Post has Parent"
+msgstr "La entrada tiene padre"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:563
+msgid "Post has Level"
+msgstr "La entrada tiene un nivel"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:535
+#: includes/extensions/dynamic-visibility/triggers/post.php:550
+#: includes/extensions/dynamic-visibility/triggers/post.php:557
+msgid "Post is Node"
+msgstr "La entrada es nodo"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:519
+#: includes/extensions/dynamic-visibility/triggers/post.php:530
+msgid "Post is Leaf"
+msgstr "La entrada es hoja"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:503
+#: includes/extensions/dynamic-visibility/triggers/post.php:514
+msgid "Post is Parent"
+msgstr "La entrada es padre"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:493
+#: includes/extensions/dynamic-visibility/triggers/post.php:498
+msgid "Post Format"
+msgstr "Formato de la entrada"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:484
+#: includes/extensions/dynamic-visibility/triggers/post.php:488
+msgid "Post is Root"
+msgstr "La entrada es raíz"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:440
+#: includes/extensions/dynamic-visibility/triggers/post.php:470
+msgid "Post Metas"
+msgstr "Metadatos de la entrada"
+
+#: includes/extensions/dynamic-visibility/triggers/device.php:84
+msgid "Responsive: is Desktop"
+msgstr "Adaptable: es escritorio"
+
+#: includes/extensions/dynamic-visibility/triggers/device.php:78
+msgid "Responsive: is Mobile"
+msgstr "Adaptable: es móvil"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:267
+#: includes/extensions/dynamic-visibility/triggers/user.php:292
+msgid "Referer"
+msgstr "Referente"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:115
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:249
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:275
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:278
+msgid "Period To"
+msgstr "Periodo hasta"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:99
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:248
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:267
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:271
+msgid "Period From"
+msgstr "Periodo desde"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:247
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:257
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:262
+msgid "Period"
+msgstr "Periodo"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:184
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:204
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:209
+msgid "Date Dynamic To"
+msgstr "Fecha dinámica hasta"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:183
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:195
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:200
+msgid "Date Dynamic From"
+msgstr "Fecha dinámica desde"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:182
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:191
+msgid "Date Dynamic"
+msgstr "Fecha dinámica"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:305
+msgid "Template Name"
+msgstr "Nombre de la plantilla"
+
+#: class/trait/options.php:72
+#: includes/extensions/dynamic-visibility/triggers/manager.php:84
+#: includes/extensions/dynamic-visibility/triggers/random.php:17
+#: includes/extensions/dynamic-visibility/triggers/random.php:41
+#: includes/extensions/dynamic-visibility/triggers/random.php:45
+msgid "Random"
+msgstr "Aleatorio"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:139
+msgid "Triggered for terms has related Posts count."
+msgstr "Se activa para los términos que tienen un recuento de entradas relacionadas."
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:137
+msgid "Has Posts"
+msgstr "Tiene entradas"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:131
+msgid "Triggered for terms with siblings."
+msgstr "Se activa para términos con hermanos."
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:123
+msgid "Triggered for terms which are children (with a parent)."
+msgstr "Se activa para términos que son hijos (con un padre)."
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:115
+msgid "Triggered for terms in intermedial level (with parent and children)."
+msgstr "Se activa para términos de nivel intermedio (con padre e hijos)."
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:107
+msgid "Triggered for terms in last level (without children)."
+msgstr "Se activa para términos de último nivel (sin hijos)."
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:99
+msgid "Triggered for term of first level (without parent)."
+msgstr "Se activa para términos de primer nivel (sin padre)."
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:91
+msgid "Triggered for term with children."
+msgstr "Se activa para términos con hijos."
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:81
+msgid "Taxonomy Term"
+msgstr "Término de taxonomía"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:331
+msgid "In the Loop"
+msgstr "En el bucle"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:330
+msgid "Main Query"
+msgstr "Consulta principal"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:329
+msgid "Paged"
+msgstr "Paginado"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:328
+msgid "Search"
+msgstr "Buscar"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:327
+msgid "New Day"
+msgstr "Nuevo día"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:325
+msgid "Day"
+msgstr "Día"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:324
+msgid "Month"
+msgstr "Mes"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:323
+msgid "Year"
+msgstr "Año"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:320
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:317
+msgid "Posts page"
+msgstr "Página de entradas"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:316
+msgid "Home blog (latest posts)"
+msgstr "Inicio del blog (últimas entradas)"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:18
+msgid "Archive Type"
+msgstr "Tipo de archivo"
+
+#: includes/extensions/dynamic-visibility/triggers/events.php:139
+msgid "Delay time"
+msgstr "Tiempo de retraso"
+
+#: includes/extensions/dynamic-visibility/triggers/events.php:127
+msgid "On Page Load"
+msgstr "Al cargar la página"
+
+#: includes/extensions/dynamic-visibility/triggers/events.php:114
+msgid "Toggle"
+msgstr "Alternar"
+
+#: includes/extensions/dynamic-visibility/triggers/events.php:99
+msgid "Type here the Selector in jQuery format. For example .elements"
+msgstr "Escribe aquí el selector en formato jQuery. Por ejemplo .elementos"
+
+#: includes/extensions/dynamic-visibility/triggers/events.php:97
+msgid "Hide other elements"
+msgstr "Ocultar otros elementos"
+
+#: includes/extensions/dynamic-visibility/triggers/events.php:70
+#: includes/extensions/dynamic-visibility/triggers/events.php:153
+msgid "Show Animation"
+msgstr "Mostrar animación"
+
+#: includes/extensions/dynamic-visibility/triggers/events.php:54
+msgid "Type here the Selector in jQuery format. For example #name"
+msgstr "Escribe aquí el selector en formato jQuery. Por ejemplo #nombre"
+
+#: includes/extensions/dynamic-visibility/triggers/events.php:52
+msgid "Trigger on this element"
+msgstr "Activar en este elemento"
+
+#: includes/extensions/dynamic-visibility/triggers/events.php:32
+msgid "Event"
+msgstr "Evento"
+
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:88
+msgid "Membership"
+msgstr "Membresía"
+
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:81
+msgid "NOT Member"
+msgstr "NO es miembro"
+
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:76
+msgid "Use Post Membership settings"
+msgstr "Usar ajustes de Post Membership "
+
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:48
+msgid "Product Name"
+msgstr "Nombre del producto"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:749
+msgid "Order Summary"
+msgstr "Resumen del pedido"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:748
+msgid "Lost Password"
+msgstr "Contraseña perdida"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:747
+msgid "Edit Account"
+msgstr "Editar la cuenta"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:746
+msgid "Account Page"
+msgstr "Página de cuenta"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:745
+msgid "Checkout Page"
+msgstr "Página de pago"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:744
+msgid "Add Payment method"
+msgstr "Añadir método de pago"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:743
+msgid "Checkout"
+msgstr "Finalizar compra"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:742
+msgid "Cart"
+msgstr "Carrito"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:741
+msgid "Product Tag"
+msgstr "Etiqueta del producto"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:740
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:60
+msgid "Product Category"
+msgstr "Categoría del producto"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:739
+msgid "Product Taxonomy"
+msgstr "Taxonomía de producto"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:738
+msgid "Product"
+msgstr "Producto"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:737
+msgid "Shop"
+msgstr "Tienda"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:736
+msgid "WooCommerce Page"
+msgstr "Página de WooCommerce"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:735
+msgid "Comments Popup"
+msgstr "Ventana emergente de comentarios"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:734
+msgid "Page Template"
+msgstr "Plantilla de página"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:733
+msgid "Admin"
+msgstr "Administrador"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:732
+msgid "Preview"
+msgstr "Vista previa"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:731
+msgid "Attachment"
+msgstr "Adjunto"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:730
+msgid "Page"
+msgstr "Página"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:729
+msgid "Single"
+msgstr "Individual"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:728
+msgid "404 Not Found"
+msgstr "404 No encontrado"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:727
+msgid "Home"
+msgstr "Inicio"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:726
+msgid "Front Page"
+msgstr "Página principal"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:338
+msgid "Conditional Tags - Page"
+msgstr "Etiquetas - Páginas condicionales "
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:715
+msgid "Has Nav menu"
+msgstr "Tiene menú de navegación"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:714
+msgid "Has Post Thumbnail"
+msgstr "Tiene una miniatura de la entrada"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:713
+msgid "Has Excerpt"
+msgstr "Tiene un extracto"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:712
+msgid "Has Terms"
+msgstr "Tiene términos"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:711
+msgid "Has Tags"
+msgstr "Tiene etiquetas"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:710
+msgid "Pings are open"
+msgstr "Los pings están abiertos"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:709
+msgid "Comments are open"
+msgstr "Los comentarios están abiertos"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:708
+msgid "Is Post Type Archive"
+msgstr "Es un archivo de tipos de contenido"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:707
+msgid "Is Hierarchical Post Type"
+msgstr "Es un tipo de contenido jerárquico"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:706
+msgid "Is Sticky"
+msgstr "Es fijo"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:313
+msgid "Specific a Term for current post has friends."
+msgstr "Un término específico para la entrada actual tiene amigos."
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:309
+msgid "Terms where find Buddies"
+msgstr "Términos donde encontrar compañeros"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:302
+msgid "Triggered for posts grouped in taxonomies with other posts"
+msgstr "Se activa para entradas agrupadas en taxonomías con otras entradas"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:300
+msgid "Has Term Buddies"
+msgstr "Tiene compañeros de término"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:293
+msgid "Triggered for post with siblings"
+msgstr "Se activa para entradas con hermanos."
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:129
+#: includes/extensions/dynamic-visibility/triggers/post.php:291
+msgid "Has Siblings"
+msgstr "Tiene hermanos"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:275
+msgid "Specific Parent Post IDs"
+msgstr "IDa de entradas padre específicas"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:268
+msgid "Triggered for children posts (with a parent)"
+msgstr "Se activa para entradas hijas (con una entrada padre)."
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:121
+#: includes/extensions/dynamic-visibility/triggers/post.php:266
+msgid "Has Parent"
+msgstr "Tiene padre"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:259
+msgid "Triggered for specific level posts"
+msgstr "Se activa para entradas de un nivel específico"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:256
+msgid "Has Level"
+msgstr "Tiene un nivel"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:245
+msgid "Node level"
+msgstr "Nivel de nodo"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:238
+msgid "Triggered for intermedial level posts (with parent and child)"
+msgstr "Se activa para entradas de nivel intermedio (con padre e hijos)."
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:113
+#: includes/extensions/dynamic-visibility/triggers/post.php:236
+msgid "Is Node"
+msgstr "Es un nodo"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:229
+msgid "Triggered for last level posts (without children)"
+msgstr "Se activa para entradas de último nivel (sin hijos)."
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:105
+#: includes/extensions/dynamic-visibility/triggers/post.php:227
+msgid "Is Leaf"
+msgstr "Es una hoja"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:220
+msgid "Triggered for first level posts (without parent)"
+msgstr "Se activa para entradas de primer nivel (sin padre)."
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:97
+#: includes/extensions/dynamic-visibility/triggers/post.php:218
+msgid "Is Root"
+msgstr "Es raíz"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:211
+msgid "Triggered for post with children"
+msgstr "Se activa para entradas con hijos."
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:89
+#: includes/extensions/dynamic-visibility/triggers/post.php:209
+msgid "Is Parent"
+msgstr "Es padre"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:198
+msgid "Format"
+msgstr "Formato"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:188
+msgid "How post meta have to satisfy this condition"
+msgstr "Cómo tienen que satisfacer esta condición los metadatos de la entrada"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:187
+msgid "Or"
+msgstr "O"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:186
+msgid "And"
+msgstr "Y"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:183
+msgid "Meta conditions"
+msgstr "Condiciones meta"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:174
+msgid "Triggered by specifics metas fields if they are valorized"
+msgstr "Activado por campos específicos de metas si están valorizados"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:168
+msgid "Multiple Metas"
+msgstr "Multiples Metas"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:154
+msgid "The specific value of the Post Field"
+msgstr "El valor específico del campo de la entrada"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:152
+msgid "Post Field Value"
+msgstr "Valor del campo de la entrada"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:140
+msgid "Post Field Status"
+msgstr "Estado del campo de la entrada"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:124
+#: includes/extensions/dynamic-visibility/triggers/post.php:475
+#: includes/extensions/dynamic-visibility/triggers/post.php:480
+msgid "Post Field"
+msgstr "Campo de entrada"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:66
+#: includes/extensions/dynamic-visibility/triggers/post.php:109
+#: includes/extensions/dynamic-visibility/triggers/post.php:311
+msgid "Term Name"
+msgstr "Nombre del término"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:78
+#: includes/extensions/dynamic-visibility/triggers/post.php:277
+msgid "Post Title"
+msgstr "Título de la entrada"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:76
+msgid "Page/Post"
+msgstr "Página/Entrada"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:63
+#: includes/extensions/dynamic-visibility/triggers/post.php:382
+#: includes/extensions/dynamic-visibility/triggers/post.php:387
+msgid "Post Type"
+msgstr "Tipo de contenido"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:55
+msgid "In some cases, Current ID and Global ID may be different. For example, if you use a widget with a loop on a page, then Global ID will be Page ID, and Current ID will be Post ID in preview inside the loop."
+msgstr "En algunos casos, el ID actual y el ID global pueden ser diferentes. Por ejemplo, si utilizas un widget con un bucle en una página, entonces el ID global será el ID de la página, y el ID actual será el ID de la entrada en la vista previa dentro del bucle."
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:43
+msgid "Set Post ID"
+msgstr "Establecer ID de la entrada"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:32
+msgid "Static"
+msgstr "Estático"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:28
+msgid "Global"
+msgstr "Global"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:24
+msgid "Current"
+msgstr "Actual"
+
+#: class/trait/options.php:66
+#: includes/extensions/dynamic-visibility/triggers/post.php:20
+msgid "Post ID"
+msgstr "ID de la entrada"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:151
+#: includes/extensions/dynamic-visibility/triggers/context.php:202
+#: includes/extensions/dynamic-visibility/triggers/context.php:225
+msgid "Language"
+msgstr "Idioma"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:95
+#: includes/extensions/dynamic-visibility/triggers/context.php:243
+#: includes/extensions/dynamic-visibility/triggers/context.php:248
+#: includes/extensions/dynamic-visibility/triggers/context.php:251
+msgid "Max Total"
+msgstr "Máximo total"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:86
+#: includes/extensions/dynamic-visibility/triggers/context.php:236
+#: includes/extensions/dynamic-visibility/triggers/context.php:239
+msgid "Max per Day"
+msgstr "Máximo diario"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:285
+msgid "Trackback"
+msgstr "Trackback"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:284
+msgid "Feed"
+msgstr "Feed"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:283
+msgid "Multi author"
+msgstr "Multi autor"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:282
+msgid "Customize preview"
+msgstr "Personalizar la vista previa"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:281
+msgid "Child theme"
+msgstr "Tema hijo"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:280
+msgid "Main site"
+msgstr "Sitio principal"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:279
+msgid "Multisite"
+msgstr "Multisitio"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:278
+msgid "RTL"
+msgstr "RTL"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:277
+msgid "Active sidebar"
+msgstr "Barra lateral activa"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:276
+msgid "Dynamic sidebar"
+msgstr "Barra lateral dinámica"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:75
+msgid "Site"
+msgstr "Sitio"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:61
+msgid "The specific value of the parameter"
+msgstr "El valor específico del parámetro"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:59
+msgid "Parameter Value"
+msgstr "Valor del parámetro"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:47
+msgid "Parameter Status"
+msgstr "Estado del parámetro"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:29
+msgid "Parameter Method"
+msgstr "Método de los parámetros"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:20
+msgid "Type here the name of the parameter passed in GET, COOKIE or POST method"
+msgstr "Escribe aquí el nombre del parámetro pasado en el método GET, COOKIE o POST"
+
+#: includes/extensions/dynamic-visibility/triggers/context.php:18
+#: includes/extensions/dynamic-visibility/triggers/context.php:171
+#: includes/extensions/dynamic-visibility/triggers/context.php:196
+msgid "Parameter"
+msgstr "Parámetro"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:118
+msgid "If set the element will be visible until this period"
+msgstr "Si se selecciona, el elemento estará visible hasta este periodo"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:101
+msgid "If set the element will appear after this period"
+msgstr "Si se selecciona, el elemento aparecerá después de este periodo"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:28
+msgid "Use Dynamic Dates"
+msgstr "Usar fechas dinámicas"
+
+#: includes/extensions/dynamic-visibility/triggers/device.php:32
+msgid "Read more."
+msgstr "Leer más."
+
+#: includes/extensions/dynamic-visibility/triggers/device.php:32
+msgid "Not really responsive, remove the element from the code based on the user's device. This trigger uses native WP device detection."
+msgstr "No es realmente adaptable, elimina el elemento del código basado en el dispositivo del usuario. Este activador utiliza la detección nativa de dispositivos de WP."
+
+#: includes/extensions/dynamic-visibility/triggers/device.php:28
+msgid "Mobile and Tablet"
+msgstr "Móvil y tablet"
+
+#: includes/extensions/dynamic-visibility/triggers/device.php:24
+msgid "Desktop and Tv"
+msgstr "Escritorio y TV"
+
+#: includes/extensions/dynamic-visibility/triggers/device.php:19
+#: includes/extensions/dynamic-visibility/triggers/device.php:73
+msgid "Responsive"
+msgstr "Adaptable"
+
+#: includes/extensions/dynamic-visibility/triggers/geotargeting.php:56
+msgid "Type here the name of the city which triggers the condition. Insert the city name translated in one of the supported languages (preferable in EN). You can insert multiple cities, comma-separated."
+msgstr "Escribe aquí el nombre de la ciudad que desencadena la condición. Introduce el nombre de la ciudad traducido en uno de los idiomas soportados (preferiblemente en inglés). Puedes insertar varias ciudades separadas por comas."
+
+#: includes/extensions/dynamic-visibility/triggers/geotargeting.php:54
+#: includes/extensions/dynamic-visibility/triggers/geotargeting.php:85
+#: includes/extensions/dynamic-visibility/triggers/geotargeting.php:93
+msgid "City"
+msgstr "Ciudad"
+
+#: includes/extensions/dynamic-visibility/triggers/geotargeting.php:49
+msgid "Actually you are in:"
+msgstr "Actualmente estás en:"
+
+#: includes/extensions/dynamic-visibility/triggers/geotargeting.php:42
+msgid "Trigger visibility for a specific country."
+msgstr "Activar visibilidad para un país específico."
+
+#: includes/extensions/dynamic-visibility/triggers/geotargeting.php:39
+#: includes/extensions/dynamic-visibility/triggers/geotargeting.php:74
+#: includes/extensions/dynamic-visibility/triggers/geotargeting.php:79
+msgid "Country"
+msgstr "País"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:160
+#: includes/extensions/dynamic-visibility/triggers/user.php:311
+#: includes/extensions/dynamic-visibility/triggers/user.php:321
+msgid "Max per User"
+msgstr "Máximo por usuario"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:125
+msgid "Triggered when previous page is a specific page."
+msgstr "Activado cuando la página anterior es una página específica."
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:123
+msgid "Referrer"
+msgstr "Remitente"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:113
+msgid "Your current IP is: "
+msgstr "Tu IP actual es:"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:96
+msgid "The specific value of the User Field"
+msgstr "El valor específico del campo usuario"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:94
+msgid "User Field Value"
+msgstr "Valor del campo de usuario"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:82
+msgid "User Field Status"
+msgstr "Estado del campo de usuario"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:126
+#: includes/extensions/dynamic-visibility/triggers/post.php:170
+#: includes/extensions/dynamic-visibility/triggers/user.php:68
+msgid "Meta key or Name"
+msgstr "Clave meta o nombre"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:66
+#: includes/extensions/dynamic-visibility/triggers/user.php:250
+#: includes/extensions/dynamic-visibility/triggers/user.php:261
+msgid "User Field"
+msgstr "Campo de usuario"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:55
+msgid "Trigger by User capability, for example: \"manage_options\""
+msgstr "Activar por una capacidad del usuario, por ejemplo: «manage_options»"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:53
+#: includes/extensions/dynamic-visibility/triggers/user.php:236
+#: includes/extensions/dynamic-visibility/triggers/user.php:245
+msgid "User can"
+msgstr "El usuario puede"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:26
+msgid "Limit visualization to specific user roles"
+msgstr "Limitar la visibilidad a perfiles de usuario específicos"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:20
+#: includes/extensions/dynamic-visibility/triggers/user.php:22
+msgid "Roles"
+msgstr "Perfiles"
+
+#: includes/extensions/dynamic-visibility/triggers/dynamic-tag.php:59
+msgid "Value"
+msgstr "Valor"
+
+#: includes/extensions/dynamic-visibility/triggers/dynamic-tag.php:20
+#: includes/extensions/dynamic-visibility/triggers/dynamic-tag.php:80
+#: includes/extensions/dynamic-visibility/triggers/dynamic-tag.php:91
+#: includes/extensions/dynamic-visibility/triggers/manager.php:59
+msgid "Dynamic Tag"
+msgstr "Etiqueta dinámica"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:246
+msgid "Did you enjoy Dynamic Visibility extension?"
+msgstr "¿Te ha gustado la extensión Dynamic Visibility?"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:216
+msgid "Triggers"
+msgstr "Activadores"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:203
+msgid "OR"
+msgstr "O"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:202
+msgid "AND"
+msgstr "Y"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:198
+msgid "This setting determines how the conditions are combined. If OR is selected the condition is satisfied when at least one condition is satisfied. If AND is selected all conditions must be satisfied"
+msgstr "Este ajuste determina cómo se combinan las condiciones. Si se selecciona O, la condición se satisface cuando se cumple al menos una condición. Si se selecciona Y, todas las condiciones deben cumplirse."
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:197
+msgid "Logical connective"
+msgstr "Conectividad lógica"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:172
+msgid "Hide or show an element when a condition is triggered"
+msgstr "Ocultar o mostrar un elemento cuando se activa una condición"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:171
+msgid "Display mode"
+msgstr "Modo de visualización"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:160
+msgid "Keep the HTML element in the DOM and hide this element via CSS"
+msgstr "Mantener el elemento HTML en el DOM y ocultar este elemento mediante CSS"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:158
+msgid "Keep HTML"
+msgstr "Mantener HTML"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:146
+msgid "Always hide this element"
+msgstr "Ocultar siempre este elemento"
+
+#: class/trait/options.php:40
+msgid "Not equal to"
+msgstr "No es igual a"
+
+#: class/trait/options.php:38
+msgid "Equal to"
+msgstr "igual a"
+
+#: class/trait/options.php:46
+msgid "Greater than"
+msgstr "Mayor que"
+
+#: class/trait/options.php:44
+msgid "Less than"
+msgstr "Menor que"
+
+#: modules/query-control/module.php:1066
+msgid "Taxonomy MetaData"
+msgstr "Metadatos de taxonomía"
+
+#: modules/query-control/module.php:1065
+msgid "Content"
+msgstr "Contenido"
+
+#: class/trait/options.php:68 class/trait/options.php:107
+#: modules/query-control/module.php:1064
+msgid "Title"
+msgstr "Título"
+
+#: modules/query-control/module.php:732
+msgid "Core > Date [post_date] (datetime)"
+msgstr "Núcleo > Fecha [post_date] (fecha y hora)"
+
+#: modules/query-control/module.php:728
+msgid "Core > Taxonomy MetaData (taxonomies)"
+msgstr "Núcleo > Metadatos de taxonimía (taxonomies)"
+
+#: modules/query-control/module.php:724
+msgid "Core > Content [post_content] (text)"
+msgstr "Núcleo > Contenido [post_content] (texto)"
+
+#: modules/query-control/module.php:720
+msgid "Core > Title [post_title] (text)"
+msgstr "Núcleo > Título [post_title] (texto)"
+
+#: class/trait/options.php:611
+msgid "Fade"
+msgstr "Desvanecer"
+
+#: class/trait/options.php:610
+msgid "Slide"
+msgstr "Deslizar"
+
+#: class/trait/options.php:313
+msgid "Sine"
+msgstr "Seno"
+
+#: class/trait/options.php:312
+msgid "Expo"
+msgstr "Expo"
+
+#: class/trait/options.php:311
+msgid "Circ"
+msgstr "Circ"
+
+#: class/trait/options.php:310
+msgid "Bounce"
+msgstr "Rebote"
+
+#: class/trait/options.php:309
+msgid "Elastic"
+msgstr "Elástico"
+
+#: class/trait/options.php:308
+msgid "Back"
+msgstr "Atrás"
+
+#: class/trait/options.php:306
+msgid "Power4"
+msgstr "Power4"
+
+#: class/trait/options.php:305
+msgid "Power3"
+msgstr "Power3"
+
+#: class/trait/options.php:304
+msgid "Power2"
+msgstr "Power2"
+
+#: class/trait/options.php:303
+msgid "Power1"
+msgstr "Power1"
+
+#: class/trait/options.php:293
+msgid "InOut"
+msgstr "DentroFuera"
+
+#: class/trait/options.php:292
+msgid "Out"
+msgstr "Fuera"
+
+#: class/trait/options.php:291
+msgid "In"
+msgstr "Dentro"
+
+#: class/trait/options.php:281
+msgid "Zulu"
+msgstr "Zulú"
+
+#: class/trait/options.php:280
+msgid "Yiddish"
+msgstr "Yidis"
+
+#: class/trait/options.php:279
+msgid "Xhosa"
+msgstr "Xhosa"
+
+#: class/trait/options.php:278
+msgid "Welsh"
+msgstr "Galés"
+
+#: class/trait/options.php:277
+msgid "Vietnamese"
+msgstr "Vietnamita"
+
+#: class/trait/options.php:276
+msgid "Uzbek"
+msgstr "Uzbeko"
+
+#: class/trait/options.php:275
+msgid "Urdu"
+msgstr "Urdu"
+
+#: class/trait/options.php:274
+msgid "Ukrainian"
+msgstr "Ucraniano"
+
+#: class/trait/options.php:273
+msgid "Turkish"
+msgstr "Turco"
+
+#: class/trait/options.php:272
+msgid "Traditional Chinese (Taiwan)"
+msgstr "Chino tradicional (Taiwán)"
+
+#: class/trait/options.php:271
+msgid "Traditional Chinese (Hong Kong)"
+msgstr "Chino tradicional (Hong Kong)"
+
+#: class/trait/options.php:270
+msgid "Thai"
+msgstr "Tailandés"
+
+#: class/trait/options.php:269
+msgid "Telugu"
+msgstr "Telugu"
+
+#: class/trait/options.php:268
+msgid "Tatar"
+msgstr "Tártaro"
+
+#: class/trait/options.php:267
+msgid "Tamil"
+msgstr "Tamil"
+
+#: class/trait/options.php:266
+msgid "Tajik"
+msgstr "Tayiko"
+
+#: class/trait/options.php:265
+msgid "Syriac"
+msgstr "Sirio"
+
+#: class/trait/options.php:264
+msgid "Swedish"
+msgstr "Sueco"
+
+#: class/trait/options.php:263
+msgid "Swahili"
+msgstr "Suajili"
+
+#: class/trait/options.php:262
+msgid "Spanish (Venezuela)"
+msgstr "Español (Venezuela)"
+
+#: class/trait/options.php:261
+msgid "Spanish (Spain)"
+msgstr "Español (España)"
+
+#: class/trait/options.php:260
+msgid "Spanish (Mexico)"
+msgstr "Español (México)"
+
+#: class/trait/options.php:259
+msgid "Spanish (Colombia)"
+msgstr "Español (Colombia)"
+
+#: class/trait/options.php:258
+msgid "Spanish (Chile)"
+msgstr "Español (Chile)"
+
+#: class/trait/options.php:257
+msgid "Spanish"
+msgstr "Español"
+
+#: class/trait/options.php:256
+msgid "Somali"
+msgstr "Somalí"
+
+#: class/trait/options.php:255
+msgid "Slovenian"
+msgstr "Esloveno"
+
+#: class/trait/options.php:254
+msgid "Slovak"
+msgstr "Eslovaco"
+
+#: class/trait/options.php:253
+msgid "Simplified Chinese (China)"
+msgstr "Chino simplificado (China)"
+
+#: class/trait/options.php:252
+msgid "Serbian"
+msgstr "Serbio"
+
+#: class/trait/options.php:251
+msgid "Sanskrit"
+msgstr "Sánscrito"
+
+#: class/trait/options.php:250
+msgid "Russian"
+msgstr "Ruso"
+
+#: class/trait/options.php:249
+msgid "Romansh"
+msgstr "Romanche"
+
+#: class/trait/options.php:248
+msgid "Romanian"
+msgstr "Rumano"
+
+#: class/trait/options.php:247
+msgid "Quechua"
+msgstr "Quechua"
+
+#: class/trait/options.php:246
+msgid "Punjabi"
+msgstr "Punyabí"
+
+#: class/trait/options.php:245
+msgid "Portuguese (Portugal)"
+msgstr "Portugués (Portugal)"
+
+#: class/trait/options.php:244
+msgid "Portuguese (Brazil)"
+msgstr "Portugués (Brasil)"
+
+#: class/trait/options.php:243
+msgid "Polish"
+msgstr "Polaco"
+
+#: class/trait/options.php:242
+msgid "Persian"
+msgstr "Persa"
+
+#: class/trait/options.php:241
+msgid "Pashto"
+msgstr "Pastú"
+
+#: class/trait/options.php:240
+msgid "Norwegian (nynorsk)"
+msgstr "Noruego (Nynorsk)  "
+
+#: class/trait/options.php:239
+msgid "Norwegian (bokmal)"
+msgstr "Noruego (Bokmål)"
+
+#: class/trait/options.php:238
+msgid "Northern S?mi"
+msgstr "Sami septentrional"
+
+#: class/trait/options.php:237
+msgid "Nepali"
+msgstr "Nepalí"
+
+#: class/trait/options.php:236
+msgid "Mongolian"
+msgstr "Mongol"
+
+#: class/trait/options.php:235
+msgid "Marathi"
+msgstr "Maratí"
+
+#: class/trait/options.php:234
+msgid "Maltese"
+msgstr "Maltés"
+
+#: class/trait/options.php:233
+msgid "Malayalam"
+msgstr "Malabar"
+
+#: class/trait/options.php:232
+msgid "Malay"
+msgstr "Malayo"
+
+#: class/trait/options.php:231
+msgid "Malagasy"
+msgstr "Malgache"
+
+#: class/trait/options.php:230
+msgid "Macedonian"
+msgstr "Macedonio"
+
+#: class/trait/options.php:229
+msgid "Lithuanian"
+msgstr "Lituano"
+
+#: class/trait/options.php:228
+msgid "Limburgish"
+msgstr "Limburgués"
+
+#: class/trait/options.php:227
+msgid "Leet Speak"
+msgstr "Escritura leet"
+
+#: class/trait/options.php:226
+msgid "Latvian"
+msgstr "Letón"
+
+#: class/trait/options.php:225
+msgid "Latin"
+msgstr "Latín"
+
+#: class/trait/options.php:224
+msgid "Kurdish"
+msgstr "Kurdo"
+
+#: class/trait/options.php:223
+msgid "Korean"
+msgstr "Coreano"
+
+#: class/trait/options.php:222
+msgid "Klingon"
+msgstr "Klingon"
+
+#: class/trait/options.php:221
+msgid "Khmer"
+msgstr "Camboyano"
+
+#: class/trait/options.php:220
+msgid "Kazakh"
+msgstr "Kazajo"
+
+#: class/trait/options.php:219
+msgid "Kannada"
+msgstr "Canarés"
+
+#: class/trait/options.php:218
+msgid "Javanese"
+msgstr "Javanés"
+
+#: class/trait/options.php:217
+msgid "Japanese"
+msgstr "Japonés"
+
+#: class/trait/options.php:216
+msgid "Italian"
+msgstr "Italiano"
+
+#: class/trait/options.php:215
+msgid "Irish"
+msgstr "Irlandés"
+
+#: class/trait/options.php:214
+msgid "Indonesian"
+msgstr "Indonesio"
+
+#: class/trait/options.php:213
+msgid "Icelandic"
+msgstr "Islandés"
+
+#: class/trait/options.php:212
+msgid "Hungarian"
+msgstr "Húngaro"
+
+#: class/trait/options.php:211
+msgid "Hindi"
+msgstr "Hindi"
+
+#: class/trait/options.php:210
+msgid "Hebrew"
+msgstr "Hebreo"
+
+#: class/trait/options.php:209
+msgid "Gujarati"
+msgstr "Guyaratí"
+
+#: class/trait/options.php:208
+msgid "Guaran?"
+msgstr "Guaraní"
+
+#: class/trait/options.php:207
+msgid "Greek"
+msgstr "Griego"
+
+#: class/trait/options.php:206
+msgid "German"
+msgstr "Alemán"
+
+#: class/trait/options.php:205
+msgid "Georgian"
+msgstr "Georgiano"
+
+#: class/trait/options.php:204
+msgid "Galician"
+msgstr "Gallego"
+
+#: class/trait/options.php:203
+msgid "French (France)"
+msgstr "Francés (Francia)"
+
+#: class/trait/options.php:202
+msgid "French (Canada)"
+msgstr "Francés (Canadá)"
+
+#: class/trait/options.php:200
+msgid "Finland"
+msgstr "Finlandia"
+
+#: class/trait/options.php:201
+msgid "Finnish"
+msgstr "Finlandés"
+
+#: class/trait/options.php:199
+msgid "Filipino"
+msgstr "Filipino"
+
+#: class/trait/options.php:198
+msgid "Faroese"
+msgstr "Feroés"
+
+#: class/trait/options.php:197
+msgid "Estonian"
+msgstr "Estonio"
+
+#: class/trait/options.php:196
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: class/trait/options.php:195
+msgid "English (Upside Down)"
+msgstr "Inglés (al revés)"
+
+#: class/trait/options.php:194
+msgid "Dutch (Belgi?)"
+msgstr "Neerlandés (Bélgica)"
+
+#: class/trait/options.php:193
+msgid "Dutch"
+msgstr "Neerlandés"
+
+#: class/trait/options.php:192
+msgid "Danish"
+msgstr "Danés"
+
+#: class/trait/options.php:191
+msgid "Czech"
+msgstr "Checo"
+
+#: class/trait/options.php:190
+msgid "Croatian"
+msgstr "Croata"
+
+#: class/trait/options.php:189
+msgid "Cherokee"
+msgstr "Cheroqui"
+
+#: class/trait/options.php:188
+msgid "Catalan"
+msgstr "Catalán"
+
+#: class/trait/options.php:187
+msgid "Bulgarian"
+msgstr "Búlgaro"
+
+#: class/trait/options.php:186
+msgid "British English"
+msgstr "Inglés británico"
+
+#: class/trait/options.php:185
+msgid "Bosnian"
+msgstr "Bosnio"
+
+#: class/trait/options.php:184
+msgid "Bengali"
+msgstr "Bengalí"
+
+#: class/trait/options.php:183
+msgid "Belarusian"
+msgstr "Bielorruso"
+
+#: class/trait/options.php:182
+msgid "Basque"
+msgstr "Vasco"
+
+#: class/trait/options.php:181
+msgid "Azeri"
+msgstr "Azerbaiyano"
+
+#: class/trait/options.php:180
+msgid "Aymara"
+msgstr "Aimara"
+
+#: class/trait/options.php:179
+msgid "Armenian"
+msgstr "Armenio"
+
+#: class/trait/options.php:178
+msgid "Arabic"
+msgstr "Árabe"
+
+#: class/trait/options.php:177
+msgid "Albanian"
+msgstr "Albanés"
+
+#: class/trait/options.php:176
+msgid "Afrikaans"
+msgstr "Afrikáans"
+
+#: class/trait/options.php:175
+msgid "English (US)"
+msgstr "Inglés (Estados Unidos)"
+
+#: class/trait/wp.php:272
+msgid "Everyone"
+msgstr "Todos"
+
+#: includes/extensions/dynamic-visibility/triggers/woocommerce.php:38
+msgid "Product Type"
+msgstr "Tipo de producto"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:319
+msgid "Category"
+msgstr "Categoría"
+
+#: class/trait/options.php:585
+#: includes/extensions/dynamic-visibility/triggers/dynamic-tag.php:45
+msgid "Status"
+msgstr "Estado"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:321
+msgid "Author"
+msgstr "Autor"
+
+#: class/trait/options.php:78
+msgid "Type"
+msgstr "Tipo"
+
+#: class/trait/options.php:96
+#: includes/extensions/dynamic-visibility/triggers/archive.php:326
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:293
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:303
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:308
+msgid "Time"
+msgstr "Hora"
+
+#: class/trait/options.php:77 class/trait/options.php:121
+msgid "Name"
+msgstr "Nombre"
+
+#: core/plugin.php:298
+msgid "FB Community"
+msgstr "Comunidad FB"
+
+#: core/plugin.php:292
+msgid "Facebook Community"
+msgstr "Comunidad de Facebook"
+
+#: core/plugin.php:287
+msgid "Docs"
+msgstr "Documentos"
+
+#: core/plugin.php:281
+msgid "View Dynamic Visibility Documentation"
+msgstr "Ver la documentación de Dynamic Visibility"
+
+#: core/plugin.php:263
+msgid "Go Premium"
+msgstr "Hazte premium"
+
+#. Plugin URI of the plugin
+#: dynamic-visibility-for-elementor.php
+msgid "https://www.dynamic.ooo/widget/dynamic-visibility/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+msgstr "https://www.dynamic.ooo/widget/dynamic-visibility/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:218
+#: includes/extensions/dynamic-visibility/triggers/manager.php:55
+msgid "Archive"
+msgstr "Archivo"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:675
+msgid "Conditional tags Post"
+msgstr "Etiquetas condicionales de entradas"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:64
+#: includes/extensions/dynamic-visibility/triggers/post.php:107
+msgid "Terms"
+msgstr "Términos"
+
+#: includes/extensions/dynamic-visibility/triggers/archive.php:31
+#: includes/extensions/dynamic-visibility/triggers/archive.php:318
+#: includes/extensions/dynamic-visibility/triggers/post.php:94
+#: includes/extensions/dynamic-visibility/triggers/post.php:407
+#: includes/extensions/dynamic-visibility/triggers/post.php:430
+#: includes/extensions/dynamic-visibility/triggers/post.php:434
+msgid "Taxonomy"
+msgstr "Taxonomía"
+
+#: includes/extensions/dynamic-visibility/triggers/post.php:393
+#: includes/extensions/dynamic-visibility/triggers/post.php:402
+msgid "Post"
+msgstr "Entrada"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:207
+#: includes/extensions/dynamic-visibility/triggers/user.php:231
+msgid "Specific User"
+msgstr "Usuario específico"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:201
+msgid "User not logged"
+msgstr "Usuario no conectado"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:181
+#: includes/extensions/dynamic-visibility/triggers/user.php:191
+#: includes/extensions/dynamic-visibility/triggers/user.php:196
+msgid "User Role"
+msgstr "Perfil de usuario"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:160
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:295
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:322
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:327
+msgid "Time To"
+msgstr "Tiempo hasta"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:147
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:294
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:313
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:318
+msgid "Time From"
+msgstr "Tiempo desde"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:284
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:288
+msgid "Day of Week"
+msgstr "Día de la semana"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:56
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:87
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:216
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:236
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:241
+msgid "Date To"
+msgstr "Fecha hasta"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:36
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:76
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:215
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:227
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:232
+msgid "Date From"
+msgstr "Fecha desde"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:303
+msgid "Render Template"
+msgstr "Procesar plantilla"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:288
+msgid "Template"
+msgstr "Plantilla"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:284
+msgid "Text"
+msgstr "Texto"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:280
+msgid "Content type"
+msgstr "Tipo de contenido"
+
+#: includes/extensions/dynamic-visibility/sections.php:206
+msgid "Fallback"
+msgstr "Respaldo"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:163
+msgid "If set (in H:m format) the element will be visible until this time"
+msgstr "Si se establece (en formato H:m), el elemento estará visible hasta ese momento"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:150
+msgid "If set (in H:m format) the element will appear after this time."
+msgstr "Si se establece (en formato H:m), el elemento aparecerá después de ese momento."
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:180
+msgid "Hide"
+msgstr "Ocultar"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:147
+msgid "Only selected referral, once per line. If empty it is triggered for all external site."
+msgstr "Solo referentes seleccionados, uno por línea. Si está vacío, será activado para cualquier sitio externo."
+
+#: includes/extensions/dynamic-visibility/triggers/device.php:52
+msgid "Trigger visibility for a specific browser."
+msgstr "Activar la visibilidad para un navegador específico."
+
+#: includes/extensions/dynamic-visibility/triggers/device.php:39
+#: includes/extensions/dynamic-visibility/triggers/device.php:92
+#: includes/extensions/dynamic-visibility/triggers/device.php:103
+msgid "Browser"
+msgstr "Navegador"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:112
+msgid "Type here the list of IP who will be able to view this element. Separate IPs by comma. (ex. \"123.123.123.123, 8.8.8.8, 4.4.4.4\")"
+msgstr "Escribe aquí la lista de IP que podrán ver este elemento.<br>Separa las IP con comas (por ejemplo: «123.123.123.123, 8.8.8.8, 4.4.4.4»)"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:110
+#: includes/extensions/dynamic-visibility/triggers/user.php:298
+#: includes/extensions/dynamic-visibility/triggers/user.php:305
+msgid "Remote IP"
+msgstr "IP remota"
+
+#: class/trait/elementor.php:71
+msgid "Default"
+msgstr "Por defecto"
+
+#: class/trait/options.php:534 class/trait/options.php:600
+msgid "Extra Large"
+msgstr "Extra grande"
+
+#: class/trait/options.php:533 class/trait/options.php:599
+msgid "Large"
+msgstr "Grande"
+
+#: class/trait/options.php:532 class/trait/options.php:598
+msgid "Medium"
+msgstr "Medio"
+
+#: class/trait/options.php:531 class/trait/options.php:597
+msgid "Small"
+msgstr "Pequeño"
+
+#: class/trait/options.php:530 class/trait/options.php:596
+msgid "Extra Small"
+msgstr "Extra pequeño"
+
+#: class/trait/options.php:501 class/trait/options.php:521
+msgctxt "Ajax Page"
+msgid "Flip Bottom"
+msgstr "Voltear hacia abajo"
+
+#: class/trait/options.php:500 class/trait/options.php:520
+msgctxt "Ajax Page"
+msgid "Flip Top"
+msgstr "Voltear hacia arriba"
+
+#: class/trait/options.php:499 class/trait/options.php:519
+msgctxt "Ajax Page"
+msgid "Flip Right"
+msgstr "Voltear a la derecha"
+
+#: class/trait/options.php:498 class/trait/options.php:518
+msgctxt "Ajax Page"
+msgid "Flip Left"
+msgstr "Voltear a la izquierda"
+
+#: class/trait/options.php:497 class/trait/options.php:517
+msgctxt "Ajax Page"
+msgid "Zoom Front"
+msgstr "Zoom frontal"
+
+#: class/trait/options.php:496 class/trait/options.php:516
+msgctxt "Ajax Page"
+msgid "Zoom Back"
+msgstr "Zoom hacia atrás"
+
+#: class/trait/options.php:495 class/trait/options.php:515
+msgctxt "Ajax Page"
+msgid "Bottom"
+msgstr "Abajo"
+
+#: class/trait/options.php:494 class/trait/options.php:514
+msgctxt "Ajax Page"
+msgid "Top"
+msgstr "Arriba"
+
+#: class/trait/options.php:493 class/trait/options.php:513
+msgctxt "Ajax Page"
+msgid "Right"
+msgstr "Derecha"
+
+#: class/trait/options.php:492 class/trait/options.php:512
+msgctxt "Ajax Page"
+msgid "Left"
+msgstr "Izquierda"
+
+#: class/trait/options.php:491 class/trait/options.php:511
+msgctxt "Ajax Page"
+msgid "Fade"
+msgstr "Desvanecer"
+
+#: class/trait/options.php:490 class/trait/options.php:510
+msgctxt "Ajax Page"
+msgid "None"
+msgstr "Ninguno"
+
+#. Author URI of the plugin
+#: dynamic-visibility-for-elementor.php
+msgid "https://www.dynamic.ooo/"
+msgstr "https://www.dynamic.ooo/"
+
+#. Author of the plugin
+#: dynamic-visibility-for-elementor.php
+msgid "Dynamic.ooo"
+msgstr "Dynamic.ooo"
+
+#. Plugin Name of the plugin
+#: dynamic-visibility-for-elementor.php
+msgid "Dynamic Visibility for Elementor"
+msgstr "Dynamic Visibility for Elementor"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:319
+msgid "Text Fallback"
+msgstr "Texto de respaldo"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:60
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:89
+msgid "If set the element will be visible until this date"
+msgstr "Si se selecciona, el elemento estará visible hasta esta fecha"
+
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:40
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:78
+msgid "If set the element will appear after this date"
+msgstr "Si se selecciona, el elemento aparecerá después de esta fecha"
+
+#: class/trait/options.php:69 class/trait/options.php:92
+#: class/trait/options.php:106
+#: includes/extensions/dynamic-visibility/triggers/archive.php:322
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:214
+#: includes/extensions/dynamic-visibility/triggers/datetime.php:223
+#: modules/query-control/module.php:1067
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/extensions/dynamic-visibility/triggers/user.php:40
+msgid "Selected Users"
+msgstr "Usuarios seleccionados"
+
+#: includes/extensions/dynamic-visibility/triggers/manager.php:176
+msgid "Show"
+msgstr "Mostrar"
+
+#: includes/extensions/dynamic-visibility/sections.php:53
+#: includes/extensions/dynamic-visibility/sections.php:117
+#: includes/extensions/dynamic-visibility/triggers/manager.php:137
+msgid "Visibility"
+msgstr "Visibilidad"
+
+#: class/trait/options.php:165
+msgid "easeInOutBack"
+msgstr "easeInOutBack"
+
+#: class/trait/options.php:164
+msgid "easeOutBack"
+msgstr "easeOutBack"
+
+#: class/trait/options.php:163
+msgid "easeInBack"
+msgstr "easeInBack"
+
+#: class/trait/options.php:162
+msgid "easeInOutExpo"
+msgstr "easeInOutExpo"
+
+#: class/trait/options.php:161
+msgid "easeOutExpo"
+msgstr "easeOutExpo"
+
+#: class/trait/options.php:160
+msgid "easeInExpo"
+msgstr "easeInExpo"
+
+#: class/trait/options.php:159
+msgid "easeInOutCirc"
+msgstr "easeInOutCirc"
+
+#: class/trait/options.php:158
+msgid "easeOutCirc"
+msgstr "easeOutCirc"
+
+#: class/trait/options.php:157
+msgid "easeInCirc"
+msgstr "easeInCirc"
+
+#: class/trait/options.php:156
+msgid "easeInOutQuint"
+msgstr "easeInOutQuint"
+
+#: class/trait/options.php:155
+msgid "easeOutQuint"
+msgstr "easeOutQuint"
+
+#: class/trait/options.php:154
+msgid "easeInQuint"
+msgstr "easeInQuint"
+
+#: class/trait/options.php:153
+msgid "Ease In Out"
+msgstr "Ease In Out"
+
+#: class/trait/options.php:152
+msgid "Ease Out"
+msgstr "Ease Out"
+
+#: class/trait/options.php:151
+msgid "Ease In"
+msgstr "Ease In"
+
+#: class/trait/options.php:150
+msgid "Ease"
+msgstr "Ease"
+
+#: class/trait/options.php:149 class/trait/options.php:302
+msgid "Linear"
+msgstr "Linear"
+
+#: class/trait/elementor.php:72 class/trait/elementor.php:74
+#: class/trait/options.php:76 class/trait/options.php:290
+#: class/trait/options.php:609 class/trait/options.php:636
+msgid "None"
+msgstr "Ninguno"

@@ -1,0 +1,3137 @@
+/* =========================================================
+   VIMA Luxury Map Experience — Light / Airbnb-like UI
+   - Header (single column, centered)
+   - Section (2 columns: Cards | Map) with perfect symmetry
+   - Footer stats (single column, centered)
+   - Modal always above Google Maps
+   - Merriweather for headings + card titles
+   ========================================================= */
+
+.vima-luxury-map{
+  /* Light system */
+  --bg: #ffffff;
+  --bg-soft: #f7f7f7;
+  --panel: #ffffff;
+  --stroke: #e7e7e7;
+  --stroke-2: #dcdcdc;
+
+  --text: #1a1a1a;
+  --muted: rgba(26,26,26,0.68);
+
+  /* Premium subtle accent */
+  --accent: #C6A56A;          /* gold */
+  --accent-soft: rgba(198,165,106,0.12);
+
+  --radius-xl: 14px;
+  --radius-lg: 12px;
+  --radius-md: 10px;
+
+  --shadow-1: 0 18px 70px rgba(0,0,0,0.08);
+  --shadow-2: 0 12px 26px rgba(0,0,0,0.10);
+
+  --ease: cubic-bezier(.2,.8,.2,1);
+
+  --container-max: 1400px;
+  --pad: 18px;
+
+  /* Perfect symmetry: both panels share ONE fixed height */
+  --panel-h: max(680px, 80vh);
+
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+
+  width: 100%;
+  max-width: 100%;
+}
+
+.vima-luxury-map *{ box-sizing: border-box; }
+
+/* Reset */
+.vima-luxury-map h1,
+.vima-luxury-map h2,
+.vima-luxury-map h3,
+.vima-luxury-map h4,
+.vima-luxury-map p{
+  margin: 0;
+}
+
+/* Chrome wrapper: full width */
+.vima-luxury-map__chrome{
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  border-radius: var(--radius-xl);
+  background: var(--bg);
+  border: 1px solid var(--stroke);
+  box-shadow: var(--shadow-1);
+  position: relative;
+  overflow: visible;
+}
+
+.vima-luxury-map__glow,
+.vima-luxury-map__grain{
+  display:none !important;
+}
+
+/* Error */
+.vima-luxury-map__error{
+  padding: 14px 16px;
+  border: 1px solid rgba(220,38,38,0.35);
+  background: rgba(220,38,38,0.06);
+  color: #7f1d1d;
+  border-radius: 14px;
+}
+
+/* =========================================================
+   Single-column header (centered)
+   ========================================================= */
+.vima-luxury-map__header{
+  padding: 28px var(--pad) 10px;
+  text-align: center;
+}
+
+.vima-luxury-map__heading{
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  letter-spacing: 3.7px;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 1.15;
+  color: var(--text);
+}
+
+.vima-luxury-map__subheading{
+  margin-top: 10px;
+  font-size: 13.5px;
+  color: var(--muted);
+  max-width: 70ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =========================================================
+   Section wrapper
+   ========================================================= */
+.vima-luxury-map__section{
+  padding: 14px var(--pad) 18px;
+}
+
+/* =========================================================
+   Two columns only: Cards | Map (PERFECT SYMMETRY)
+   ========================================================= */
+.vima-luxury-map__layout{
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 18px;
+  align-items: stretch; /* IMPORTANT: both panels same height */
+}
+
+/* Panels */
+.vima-luxury-map__list,
+.vima-luxury-map__map{
+  height: var(--panel-h);
+  min-height: var(--panel-h);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--stroke);
+  background: var(--panel);
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.06);
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* =========================================================
+   List panel
+   ========================================================= */
+.vima-luxury-map__list{
+  padding: 15px 0px 10px 10px;
+}
+
+/* Top bar inside list: back + layer title */
+.vima-luxury-map__layerbar{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  gap: 12px;
+  padding: 6px 4px 14px;
+  border-bottom: 1px solid var(--stroke);
+  margin-bottom: 14px;
+}
+
+/* =========================================================
+   Dataset tabs: Resorts | Coming Soon (solo capa 1)
+   ========================================================= */
+
+/* Default: hidden (solo capa 1) */
+.vima-luxury-map__dataset-tabs{
+  /* Default: hidden (solo capa 1) */
+  display:none;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  padding: 0;
+  margin: 0;
+
+  /* Luxury tabs: only typography + subtle highlight (no hard boxes) */
+  border: 0;
+  border-radius: 0;
+  overflow: visible;
+  background: transparent;
+}
+
+/* Layer 1: show tabs + hide title */
+.vima-luxury-map.vima-layer--resorts .vima-luxury-map__dataset-tabs{
+  display:flex;
+}
+.vima-luxury-map.vima-layer--resorts .vima-luxury-map__layer-title{
+  display:none;
+}
+
+.vima-dataset-tab{
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  background: transparent;
+  color: rgba(26,26,26,0.92);
+  cursor: pointer;
+
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  flex: 0 0 auto;
+  min-width: 0;
+
+  /* Default: no “button” look */
+  padding: 12px 0;
+  border-radius: 0;
+
+  transition: box-shadow 180ms var(--ease), transform 180ms var(--ease), background 180ms var(--ease), color 180ms var(--ease);
+
+  /* Kill thick focus outlines from browser/theme */
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.vima-dataset-tab:focus{ outline: none !important; box-shadow: none !important; }
+
+/* 2nd tab positioning + separator */
+.vima-dataset-tab + .vima-dataset-tab{
+  border-left: 0;
+  position: relative;
+  margin-left: 12px;
+}
+
+/* Separator: Resorts | Coming Soon */
+.vima-dataset-tab + .vima-dataset-tab::before{
+  content: "|";
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(26,26,26,0.55);
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  pointer-events: none;
+  padding-right: 5px;
+}
+
+/* Resorts tab: NO hover/active styling (pure text) */
+.vima-dataset-tab[data-dataset="available"]:hover,
+.vima-dataset-tab[data-dataset="available"].is-active{
+  background: transparent !important;
+  box-shadow: none !important;
+  transform: none !important;
+  color: rgba(26,26,26,0.92) !important;
+}
+
+/* Coming Soon tab: button look */
+.vima-dataset-tab[data-dataset="comingSoon"]{
+  padding: 7px 13px;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #111111;
+  border: 1px solid rgba(17,17,17,0.92);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.10);
+  font-size: 14px;
+}
+
+
+
+
+.vima-dataset-tab[data-dataset="comingSoon"].is-active{
+  background: #111111;
+  color: #ffffff;
+  border-color: rgba(17,17,17,1);
+  box-shadow: 0 16px 44px rgba(0,0,0,0.18);
+}
+
+.vima-dataset-tab[data-dataset="comingSoon"]:focus-visible{
+  outline: none;
+  box-shadow:
+    0 0 0 6px rgba(198,165,106,0.14),
+    0 16px 44px rgba(0,0,0,0.18);
+}
+
+@media (max-width: 480px){
+  .vima-dataset-tab{ font-size: 15px; }
+  .vima-dataset-tab + .vima-dataset-tab{ margin-left: 10px; }
+  .vima-dataset-tab + .vima-dataset-tab::before{ left: -9px; font-size: 16px; }
+}
+
+.vima-dataset-tab:disabled{
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform:none;
+}
+
+/* Back in top-left — only show when enabled (layer 2) */
+.vima-layer-back{
+  margin-right: 2px;
+}
+.vima-layer-back:disabled{
+  display:none;
+}
+
+/* Layer title: Resorts / Properties (big, bold, Merriweather) */
+.vima-luxury-map__layer-title{
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  color: var(--text);
+}
+
+/* Cards container (fills remaining height, scrolls inside) */
+.vima-luxury-map__cards{
+  flex: 1;
+  min-height: 0;
+
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+
+  overflow: auto;
+
+  /* Aire para que el hover (scale/shadow) no se corte */
+  padding: 15px 10px 60px 6px;
+
+  /* Evita estiramientos verticales raros */
+  align-items: start;
+  align-content: start;
+}
+
+/* Wider screens: 3 columns */
+@media (min-width: 1280px){
+  .vima-luxury-map__cards{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Scrollbar (webkit) */
+.vima-luxury-map__cards::-webkit-scrollbar{ width: 10px; }
+.vima-luxury-map__cards::-webkit-scrollbar-thumb{
+  background: rgba(0,0,0,0.14);
+  border-radius: 999px;
+  border: 2px solid rgba(255,255,255,0.95);
+}
+.vima-luxury-map__cards::-webkit-scrollbar-track{
+  background: rgba(0,0,0,0.05);
+  border-radius: 999px;
+}
+
+/* =========================================================
+   Cards — premium
+   ========================================================= */
+.vima-card{
+  display: flex;
+  flex-direction: column;
+
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+
+  border: 1px solid rgba(0,0,0,0.06);
+  background: #fff;
+
+  /* Shadow más suave y menos “cuadrado” */
+  box-shadow: 0 8px 22px rgba(0,0,0,0.06);
+  cursor: pointer;
+
+  /* Altura uniforme */
+  height: 300px;
+
+  /* Performance + look premium */
+  will-change: transform;
+  transform: translateZ(0);
+  transform-origin: center;
+
+  transition: transform 220ms var(--ease),
+              box-shadow 220ms var(--ease),
+              border-color 220ms var(--ease);
+}
+
+/* Hover premium: escala TODO (imagen incluida) */
+.vima-card:hover{
+  transform: translateZ(0) scale(1.02);
+  border-color: rgba(0,0,0,0.10);
+  /* Shadow más difuso, menos marcado */
+  box-shadow: 0 14px 34px rgba(0,0,0,0.10);
+}
+
+/* Active state */
+.vima-card.is-active{
+  border-color: rgba(198,165,106,0.55);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.10);
+}
+
+/* Disabled card (e.g., destinations with 0 properties) */
+.vima-card.is-disabled{
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.vima-card.is-disabled:hover{
+  transform: none;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.06);
+  border-color: rgba(0,0,0,0.06);
+}
+
+
+/* Hover sync (marker hover): mismo efecto que hover
+   Ring interno para no afectar layout como outline */
+.vima-card.is-hover{
+  box-shadow:
+    0 0 0 3px rgba(255,255,255,0.92) inset,
+    0 18px 44px rgba(0,0,0,0.12);
+  transform: translateZ(0) scale(1.02);
+}
+
+/* Image */
+.vima-card__img{
+  flex: 0 0 170px;
+  height: 170px;
+
+  background-size: cover;
+  background-position: center;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.vima-card__img::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.18), rgba(0,0,0,0.00) 45%);
+  opacity: 0.65;
+  pointer-events:none;
+  z-index: 1;
+}
+
+/* =========================================================
+   Coming Soon badge (chip) — top-right over image
+   ========================================================= */
+
+.vima-card__media-btn{
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  z-index: 2;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  min-height: 32px;
+  padding: 7px 11px;
+  border: 1px solid rgba(255,255,255,0.16);
+  border-radius: 12px;
+
+  background: rgba(255,255,255,0.08);
+  color: #ffffff;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.14);
+
+  font-family: "Montserrat";
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1;
+
+  cursor: pointer;
+  transition: transform 180ms ease, background 180ms ease, border-color 180ms ease, box-shadow 180ms ease, opacity 180ms ease;*
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.vima-card__media-btn:hover,
+.vima-card__media-btn:focus-visible{
+  
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.16);
+}
+
+.vima-card__media-btn:focus,
+.vima-card__media-btn:focus-visible,
+.vima-card__media-btn:active{
+  outline: none !important;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.14);
+}
+
+.vima-card__media-btn-icon{
+  width: 13px;
+  height: 13px;
+  flex: 0 0 13px;
+}
+
+.vima-card__media-btn-icon *{
+  vector-effect: non-scaling-stroke;
+}
+
+.vima-card__badge{
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 6px 10px;
+  border-radius: 999px;
+
+font-family: "Montserrat";
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1;
+
+  color: rgba(255,255,255,0.94);
+  background: rgba(0,0,0,0.46);
+  border: 1px solid rgba(255,255,255,0.22);
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  box-shadow:
+    0 10px 26px rgba(0,0,0,0.16),
+    0 0 0 1px rgba(0,0,0,0.10) inset;
+}
+
+.vima-card:hover .vima-card__badge{
+  background: rgba(0,0,0,0.52);
+  border-color: rgba(255,255,255,0.28);
+  box-shadow:
+    0 12px 32px rgba(0,0,0,0.18),
+    0 0 0 1px rgba(0,0,0,0.12) inset;
+}
+
+@media (max-width: 480px){
+  .vima-card__badge{
+    top: 10px;
+    right: 10px;
+    padding: 6px 9px;
+    font-size: 10px;
+  }
+}
+
+/* Body */
+/* BODY: agrega aire interno para que el texto no quede pegado */
+.vima-card__body{
+  padding: 14px 14px 16px;   /* antes estaba muy justo */
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.vima-card__title{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* máximo 2 líneas */
+  overflow: hidden;
+}
+
+.vima-card__sub{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* máximo 2 líneas */
+  overflow: hidden;
+}
+
+.vima-card__meta{
+  margin-top: auto; /* empuja tags hacia abajo dentro del body */
+}
+
+/* Title in Merriweather */
+.vima-card__title{
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  margin: 0 0 4px;
+  color: var(--text);
+}
+
+.vima-card__sub{
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+/* Meta pills */
+.vima-card__meta{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.vima-pill{
+  display:inline-flex;
+  align-items:center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  color: rgba(26,26,26,0.82);
+  border: 1px solid var(--stroke);
+  background: var(--bg-soft);
+}
+
+.vima-pill--accent{
+  border-color: rgba(198,165,106,0.35);
+  background: rgba(198,165,106,0.10);
+  color: rgba(26,26,26,0.86);
+}
+
+/* =========================================================
+   Buttons
+   ========================================================= */
+.vima-btn{
+  border: 1px solid var(--stroke);
+  background: #fff;
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 12.5px;
+
+  transition: transform 180ms var(--ease), border-color 180ms var(--ease), background 180ms var(--ease);
+}
+
+.vima-btn:hover{
+  transform: translateY(-1px);
+  border-color: rgba(0,0,0,0.18);
+  background: var(--bg-soft);
+}
+
+.vima-btn:disabled{
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform:none;
+}
+
+.vima-btn--primary{
+  border-color: rgba(198,165,106,0.45);
+  background: rgba(198,165,106,0.12);
+}
+
+.vima-btn--ghost{
+  background: transparent;
+}
+
+/* =========================================================
+   Map panel (NO STICKY, perfect alignment)
+   ========================================================= */
+.vima-luxury-map__map{
+  position: relative;
+  background: #fff;
+  padding: 0; /* matches list's inner breathing */
+}
+
+.vima-luxury-map__map-inner{
+  flex: 1;        /* fill panel height */
+  min-height: 0;  /* allows proper sizing inside flex */
+  height: auto;   /* do NOT use 80vh here anymore */
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+}
+
+/* Hide any old overlay */
+.vima-luxury-map__map-overlay{ display:none !important; }
+
+/* =========================================================
+   Footer stats (single column, centered)
+   ========================================================= */
+.vima-luxury-map__footer{
+  padding: 18px var(--pad) 28px;
+  text-align: center;
+}
+
+.vima-luxury-map__numbers{
+  max-width: var(--container-max);
+  margin: 0 auto;
+  border-top: 1px solid var(--stroke);
+  padding-top: 22px;
+}
+
+.vima-luxury-map__numbers-title{
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: var(--text);
+}
+
+/* Stats grid */
+.vima-luxury-map__numbers-grid{
+  margin-top: 16px;
+  display:grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+@media (max-width: 980px){
+  .vima-luxury-map__numbers-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.vima-stat{
+  border: 1px solid var(--stroke);
+  background: #fff;
+  border-radius: 18px;
+  padding: 16px 12px;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
+}
+
+.vima-stat__value{
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 0.01em;
+  color: var(--text);
+}
+
+.vima-stat__label{
+  margin-top: 6px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+/* =========================================================
+   Mobile: carousel + map below
+   ========================================================= */
+.vima-luxury-map__mobile-pill{
+  display:none;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--stroke);
+  align-items:center;
+  justify-content:space-between;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 12.5px;
+}
+
+@media (max-width: 1023px){
+  .vima-luxury-map__layout{
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  /* IMPORTANT: undo fixed panel symmetry on mobile */
+  .vima-luxury-map__list,
+  .vima-luxury-map__map{
+    height: auto;
+    min-height: unset;
+  }
+
+  .vima-luxury-map__list{
+    padding: 14px;
+  }
+
+
+  /* Cards carousel */
+  .vima-luxury-map__cards{
+    display:flex;
+    overflow-x:auto;
+    overflow-y:hidden;
+
+    /* Ensure at least ONE full card is visible (no cut) */
+    padding: 0 12px 12px;
+    scroll-padding-left: 12px;
+    scroll-padding-right: 12px;
+
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 12px;
+    min-height: unset;
+
+    /* Hide horizontal scrollbar (keep swipe) */
+    scrollbar-width: none;      /* Firefox */
+    -ms-overflow-style: none;   /* IE/Edge legacy */
+  }
+  .vima-luxury-map__cards::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+  }
+
+  .vima-card{
+    flex: 0 0 auto;
+
+    /* One full card fits within the carousel viewport */
+    width: clamp(220px, 78%, 340px);
+
+    /* Slightly shorter on mobile so it feels less cramped */
+    height: 280px;
+
+    scroll-snap-align: start;
+  }
+
+  /* Mobile card image height */
+  .vima-card__img{
+    flex: 0 0 155px;
+    height: 155px;
+  }
+  .vima-luxury-map__map{
+    padding: 0;
+  }
+
+  .vima-luxury-map__map-inner{
+    height: 52vh;
+    min-height: 360px;
+  }
+
+  .vima-luxury-map__mobile-pill{ display:flex; }
+
+  .vima-stat__value{ font-size: 26px; }
+}
+
+/* =========================================================
+   MODAL — Single column: Preview top + Channels bottom
+   ========================================================= */
+.vima-modal[aria-hidden="true"]{ display:none; }
+
+.vima-modal{
+  position: fixed;
+  inset: 0;
+z-index: 2147483647;
+}
+
+.vima-modal__backdrop{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  backdrop-filter: blur(10px);
+}
+
+.vima-modal__panel{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: min(1040px, 94vw);
+  max-height: 86vh;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 22px;
+  border: 1px solid var(--stroke);
+  background: #fff;
+  box-shadow: 0 30px 90px rgba(0,0,0,0.20);
+  overflow: hidden;
+   flex: 1;
+  min-height: 0; /* CLAVE para que el overflow del child funcione bien */
+  
+}
+
+.vima-modal__header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* pega todo a la derecha */
+  gap: 10px;
+  padding: 10px 15px;
+  border-bottom: none;
+}
+
+/* Oculta cualquier título/kicker que aún exista en el header (por si quedó en HTML) */
+.vima-modal__header .vima-modal__title,
+.vima-modal__header .vima-modal__kicker{
+  display:none !important;
+}
+
+.vima-modal__title{
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  color: var(--text);
+}
+
+.vima-modal__kicker{
+  font-size: 12.5px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.vima-modal__close{
+  border: none;
+  background: #fff;
+  color: var(--text);
+  border-radius: 12px;
+  padding: 4px;
+  cursor:pointer;
+  transition: transform 180ms var(--ease), border-color 180ms var(--ease), background 180ms var(--ease);
+}
+
+.vima-modal__close:hover{
+  transform: translateY(-1px);
+  background: var(--bg-soft);
+}
+
+.vima-modal__body{
+  flex: 1;
+  min-height: 0;
+  padding: 14px 16px 16px;
+  overflow: hidden; /* IMPORTANT: ya no scrollea todo el modal */
+  max-height: none; /* opcional: para que no fuerce scroll general */
+}
+
+
+@media (max-width: 820px){
+  .vima-modal__body{ max-height: calc(100vh - 62px); }
+}
+
+/* SINGLE COLUMN GRID */
+.vima-modal__grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  min-height: 0;
+}
+
+/* Ya no usamos “right column” como sidebar visual */
+.vima-modal__left,
+.vima-modal__right{
+  min-width: 0;
+  min-height: 0;
+}
+
+.vima-modal__left{
+  display: flex;
+}
+
+.vima-modal__right{
+  border-left: none;
+  padding: 15px ;
+}
+
+/* Quitar subtitle repetitivo (Resort/Destination) */
+.vima-modal__subtitle{
+  display: none !important;
+}
+
+/* Preview card (arriba) */
+.vima-modal__property{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 22px;
+  overflow:hidden;
+  border: 1px solid var(--stroke);
+  background: linear-gradient(180deg, #ffffff, #fbfbfb);
+  box-shadow: 0 22px 60px rgba(0,0,0,0.10);
+}
+
+.vima-modal__hero{
+  position: relative;
+  min-height: 340px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f2f2f2;
+}
+@media (max-width: 520px){
+  .vima-modal__hero{
+    min-height: 260px;
+  }
+}
+
+.vima-modal__hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.52));
+  pointer-events:none;
+}
+
+.vima-modal__meta{
+  padding: 14px 16px 16px;
+}
+
+.vima-modal__jump-btn{
+  display: none;
+  margin-top: 14px;
+  align-self: flex-start;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(26,26,26,0.08);
+  border-radius: 999px;
+  background: linear-gradient(180deg, #1f1f1f, #0f0f0f);
+  color: #fff;
+  padding: 11px 18px;
+  font-size: 12.5px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  box-shadow: 0 16px 28px rgba(0,0,0,0.16);
+  transition: transform 180ms var(--ease), box-shadow 180ms var(--ease), background 180ms var(--ease), border-color 180ms var(--ease);
+}
+
+.vima-modal__jump-btn:hover{
+  transform: translateY(-1px);
+  border-color: rgba(198,165,106,0.35);
+  box-shadow: 0 18px 32px rgba(0,0,0,0.2);
+}
+
+.vima-modal__jump-btn::after{
+  content: "→";
+  font-size: 13px;
+  line-height: 1;
+}
+
+.vima-modal__jump-btn--back{
+  background: #fff;
+  color: var(--text);
+  box-shadow: none;
+}
+
+.vima-modal__jump-btn--back::after{
+  content: "←";
+}
+
+.vima-modal__jump-btn--back:hover{
+  background: var(--bg-soft);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+}
+
+.vima-modal__section-title{
+  margin-bottom: 12px;
+}
+
+.vima-modal__section-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+/* Tags justo debajo del título */
+.vima-modal__tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+/* Channels (abajo) en 2 columnas */
+.vima-modal__channels{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+
+  overflow: auto;            /* scroll aquí */
+  max-height: 30vh;          /* ajusta: 36vh–48vh según tu gusto */
+  padding-right: 6px;        /* aire para scrollbar */
+}
+
+
+@media (max-width: 520px){
+  .vima-modal__channels{
+    grid-template-columns: 1fr; /* móvil: 1 columna */
+  }
+}
+
+@media (max-height: 820px) and (min-width: 900px){
+  .vima-modal__panel{
+    width: min(1160px, 96vw);
+  }
+
+  .vima-modal__body{
+    display: flex;
+  }
+
+  .vima-modal__grid{
+    flex: 1;
+    width: 100%;
+    grid-template-columns: minmax(320px, 0.95fr) minmax(360px, 1.05fr);
+    align-items: stretch;
+  }
+
+  .vima-modal__left,
+  .vima-modal__right{
+    height: 100%;
+  }
+
+  .vima-modal__left{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vima-modal__property{
+    height: 100%;
+    justify-content: center;
+  }
+
+  .vima-modal__right{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vima-modal__hero{
+    flex: 1;
+    min-height: 0;
+  }
+
+  .vima-modal__channels{
+    grid-template-columns: 1fr;
+    flex: 1;
+    max-height: none;
+    min-height: 0;
+  }
+}
+
+@media (max-width: 899px) and (max-height: 820px){
+  .vima-modal__panel{
+    width: min(96vw, 720px);
+    height: min(78vh, 640px);
+  }
+
+  .vima-modal__body{
+    position: relative;
+    display: flex;
+    flex: 1 1 auto;
+    min-height: 0;
+    padding: 8px;
+    overflow: hidden;
+  }
+
+  .vima-modal__grid{
+    position: relative;
+    flex: 1 1 auto;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    display: block;
+  }
+
+  .vima-modal__left{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    padding: 0;
+    transition: opacity 220ms var(--ease), transform 220ms var(--ease);
+  }
+
+  .vima-modal__right{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 6px 2px 0;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(18px);
+    transition: opacity 220ms var(--ease), transform 220ms var(--ease);
+  }
+
+  .vima-modal[data-vima-modal-view="property"] .vima-modal__left{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .vima-modal[data-vima-modal-view="property"] .vima-modal__right{
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(18px);
+  }
+
+  .vima-modal[data-vima-modal-view="channels"] .vima-modal__left{
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-18px);
+  }
+
+  .vima-modal[data-vima-modal-view="channels"] .vima-modal__right{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+
+  .vima-modal__property{
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: none;
+    border-radius: 20px;
+  }
+
+  .vima-modal__hero{
+    flex: 1 1 52%;
+    min-height: 150px;
+    background-size: cover;
+    background-position: center center;
+    margin: 8px 8px 0;
+    border-radius: 14px;
+  }
+
+  .vima-modal__meta{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    flex: 0 0 48%;
+    gap: 8px;
+    padding: 10px 12px 14px;
+    min-height: 0;
+  }
+
+  .vima-modal__jump-btn{
+    display: inline-flex;
+    align-self: center;
+    justify-content: center;
+    min-width: 156px;
+    padding: 9px 14px;
+    font-size: 11px;
+  }
+
+  .vima-modal__channels{
+    grid-template-columns: 1fr;
+    flex: 1 1 auto;
+    max-height: none;
+    min-height: 0;
+    overflow: auto;
+    padding-right: 6px;
+    align-content: start;
+  }
+
+  .vima-modal__section-title{
+    margin-bottom: 0;
+  }
+
+  .vima-modal__section-head{
+    margin-bottom: 8px;
+    padding: 0 4px;
+  }
+
+  .vima-modal__jump-btn--back{
+    margin-top: 0;
+    min-width: 0;
+    padding: 8px 12px;
+  }
+
+  .vima-modal__prop-title{
+    width: 100%;
+    max-width: 22ch;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .vima-modal__tags{
+    justify-content: center;
+    gap: 5px;
+    max-height: 42px;
+    overflow: hidden;
+  }
+
+  .vima-modal__tags .vima-pill{
+    padding: 3px 7px;
+    font-size: 9px;
+  }
+
+  .vima-modal__section-title{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 520px) and (max-height: 820px){
+  .vima-modal__panel{
+    width: min(94vw, 420px);
+    height: min(76vh, 560px);
+    max-height: 82vh;
+    border-radius: 18px;
+  }
+
+  .vima-modal__header{
+    padding: 8px 10px 4px;
+  }
+
+  .vima-modal__close{
+    padding: 2px;
+  }
+
+  .vima-modal__body{
+    padding: 6px;
+  }
+
+  .vima-modal__property{
+    border-radius: 18px;
+  }
+
+  .vima-modal__hero{
+    flex-basis: 48%;
+    min-height: 132px;
+    margin: 6px 6px 0;
+    border-radius: 12px;
+  }
+
+  .vima-modal__meta{
+    flex-basis: 52%;
+    gap: 7px;
+    padding: 8px 10px 12px;
+  }
+
+  .vima-modal__prop-title{
+    max-width: 17ch;
+    font-size: 12px;
+  }
+
+  .vima-modal__tags{
+    max-height: 34px;
+  }
+
+  .vima-modal__tags .vima-pill{
+    padding: 2px 6px;
+    font-size: 8px;
+  }
+
+  .vima-modal__jump-btn{
+    min-width: 136px;
+    padding: 8px 12px;
+    font-size: 10px;
+  }
+
+  .vima-modal__section-head{
+    margin-bottom: 8px;
+  }
+
+  .vima-modal__section-title{
+    font-size: 14px;
+  }
+
+  .vima-modal__channels{
+    gap: 8px;
+    padding-right: 2px;
+  }
+}
+
+/* Channel cards */
+.vima-channel{
+  border: 1px solid var(--stroke);
+  border-radius: 18px;
+  background: #fff;
+  padding: 12px;
+  cursor:pointer;
+  display:grid;
+  grid-template-columns: 58px 1fr;
+  gap: 10px;
+  align-items:center;
+
+  transition: transform 180ms var(--ease), border-color 180ms var(--ease), box-shadow 180ms var(--ease), background 180ms var(--ease);
+}
+
+.vima-channel:hover{
+  transform: translateY(-2px);
+  border-color: rgba(0,0,0,0.18);
+  box-shadow: 0 16px 36px rgba(0,0,0,0.12);
+  background: var(--bg-soft);
+}
+
+.vima-channel.is-selected{
+  transform: translateX(6px);
+  border-color: rgba(0,0,0,0.22);
+  background: rgba(198,165,106,0.10);
+  box-shadow: 0 16px 34px rgba(0,0,0,0.14);
+}
+
+.vima-channel.is-selected:hover{
+  transform: translateX(6px) translateY(-2px);
+}
+
+.vima-channel.is-selected::before{
+  content:"";
+  position:absolute;
+  left:-1px;
+  top:12px;
+  bottom:12px;
+  width:3px;
+  border-radius:3px;
+  background: rgba(198,165,106,0.75);
+}
+
+.vima-channel__logo{
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid var(--stroke);
+  background-color: #fff;
+}
+
+.vima-channel__name{
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 13.5px;
+  color: var(--text);
+}
+
+.vima-channel__desc{
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+/* CTA (si lo sigues usando) */
+.vima-channel-cta{
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: 16px;
+  border: 1px solid var(--stroke);
+  background: #fff;
+  box-shadow: 0 18px 44px rgba(0,0,0,0.10);
+}
+
+.vima-channel-cta__title{
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  margin: 0 0 10px;
+}
+
+.vima-channel-cta__btn{
+  width: 100%;
+  text-align: center;
+}
+
+.vima-channel-cta__btn.is-disabled{
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+
+/*
+
+   Fix Google Maps + theme overlays from sitting above modal
+   ========================================================= */
+.vima-luxury-map .gm-style,
+.vima-luxury-map .gm-style *{
+  z-index: 0;
+}
+
+.vima-luxury-map__map,
+.vima-luxury-map__map-inner{
+  position: relative;
+  z-index: 0;
+}
+
+/* =========================================================
+   Reduced motion
+   ========================================================= */
+@media (prefers-reduced-motion: reduce){
+  .vima-card, .vima-channel, .vima-btn, .vima-modal__panel{
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* =========================================
+   Luxury destination chips (white / black)
+   ========================================= */
+
+.vima-card__meta--chips{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 5px;;
+}
+
+/* Chip blanco, texto negro, borde negro, sombra más sutil (-40% aprox) */
+.vima-chip{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 26px;
+  padding: 0 12px;
+
+  border-radius: 999px;
+  border: 1px solid rgba(17,17,17,0.88);
+  background: linear-gradient(180deg, #ffffff, #f5f5f5);
+
+  color: #111111;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+
+  box-shadow:
+    0 10px 20px rgba(0,0,0,0.06),
+    0 2px 6px rgba(0,0,0,0.048);
+
+  white-space: nowrap;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+}
+
+/* Sin bullet explícitamente (por si en algún theme lo hereda) */
+.vima-chip::before{
+  content: none !important;
+}
+
+/* Hover: micro-contraste y sombra ligeramente mayor (también -40% aprox) */
+.vima-card:hover .vima-chip{
+  background: linear-gradient(180deg, #ffffff, #efefef);
+  border-color: rgba(17,17,17,1);
+  box-shadow:
+    0 12px 26px rgba(0,0,0,0.072),
+    0 3px 8px rgba(0,0,0,0.054);
+  transform: translateY(-1px);
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+/* Mobile: un poco más compacto */
+@media (max-width: 480px){
+  .vima-chip{
+    height: 24px;
+    padding: 0 10px;
+    font-size: 10px;
+  }
+}
+
+
+
+/* Title debajo de la imagen (modal) */
+.vima-modal__prop-title{
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-size: 18px;          /* súbelo a 19-20px si lo quieres más protagonista */
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: var(--text);
+
+  margin: 0 0 10px;         /* separación con tags */
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+
+  /* opcional: corta a 2 líneas como tus cards */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+
+
+
+
+/* =========================================================
+   Channel footer — Executive (black button + white icon/text)
+   Substitute this entire block for your current footer CSS
+   ========================================================= */
+
+.vima-channel{
+  position: relative; /* needed for selected ::before + footer layout */
+}
+
+/* 2nd column wrapper from JS */
+.vima-channel__main{
+  min-width: 0;
+}
+
+/* Footer hidden by default; shown when .is-expanded */
+.vima-channel__footer{
+  grid-column: 1 / -1;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--stroke);
+  display: none;
+}
+
+.vima-channel.is-expanded .vima-channel__footer{
+  display: block;
+}
+
+.vima-channel__footer-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.vima-channel__footer-title{
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 13px;
+  letter-spacing: 0.01em;
+  color: var(--text);
+
+  min-width: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+/* Executive CTA */
+.vima-channel__cta{
+  border: 1px solid rgba(0,0,0,0.92);
+  background: #111111;
+  color: #ffffff;
+
+  padding: 8px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+
+  font-size: 12.5px;
+  font-weight: 600;
+  white-space: nowrap;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: transform 180ms var(--ease),
+              background 180ms var(--ease),
+              border-color 180ms var(--ease),
+              box-shadow 180ms var(--ease);
+}
+
+.vima-channel__cta:hover{
+  transform: translateY(-1px);
+  background: #0a0a0a;
+  border-color: rgba(0,0,0,1);
+  box-shadow: 0 12px 26px rgba(0,0,0,0.18);
+}
+
+.vima-channel__cta:active{
+  transform: translateY(0px);
+  background: #000000;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.14);
+}
+
+/* Remove old text icon if any remains */
+.vima-channel__cta-ico{
+  display: none !important;
+}
+
+/* SVG icon (white) */
+.vima-channel__cta-svg{
+  width: 14px;
+  height: 14px;
+  margin-left: 8px;
+  flex: 0 0 auto;
+  display: inline-block;
+}
+
+.vima-channel__cta-svg path{
+  stroke: #ffffff;
+}
+
+.vima-channel__footer-hint{
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+
+
+
+
+/* ===============================
+   Separator belongs to Resorts (first tab)
+   =============================== */
+
+/* 1) Quita el separador del segundo tab */
+.vima-dataset-tab + .vima-dataset-tab::before{
+  content: none !important;
+}
+
+/* 2) Asegura que el primer tab sea el ancla del separador */
+.vima-dataset-tab:first-child{
+  position: relative;
+}
+
+/* 3) Dibuja el separador como ::after del tab "Resorts" */
+.vima-dataset-tab:first-child::after{
+  content: "|";
+  position: absolute;
+  right: -18px;              /* separación entre Resorts y el | */
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(26,26,26,0.55);
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  pointer-events: none;
+}
+
+/* 4) Deja aire real entre tabs (para que el botón no toque el |) */
+.vima-dataset-tab + .vima-dataset-tab{
+  margin-left: 30px;         /* ajusta: 24–36px según gusto */
+}
+
+
+
+
+
+
+@media (max-width: 1023px){
+  /* Chips de resorts: una sola línea, swipe horizontal */
+  .vima-card__meta--chips{
+    flex-wrap: nowrap;          /* evita 2-3 filas */
+    overflow-x: auto;           /* permite swipe */
+    overflow-y: hidden;
+    gap: 6px;                   /* más compacto */
+    padding-bottom: 2px;        /* aire sutil */
+    -webkit-overflow-scrolling: touch;
+
+    /* oculta scrollbar (mantiene swipe) */
+    scrollbar-width: none;      /* Firefox */
+  }
+  .vima-card__meta--chips::-webkit-scrollbar{
+    height: 0;
+  }
+
+  /* Compacta un poco más el chip en móvil */
+  .vima-chip{
+    height: 22px;
+    padding: 0 9px;
+    font-size: 9.5px;
+    letter-spacing: 0.45px;
+  }
+
+  /* Garantiza “reserva” visual para el título (2 líneas) */
+  .vima-card__title{
+    min-height: calc(1.15em * 2);
+  }
+}
+
+
+
+
+
+
+
+
+/* =========================================================
+   VIMA LUXURY MAP — FIX COMPLETO (OPCIÓN A: MISMA ALTURA)
+   Pegar AL FINAL del CSS
+   ========================================================= */
+
+/* 1) Cards SIEMPRE parejas (altura fija) */
+.vima-luxury-map .vima-card{
+  height: 300px !important;  /* si quieres más aire: 320px */
+}
+
+/* En móvil puedes mantener 280px o igualar a 300px */
+@media (max-width: 1023px){
+  .vima-luxury-map .vima-card{
+    height: 280px !important;
+  }
+}
+
+/* 2) Body como columna para poder empujar la meta al fondo */
+.vima-luxury-map .vima-card__body{
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;        /* clave: ocupar toda la altura del card */
+  padding-bottom: 18px !important; /* colchón inferior interno */
+}
+
+/* 3) Título/Sub: NO se encogen + limitamos líneas para que no rompan */
+.vima-luxury-map .vima-card__title,
+.vima-luxury-map .vima-card__sub{
+  flex: 0 0 auto !important;
+}
+
+/* Recomendado: 2 líneas para mantener uniformidad */
+.vima-luxury-map .vima-card__title{
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 2 !important;  /* cambia a 3 si subes height a 320 */
+  overflow: hidden !important;
+}
+
+/* 4) Meta (chip/pills) SIEMPRE abajo, con aire real del borde
+      (pisando el margin-top:10px conflictivo de tu CSS base) */
+.vima-luxury-map .vima-card__meta{
+  margin-top: auto !important;
+  margin-bottom: 12px !important;   /* aire contra borde inferior */
+  flex: 0 0 auto !important;
+}
+
+/* 5) Chips: NO wrap (para que no se coman altura). Scroll horizontal */
+.vima-luxury-map .vima-card__meta--chips{
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  gap: 8px !important;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+}
+.vima-luxury-map .vima-card__meta--chips::-webkit-scrollbar{
+  height: 0;
+}
+
+
+
+
+/* Baja la prioridad del header sticky (Elementor/JupiterX) */
+.jupiterx-header,
+.elementor-location-header,
+.elementor-section.elementor-sticky--active{
+  z-index: 9999 !important;
+}
+
+/* Asegura que tu modal siempre gane */
+.vima-modal{
+  z-index: 2147483647 !important;
+}
+
+
+/* =========================================================
+   Dataset tabs — as 2 buttons (active black, inactive white)
+   Append at end to override previous tab styles
+   ========================================================= */
+
+.vima-luxury-map__dataset-tabs{
+  gap: 10px !important;
+}
+
+.vima-dataset-tab + .vima-dataset-tab{
+  margin-left: 0 !important;
+}
+
+.vima-dataset-tab + .vima-dataset-tab::before,
+.vima-dataset-tab:first-child::after{
+  content: none !important;
+}
+
+.vima-dataset-tab[data-dataset="available"],
+.vima-dataset-tab[data-dataset="comingSoon"]{
+  padding: 14px 14px !important;
+  border-radius: 3px !important;
+
+  background: #ffffff !important;
+  color: #111111 !important;
+  border: 2px solid #111111 !important;
+
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+.vima-dataset-tab[data-dataset="available"].is-active,
+.vima-dataset-tab[data-dataset="comingSoon"].is-active{
+  background: #111111 !important;
+  color: #ffffff !important;
+  border-color: #111111 !important;
+}
+
+/* Keep hover consistent with active/inactive (optional) */
+.vima-dataset-tab[data-dataset="available"]:hover,
+.vima-dataset-tab[data-dataset="comingSoon"]:hover{
+  background: #ffffff !important;
+  color: #111111 !important;
+}
+.vima-dataset-tab[data-dataset="available"].is-active:hover,
+.vima-dataset-tab[data-dataset="comingSoon"].is-active:hover{
+  background: #111111 !important;
+  color: #ffffff !important;
+}
+
+
+
+/* =========================================================
+   Fullscreen property gallery modal — luxury editorial layout
+   ========================================================= */
+.vima-gallery-modal{
+  --gallery-bg: #ecebea;
+  --gallery-panel: #f4f1ec;
+  --gallery-card: #ffffff;
+  --gallery-ink: #161616;
+  --gallery-muted: rgba(22,22,22,0.62);
+  --gallery-line: rgba(22,22,22,0.10);
+  --gallery-shadow-soft: 0 18px 48px rgba(0,0,0,0.08);
+  --gallery-shadow-card: 0 18px 30px rgba(0,0,0,0.10);
+  --gallery-content-w: min(1120px, calc(100vw - 80px));
+  --gallery-sections-w: min(920px, calc(100vw - 80px));
+
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647 !important;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 340ms ease, visibility 0s linear 820ms;
+}
+
+.vima-gallery-modal[aria-hidden="false"]{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: opacity 340ms ease;
+}
+
+.vima-gallery-modal__backdrop{
+  position: absolute;
+  inset: 0;
+  background: rgba(16,16,16,0.32);
+  backdrop-filter: blur(10px);
+}
+
+.vima-gallery-modal__sheet{
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at top right, rgba(198,165,106,0.12), transparent 24%),
+    linear-gradient(180deg, #f0efed 0%, var(--gallery-bg) 28%, var(--gallery-bg) 100%);
+  color: var(--gallery-ink);
+  border-radius: 30px 30px 0 0;
+  box-shadow: 0 -36px 120px rgba(0,0,0,0.22);
+  transform: translate3d(0, 105%, 0);
+  transition: transform 900ms cubic-bezier(.16, 1, .3, 1);
+}
+
+.vima-gallery-modal[aria-hidden="false"] .vima-gallery-modal__sheet{
+  transform: translate3d(0, 0, 0);
+}
+
+.vima-gallery-modal__body{
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  padding: 0 0 64px;
+  scroll-behavior: smooth;
+  overscroll-behavior: contain;
+}
+
+.vima-gallery-modal__topbar{
+  position: sticky;
+  top: 0;
+  z-index: 8;
+  display: flex;
+  justify-content: flex-end;
+  width: var(--gallery-content-w);
+  margin: 0 auto;
+  padding: 24px 0 10px;
+  background: linear-gradient(180deg, rgba(236,235,234,0.94) 0%, rgba(236,235,234,0.92) 60%, rgba(236,235,234,0) 100%);
+  backdrop-filter: blur(8px);
+}
+
+.vima-gallery-modal__close{
+  appearance: none;
+  -webkit-appearance: none;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 1px solid rgba(22,22,22,0.14);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.86);
+  color: #111111;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  transition: transform 220ms var(--ease), box-shadow 220ms var(--ease), background 220ms var(--ease), border-color 220ms var(--ease);
+}
+
+.vima-gallery-modal__close:hover,
+.vima-gallery-modal__close:focus-visible{
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 16px 36px rgba(0,0,0,0.16);
+  background: #ffffff;
+  border-color: rgba(22,22,22,0.20);
+  outline: none;
+}
+
+.vima-gallery-modal__intro{
+  width: var(--gallery-content-w);
+  margin: 0 auto;
+  padding: 4px 0 26px;
+}
+
+.vima-gallery-modal__title{
+  font-family: "Merriweather", serif;
+  font-size: clamp(18px, 3vw, 26px)!important;
+  line-height: 1.08;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--gallery-ink);
+}
+
+.vima-gallery-modal__subtitle{
+  max-width: 760px;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--gallery-muted);
+}
+
+.vima-gallery-modal__nav-shell{
+  width: var(--gallery-content-w);
+  margin: 0 auto;
+  padding: 0 0 34px;
+}
+
+.vima-gallery-modal__nav{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+.vima-gallery-nav__card{
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 220ms var(--ease), opacity 220ms var(--ease);
+}
+
+.vima-gallery-nav__card:hover,
+.vima-gallery-nav__card:focus-visible{
+  transform: translateY(-3px);
+  outline: none;
+}
+
+.vima-gallery-nav__media{
+  display: block;
+  overflow: hidden;
+  border-radius: 0;
+  background: #ddd7cf;
+  aspect-ratio: 1.65 / 1;
+  box-shadow: var(--gallery-shadow-card);
+  transition: transform 220ms var(--ease), box-shadow 220ms var(--ease), filter 220ms var(--ease);
+}
+
+.vima-gallery-nav__card:hover .vima-gallery-nav__media,
+.vima-gallery-nav__card:focus-visible .vima-gallery-nav__media,
+.vima-gallery-nav__card.is-active .vima-gallery-nav__media{
+  transform: translateY(-2px);
+  box-shadow: 0 24px 42px rgba(0,0,0,0.16);
+}
+
+.vima-gallery-nav__card.is-active .vima-gallery-nav__media{
+  outline: 2px solid rgba(198,165,106,0.42);
+  outline-offset: 0;
+}
+
+.vima-gallery-nav__media img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 420ms var(--ease);
+}
+
+.vima-gallery-nav__card:hover img,
+.vima-gallery-nav__card:focus-visible img,
+.vima-gallery-nav__card.is-active img{
+  transform: scale(1.035);
+}
+
+.vima-gallery-nav__label{
+  display: block;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.28;
+  color: rgba(17,17,17,0.86);
+}
+
+.vima-gallery-nav__card.is-active .vima-gallery-nav__label{
+  color: #111111;
+}
+
+.vima-gallery-modal__sections{
+  width: var(--gallery-sections-w);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+
+.vima-gallery-section{
+  scroll-margin-top: 96px;
+}
+
+.vima-gallery-section__header{
+  margin-bottom: 18px;
+}
+
+.vima-gallery-section__title{
+  font-family: "Merriweather", serif;
+    font-size: clamp(14px, 3vw, 20px) !important;
+  line-height: 1.08;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--gallery-ink);
+}
+
+.vima-gallery-masonry{
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-auto-rows: 10px;
+  gap: 14px;
+  grid-auto-flow: dense;
+}
+
+.vima-gallery-masonry__item{
+  grid-column: span 4;
+  margin: 0;
+}
+
+.vima-gallery-masonry__item[data-layout="wide"]{
+  grid-column: span 8;
+}
+
+.vima-gallery-masonry__item[data-layout="panorama"]{
+  grid-column: span 12;
+}
+
+.vima-gallery-masonry__item[data-layout="tall"]{
+  grid-column: span 4;
+}
+
+.vima-gallery-masonry__frame{
+  overflow: hidden;
+  background: #d7d1c9;
+  box-shadow: var(--gallery-shadow-soft);
+}
+
+.vima-gallery-masonry__image{
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background: #d7d1c9;
+  transform: translateZ(0);
+  transition: transform 420ms var(--ease), filter 420ms var(--ease);
+}
+
+.vima-gallery-masonry__frame:hover .vima-gallery-masonry__image{
+  transform: scale(1.018);
+}
+
+@media (max-width: 1180px){
+  .vima-gallery-modal{
+    --gallery-content-w: min(100%, calc(100vw - 52px));
+    --gallery-sections-w: min(100%, calc(100vw - 52px));
+  }
+
+  .vima-gallery-modal__title{
+    font-size: clamp(18px, 3vw, 26px);
+  }
+}
+
+@media (max-width: 1023px){
+  .vima-gallery-modal{
+    --gallery-content-w: min(100%, calc(100vw - 32px));
+    --gallery-sections-w: min(100%, calc(100vw - 32px));
+  }
+
+  .vima-gallery-modal__sheet{
+    border-radius: 24px 24px 0 0;
+  }
+
+  .vima-gallery-modal__body{
+    padding-bottom: 36px;
+  }
+
+  .vima-gallery-modal__topbar{
+    padding: 18px 0 6px;
+  }
+
+  .vima-gallery-modal__close{
+    width: 44px;
+    height: 44px;
+    font-size: 26px;
+  }
+
+  .vima-gallery-modal__intro{
+    padding: 4px 0 20px;
+  }
+
+  .vima-gallery-modal__title{
+    font-size: clamp(18px, 3vw, 26px);
+  }
+
+  .vima-gallery-modal__subtitle{
+    font-size: 14px;
+  }
+
+  .vima-gallery-modal__nav-shell{
+    padding-bottom: 26px;
+  }
+
+  .vima-gallery-modal__nav{
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 4px;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .vima-gallery-modal__nav::-webkit-scrollbar{
+    height: 0;
+  }
+
+  .vima-gallery-nav__card{
+    flex: 0 0 160px;
+    scroll-snap-align: start;
+  }
+
+  .vima-gallery-nav__media{
+    aspect-ratio: 1.4 / 1;
+  }
+
+  .vima-gallery-modal__sections{
+    gap: 48px;
+  }
+
+  .vima-gallery-section{
+    scroll-margin-top: 86px;
+  }
+
+  .vima-gallery-section__title{
+    font-size: clamp(14px, 3vw, 20px) !important;
+  }
+
+  .vima-gallery-masonry{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .vima-gallery-masonry__item,
+  .vima-gallery-masonry__item[data-layout="tall"],
+  .vima-gallery-masonry__item[data-layout="standard"]{
+    grid-column: span 1;
+  }
+
+  .vima-gallery-masonry__item[data-layout="wide"],
+  .vima-gallery-masonry__item[data-layout="panorama"]{
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 640px){
+  .vima-gallery-modal{
+    --gallery-content-w: min(100%, calc(100vw - 24px));
+    --gallery-sections-w: min(100%, calc(100vw - 24px));
+  }
+
+  .vima-gallery-modal__sheet{
+    border-radius: 20px 20px 0 0;
+  }
+
+  .vima-gallery-modal__topbar{
+    padding-top: 14px;
+  }
+
+  .vima-gallery-modal__nav-shell{
+    padding-bottom: 22px;
+  }
+
+  .vima-gallery-nav__card{
+    flex-basis: 146px;
+  }
+
+  .vima-gallery-nav__label{
+    font-size: 14px;
+  }
+}
+
+
+
+/* =========================================================
+   Refined gallery modal overrides — luxury editorial v2
+   ========================================================= */
+.vima-gallery-modal{
+  --gallery-bg: #f2f0ec;
+  --gallery-panel: #f6f3ee;
+  --gallery-card: #ffffff;
+  --gallery-ink: #141414;
+  --gallery-muted: rgba(20,20,20,0.64);
+  --gallery-line: rgba(20,20,20,0.10);
+  --gallery-shadow-soft: 0 10px 26px rgba(0,0,0,0.06);
+  --gallery-shadow-card: 0 12px 24px rgba(0,0,0,0.08);
+  --gallery-header-h: 74px;
+  --gallery-content-w: min(1240px, calc(100vw - 120px));
+  --gallery-sections-w: min(1240px, calc(100vw - 120px));
+}
+
+.vima-gallery-modal__sheet{
+  display: grid;
+  grid-template-rows: var(--gallery-header-h) minmax(0,1fr) 28px;
+  border-radius: 0 !important;
+  background: linear-gradient(180deg, #f3f1ed 0%, #efede9 100%);
+  box-shadow: 0 -18px 64px rgba(0,0,0,0.16);
+}
+
+.vima-gallery-modal__header,
+.vima-gallery-modal__topbar{
+  position: relative;
+  z-index: 6;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 100%;
+  height: var(--gallery-header-h);
+  padding: 12px 16px 0;
+  margin: 0;
+  background: linear-gradient(180deg, rgba(243,241,237,0.98) 0%, rgba(243,241,237,0.92) 68%, rgba(243,241,237,0) 100%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-sizing: border-box;
+}
+
+.vima-gallery-modal__body{
+  position: relative;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 6px 0 56px;
+  scroll-behavior: smooth;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+.vima-gallery-modal__footer{
+  border-top: 1px solid transparent;
+  background: linear-gradient(180deg, rgba(239,237,233,0) 0%, rgba(239,237,233,0.92) 100%);
+}
+
+.vima-gallery-modal__close{
+  position: relative;
+  appearance: none;
+  -webkit-appearance: none;
+  inline-size: 46px;
+  block-size: 46px;
+  min-inline-size: 46px;
+  margin: 0 2px 0 0;
+  padding: 0;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: transparent !important;
+  font-size: 0 !important;
+  line-height: 1;
+}
+
+.vima-gallery-modal__close::before{
+  content: "×";
+  display: block;
+  color: #111111;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 46px;
+  text-align: center;
+}
+
+.vima-gallery-modal__close:hover,
+.vima-gallery-modal__close:focus-visible{
+  transform: none !important;
+  outline: none;
+  opacity: 0.72;
+}
+
+.vima-gallery-modal__intro{
+  width: var(--gallery-content-w);
+  margin: 0 auto;
+  padding: 8px 0 20px;
+}
+
+.vima-gallery-modal__title{
+  margin: 0;
+  font-family: "Merriweather", serif;
+  font-size: clamp(18px, 3vw, 26px) !important;
+  line-height: 1.08;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  color: var(--gallery-ink);
+}
+
+.vima-gallery-modal__subtitle{
+  margin-top: 8px;
+  max-width: 700px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: var(--gallery-muted);
+}
+
+.vima-gallery-modal__nav-shell{
+  width: var(--gallery-content-w);
+  margin: 0 auto;
+  padding: 0 0 34px;
+}
+
+.vima-gallery-modal__nav{
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(132px, 168px));
+  gap: 14px 16px;
+  justify-content: start;
+  align-items: start;
+}
+
+.vima-gallery-nav__card{
+  width: 100%;
+  max-width: 168px;
+}
+
+.vima-gallery-nav__media{
+  aspect-ratio: 1.52 / 1;
+  border-radius: 0 !important;
+  box-shadow: none;
+  background: #d8d1c7;
+}
+
+.vima-gallery-nav__card:hover,
+.vima-gallery-nav__card:focus-visible,
+.vima-gallery-nav__card:hover .vima-gallery-nav__media,
+.vima-gallery-nav__card:focus-visible .vima-gallery-nav__media,
+.vima-gallery-nav__card.is-active .vima-gallery-nav__media{
+  transform: none;
+  box-shadow: none;
+}
+
+.vima-gallery-nav__card.is-active .vima-gallery-nav__media{
+  outline: 1px solid rgba(17,17,17,0.18);
+}
+
+.vima-gallery-nav__media img{
+  transform: none !important;
+}
+
+.vima-gallery-nav__label{
+  margin-top: 8px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.35;
+  font-weight: 500;
+  color: rgba(17,17,17,0.86);
+}
+
+.vima-gallery-modal__sections{
+  width: var(--gallery-sections-w);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.vima-gallery-section{
+  scroll-margin-top: 32px;
+}
+
+.vima-gallery-section__header{
+  margin-bottom: 14px;
+}
+
+.vima-gallery-section__title{
+  margin: 0;
+  font-family: "Merriweather", serif;
+    font-size: clamp(14px, 3vw, 20px) !important;
+  line-height: 1.12;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  color: var(--gallery-ink);
+}
+
+.vima-gallery-masonry{
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-auto-rows: 8px;
+  gap: 12px;
+}
+
+.vima-gallery-masonry__item{
+  grid-column: span 3;
+  margin: 0;
+}
+
+.vima-gallery-masonry__item[data-layout="wide"]{
+  grid-column: span 6;
+}
+
+.vima-gallery-masonry__item[data-layout="panorama"]{
+  grid-column: span 9;
+}
+
+.vima-gallery-masonry__item[data-layout="tall"]{
+  grid-column: span 3;
+}
+
+.vima-gallery-masonry__frame{
+  border-radius: 0 !important;
+  box-shadow: none;
+  background: #ddd6cc;
+}
+
+.vima-gallery-masonry__image{
+  border-radius: 0 !important;
+  transition: transform 320ms ease;
+}
+
+.vima-gallery-masonry__frame:hover .vima-gallery-masonry__image{
+  transform: scale(1.012);
+}
+
+@media (max-width: 1180px){
+  .vima-gallery-modal{
+    --gallery-content-w: min(100%, calc(100vw - 72px));
+    --gallery-sections-w: min(100%, calc(100vw - 72px));
+  }
+}
+
+@media (max-width: 1023px){
+  .vima-gallery-modal{
+    --gallery-header-h: 64px;
+    --gallery-content-w: min(100%, calc(100vw - 28px));
+    --gallery-sections-w: min(100%, calc(100vw - 28px));
+  }
+
+  .vima-gallery-modal__sheet{
+    grid-template-rows: var(--gallery-header-h) minmax(0,1fr) 18px;
+    border-radius: 0 !important;
+  }
+
+  .vima-gallery-modal__header,
+  .vima-gallery-modal__topbar{
+    padding: 8px 10px 0;
+  }
+
+  .vima-gallery-modal__close{
+    inline-size: 42px;
+    block-size: 42px;
+    min-inline-size: 42px;
+  }
+
+  .vima-gallery-modal__close::before{
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .vima-gallery-modal__intro{
+    padding: 2px 0 18px;
+  }
+
+  .vima-gallery-modal__title{
+    font-size: clamp(18px, 3vw, 26px) !important;
+  }
+
+  .vima-gallery-modal__subtitle,
+  .vima-gallery-nav__label{
+    font-size: 11px;
+  }
+
+  .vima-gallery-modal__nav{
+    display: flex !important;
+    gap: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 2px;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .vima-gallery-modal__nav::-webkit-scrollbar{
+    height: 0;
+  }
+
+  .vima-gallery-nav__card{
+    flex: 0 0 132px;
+    max-width: none;
+    scroll-snap-align: start;
+  }
+
+  .vima-gallery-nav__media{
+    aspect-ratio: 1.28 / 1;
+  }
+
+  .vima-gallery-modal__sections{
+    gap: 34px;
+  }
+
+  .vima-gallery-section__title{
+    font-size: clamp(14px, 3vw, 20px) !important;
+  }
+
+  .vima-gallery-masonry{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .vima-gallery-masonry__item,
+  .vima-gallery-masonry__item[data-layout="tall"],
+  .vima-gallery-masonry__item[data-layout="standard"]{
+    grid-column: span 1;
+  }
+
+  .vima-gallery-masonry__item[data-layout="wide"],
+  .vima-gallery-masonry__item[data-layout="panorama"]{
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 640px){
+  .vima-gallery-modal{
+    --gallery-content-w: min(100%, calc(100vw - 20px));
+    --gallery-sections-w: min(100%, calc(100vw - 20px));
+  }
+
+  .vima-gallery-modal__body{
+    padding-bottom: 28px;
+  }
+}
+
+
+/* =========================================================
+   Gallery collage overrides — reference match v3
+   ========================================================= */
+.vima-gallery-modal__title,
+.vima-gallery-section__title{
+  font-family: "Merriweather", serif !important;
+}
+
+.vima-gallery-modal__subtitle,
+.vima-gallery-nav__label,
+.vima-gallery-modal__close::before{
+  font-family: "Montserrat", Arial, sans-serif !important;
+}
+
+.vima-gallery-modal__intro{
+  padding: 10px 0 24px;
+}
+
+.vima-gallery-modal__title{
+  font-size: clamp(18px, 3vw, 26px) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.03em;
+}
+
+.vima-gallery-modal__subtitle{
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.vima-gallery-modal__nav-shell{
+  padding-bottom: 38px;
+}
+
+.vima-gallery-modal__nav{
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(132px, 168px));
+  gap: 14px 16px;
+  justify-content: start;
+  justify-items: start;
+  align-items: start;
+}
+
+.vima-gallery-nav__card{
+  width: 168px;
+  max-width: 168px;
+  justify-self: start;
+  align-items: center;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.vima-gallery-nav__card,
+.vima-gallery-nav__card:hover,
+.vima-gallery-nav__card:focus,
+.vima-gallery-nav__card:focus-visible,
+.vima-gallery-nav__card.is-active{
+  outline: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.vima-gallery-nav__media{
+  width: 100%;
+  aspect-ratio: 1.52 / 1;
+  border-radius: 0 !important;
+  overflow: hidden;
+  background: #d8d1c7;
+  transform-origin: center center;
+  transition: transform 280ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.vima-gallery-nav__media img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  transition: transform 380ms cubic-bezier(0.22, 1, 0.36, 1), filter 260ms ease;
+}
+
+.vima-gallery-nav__card:hover .vima-gallery-nav__media,
+.vima-gallery-nav__card:focus-visible .vima-gallery-nav__media,
+.vima-gallery-nav__card.is-active .vima-gallery-nav__media{
+  outline: none !important;
+  box-shadow: none !important;
+  transform: scale(1.045);
+}
+
+.vima-gallery-nav__card:hover .vima-gallery-nav__media img,
+.vima-gallery-nav__card:focus-visible .vima-gallery-nav__media img,
+.vima-gallery-nav__card.is-active .vima-gallery-nav__media img{
+  transform: scale(1.07);
+}
+
+.vima-gallery-nav__label{
+  width: 100%;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(17,17,17,0.88);
+}
+
+.vima-gallery-modal__sections{
+  gap: 56px;
+}
+
+.vima-gallery-section{
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+  gap: 44px;
+  align-items: start;
+  scroll-margin-top: 8px;
+}
+
+.vima-gallery-section__header{
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  align-self: start;
+  margin: 0;
+  padding: 8px 0 14px;
+  background: linear-gradient(180deg, rgba(239,237,233,0.98) 0%, rgba(239,237,233,0.94) 78%, rgba(239,237,233,0) 100%);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.vima-gallery-section__title{
+  margin: 0;
+    font-size: clamp(14px, 3vw, 20px) !important;
+  line-height: 1.1;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
+}
+
+.vima-gallery-masonry{
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-auto-rows: 8px;
+  gap: 8px;
+  grid-auto-flow: dense;
+  align-items: start;
+}
+
+.vima-gallery-masonry__item{
+  margin: 0;
+}
+
+.vima-gallery-masonry__frame{
+  overflow: hidden;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: #ddd6cc;
+}
+
+.vima-gallery-masonry__image{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 !important;
+  transform: scale(1);
+  transition: transform 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.vima-gallery-masonry__frame:hover .vima-gallery-masonry__image{
+  transform: scale(1.035);
+}
+
+.vima-gallery-masonry__item[data-collage-pattern="a"]{
+  grid-column: span 6;
+}
+
+.vima-gallery-masonry__item[data-collage-pattern="a"] .vima-gallery-masonry__frame{
+  aspect-ratio: 1.44 / 1;
+}
+
+.vima-gallery-masonry__item[data-collage-pattern="b"]{
+  grid-column: span 6;
+}
+
+.vima-gallery-masonry__item[data-collage-pattern="b"] .vima-gallery-masonry__frame{
+  aspect-ratio: 0.7 / 1;
+}
+
+.vima-gallery-masonry__item[data-collage-pattern="c"]{
+  grid-column: span 6;
+}
+
+.vima-gallery-masonry__item[data-collage-pattern="c"] .vima-gallery-masonry__frame{
+  aspect-ratio: 1.44 / 1;
+}
+
+.vima-gallery-masonry__item[data-collage-pattern="d"]{
+  grid-column: span 8;
+}
+
+.vima-gallery-masonry__item[data-collage-pattern="d"] .vima-gallery-masonry__frame{
+  aspect-ratio: 1.24 / 1;
+}
+
+.vima-gallery-masonry__item[data-collage-pattern="e"]{
+  grid-column: span 4;
+}
+
+.vima-gallery-masonry__item[data-collage-pattern="e"] .vima-gallery-masonry__frame{
+  aspect-ratio: 0.78 / 1;
+}
+
+.vima-gallery-masonry__item[data-collage-pattern="f"]{
+  grid-column: span 4;
+}
+
+.vima-gallery-masonry__item[data-collage-pattern="f"] .vima-gallery-masonry__frame{
+  aspect-ratio: 0.92 / 1;
+}
+
+@media (max-width: 1180px){
+  .vima-gallery-modal{
+    --gallery-content-w: min(100%, calc(100vw - 72px));
+    --gallery-sections-w: min(100%, calc(100vw - 72px));
+  }
+
+  .vima-gallery-section{
+    grid-template-columns: minmax(180px, 260px) minmax(0, 1fr);
+    gap: 34px;
+  }
+}
+
+@media (max-width: 1023px){
+  .vima-gallery-modal__title{
+    font-size: clamp(18px, 3vw, 26px) !important;
+  }
+
+  .vima-gallery-modal__nav{
+    display: flex !important;
+    gap: 12px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 4px;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .vima-gallery-modal__nav::-webkit-scrollbar{
+    height: 0;
+  }
+
+  .vima-gallery-nav__card{
+    flex: 0 0 178px;
+    max-width: 178px;
+    scroll-snap-align: start;
+  }
+
+  .vima-gallery-nav__media{
+    border-radius: 22px !important;
+  }
+
+  .vima-gallery-nav__label{
+    font-size: 13px;
+  }
+
+  .vima-gallery-modal__sections{
+    gap: 38px;
+  }
+
+  .vima-gallery-section{
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .vima-gallery-section__header{
+    top: 0;
+    padding: 0 0 12px;
+  }
+
+  .vima-gallery-section__title{
+    font-size: clamp(14px, 3vw, 20px) !important;
+  }
+
+  .vima-gallery-masonry{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .vima-gallery-masonry__item,
+  .vima-gallery-masonry__item[data-layout],
+  .vima-gallery-masonry__item[data-collage-pattern]{
+    grid-column: span 1 !important;
+  }
+
+  .vima-gallery-masonry__item[data-collage-pattern="a"] .vima-gallery-masonry__frame,
+  .vima-gallery-masonry__item[data-collage-pattern="c"] .vima-gallery-masonry__frame{
+    aspect-ratio: 1.02 / 1;
+  }
+
+  .vima-gallery-masonry__item[data-collage-pattern="b"] .vima-gallery-masonry__frame,
+  .vima-gallery-masonry__item[data-collage-pattern="d"] .vima-gallery-masonry__frame{
+    aspect-ratio: 0.82 / 1;
+  }
+
+  .vima-gallery-masonry__item[data-collage-pattern="e"] .vima-gallery-masonry__frame{
+    aspect-ratio: 0.94 / 1.08;
+  }
+
+  .vima-gallery-masonry__item[data-collage-pattern="f"] .vima-gallery-masonry__frame{
+    aspect-ratio: 0.9 / 1;
+  }
+}
+
+@media (max-width: 640px){
+  .vima-gallery-modal__intro{
+    padding: 6px 0 20px;
+  }
+
+  .vima-gallery-nav__card{
+    flex-basis: 162px;
+    max-width: 162px;
+  }
+}
+
+
+
+
+/* =========================================================
+   Gallery modal header actions
+   ========================================================= */
+.vima-gallery-modal__header,
+.vima-gallery-modal__topbar{
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.vima-gallery-modal__header-actions{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-top: 4px;
+  max-width: calc(100% - 64px);
+}
+
+.vima-gallery-modal__cta{
+  appearance: none;
+  -webkit-appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 14px;
+  border-radius: 999px;
+  text-decoration: none;
+  cursor: pointer;
+
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1;
+
+  color: #111111;
+  background: #ffffff;
+
+  box-shadow:
+    0 10px 22px rgba(0,0,0,0.08),
+    0 2px 4px rgba(0,0,0,0.05),
+    0 0 0 1px rgba(255,255,255,0.7) inset;
+
+  transition:
+    transform 180ms var(--ease),
+    box-shadow 180ms var(--ease),
+    border-color 180ms var(--ease),
+    background 180ms var(--ease),
+    color 180ms var(--ease);
+}
+
+.vima-gallery-modal__cta:hover,
+.vima-gallery-modal__cta:focus-visible{
+  transform: translateY(-1px);
+  background: #fbfbf8;
+  box-shadow:
+    0 14px 26px rgba(0,0,0,0.10),
+    0 3px 6px rgba(0,0,0,0.06),
+    0 0 0 1px rgba(255,255,255,0.8) inset;
+  outline: none;
+}
+
+/* Botón principal */
+.vima-gallery-modal__cta--tour{
+  background: #ffffff;
+  color: #111111;
+  border-color: #111111;
+}
+
+/* Botón secundario */
+.vima-gallery-modal__cta--video{
+  background: #ffffff;
+  color: #111111;
+  border-color: #111111;
+}
+
+.vima-gallery-modal__cta--video:hover,
+.vima-gallery-modal__cta--video:focus-visible,
+.vima-gallery-modal__cta--tour:hover,
+.vima-gallery-modal__cta--tour:focus-visible{
+  background: #fbfbf8;
+  color: #000000;
+}
+
+/* Cuando no haya URL, se oculta con [hidden] */
+.vima-gallery-modal__cta[hidden]{
+  display: none !important;
+}
+
+.vima-gallery-modal__cta-icon{
+  inline-size: 16px;
+  block-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  flex: 0 0 16px;
+}
+
+.vima-gallery-modal__cta-icon svg{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.vima-gallery-modal__cta-label{
+  display: inline-block;
+}
+
+
+@media (max-width: 1023px){
+  .vima-gallery-modal__header-actions{
+    gap: 8px;
+    max-width: calc(100% - 52px);
+    padding-top: 2px;
+  }
+
+  .vima-gallery-modal__cta{
+    min-height: 36px;
+    padding: 0 12px;
+    font-size: 9.5px;
+    letter-spacing: 0.035em;
+  }
+}
+
+@media (max-width: 640px){
+  .vima-gallery-modal__header,
+  .vima-gallery-modal__topbar{
+    align-items: flex-start;
+  }
+
+  .vima-gallery-modal__header-actions{
+    gap: 6px;
+    max-width: calc(100% - 46px);
+  }
+
+  .vima-gallery-modal__cta{
+    min-height: 34px;
+    padding: 0 10px;
+    font-size: 9px;
+  }
+}
+
+/* =========================================================
+   Gallery sticky headers — no visible gap / no bleed behind
+   ========================================================= */
+.vima-gallery-modal__body{
+  padding-top: 0 !important;
+  background: #efede9 !important;
+}
+
+.vima-gallery-modal__header,
+.vima-gallery-modal__topbar{
+  background: #f3f1ed !important;
+  background-image: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  box-shadow: 0 1px 0 rgba(17,17,17,0.08);
+}
+
+.vima-gallery-section__header{
+  position: sticky;
+  top: 0 !important;
+  z-index: 7 !important;
+  margin: 0 !important;
+  background: #efede9 !important;
+  background-image: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  box-shadow: 0 1px 0 rgba(17,17,17,0.08);
+  padding-top: 5px;
+}
+
+@media (max-width: 1023px){
+  .vima-gallery-section__header{
+    top: 0 !important;
+  }
+}

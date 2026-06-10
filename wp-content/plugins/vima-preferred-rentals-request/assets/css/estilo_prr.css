@@ -1,0 +1,104 @@
+#contenedor_checkboxes{
+    display: none;
+}
+.destination-group{
+    cursor: pointer;
+}
+
+.destination-group label{
+    cursor: pointer;
+    color: #000000;
+    font-size: .9em;
+
+}
+.destination-group h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Playfair Display;
+    font-size: 18px;
+    color: #000000;
+}
+.jet-form__label {
+font-family: "Didact Gothic", Sans-serif;
+font-size: 17px;
+font-weight: 700;
+color: #000000;
+padding: 0px 0px 0px 0px;
+}
+
+input[type='checkbox']{
+    scale: 1.2;
+    /* display: none; */
+}
+.hidden{
+    display: none;
+}
+input[type='text'], input[type='email']{
+        color: darkblue;
+        background-color: transparent;
+        width: 100%;
+        display: flex;
+        box-sizing: border-box;
+        border: 1px solid darkgray;
+        padding-left: 10px;
+        pointer-events: none;
+}
+
+#field_initials{
+    color: darkblue;
+        background-color: transparent;
+        width: 100%;
+        display: flex;
+        box-sizing: border-box;
+        border: 1px solid darkgray;
+        padding-left: 10px;
+    text-transform: uppercase;
+    pointer-events: auto;
+}
+#number_of_weeks_available{
+    pointer-events: auto;
+    margin-bottom: 10px;
+}
+button.jet-form__submit{
+    background-color: #000;
+    color: #FFFFFF;
+    font-family: "Didact Gothic", Sans-serif;
+    font-size: 17px;
+    padding: 4px 10px 4px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: calc(120px / cos(45deg));
+    height: 14px;
+    background: repeating-linear-gradient(-45deg,#000 0 15px,#0000 0 20px) left/200% 100%;
+    animation: l3 4s infinite linear;
+  }
+  @keyframes l3 {
+      100% {background-position:right}
+  }
+  .loader-pos{
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    opacity: .7;
+    
+  }
+  #confirmacion{
+    background-color: #000;
+    font-family: Monsserat !important;
+    width: 70%;
+    color: white !important;
+    font-weight: 500;
+      border: none;
+      border-radius: 15px;
+      padding: 50px 0px 50px 0px !important;
+  }
+
+#confirmacion h3{
+    font-family: "Didact Gothic", Sans-serif;
+    color: white;
+    font-weight: 300 !important;
+    letter-spacing: 1px
+    
+}

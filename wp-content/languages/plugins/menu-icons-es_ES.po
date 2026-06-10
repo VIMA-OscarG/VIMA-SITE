@@ -1,0 +1,268 @@
+# Translation of Plugins - Menu Icons by ThemeIsle - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Menu Icons by ThemeIsle - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-23 16:03:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Menu Icons by ThemeIsle - Development (trunk)\n"
+
+#: menu-icons.php:243
+msgid "Have you heard about our latest FREE theme - Neve? Using a mobile-first approach, compatibility with AMP and popular page-builders, Neve makes website building accessible for everyone."
+msgstr "¿Has oído hablar de nuestro último tema gratuito - Neve? Usando una orientación de primero móviles, compatibilidad con AMP y con los maquetadores de páginas más populares, Neve hace que la creación de webs sea accesible para todos."
+
+#: menu-icons.php:242
+msgid "Thank you for installing Menu Icons!"
+msgstr "¡Gracias por instalar Menu Icons!"
+
+#: includes/settings.php:761
+msgid "Preview Otter Blocks"
+msgstr "Previsualizar bloques de Otter"
+
+#: includes/settings.php:750
+msgid "Otter is a dynamic collection of page building blocks and templates,  covering all the elements you need to build your WordPress site."
+msgstr "Otter es una colección dinámica de bloques y plantillas para la creación de páginas, que cubre todos los elementos que necesitas para crear tu sitio WordPress."
+
+#: includes/settings.php:750
+msgid "Build professional pages with Otter Blocks"
+msgstr "Crea páginas profesionales con bloques Otter"
+
+#: includes/settings.php:744 menu-icons.php:244
+msgid "Preview Neve"
+msgstr "Previsualizar Neve"
+
+#: includes/settings.php:737
+msgid "Neve’s mobile-first approach, compatibility with AMP and popular page-builders makes website building accessible for everyone."
+msgstr "La orientación de primero móviles, compatibilidad con AMP y con los maquetadores de páginas más populares de Neve hace que crear webs sea accesible para todos."
+
+#: includes/settings.php:737
+msgid "Check-out our latest lightweight FREE theme - Neve"
+msgstr "Echa un vistazo a nuestro último y ligero tema GRATUITO - Neve"
+
+#: includes/settings.php:470
+msgid "FA Custom Icon Classes"
+msgstr "Clases de iconos personalizados FA"
+
+#. Author URI of the plugin
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Author of the plugin
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/Codeinwp/wp-menu-icons"
+msgstr "https://github.com/Codeinwp/wp-menu-icons"
+
+#: includes/settings.php:790
+msgid "the customizer"
+msgstr "el personalizador"
+
+#: includes/settings.php:785
+msgid "Please note that the actual look of the icons on the front-end will also be affected by the style of your active theme. You can add your own CSS using %2$s or a plugin such as %3$s if you need to override it."
+msgstr "Por favor, ten en cuenta que el aspecto real de los iconos en la web también se verá afectado por el estilo de tu tema activo. Puedes añadir tu propio CSS usando %2$s o un plugin como %3$s si necesitas personalizarlo."
+
+#: menu-icons.php:170
+msgid "Looks like Menu Icons was installed via Composer. Please activate Icon Picker first."
+msgstr "Parece que Menu Icons se instaló desde Composer. Por favor, activa primero el selector de iconos."
+
+#: includes/settings.php:781
+msgid "Change"
+msgstr "Cambio"
+
+#: includes/settings.php:597
+msgid "SVG Width"
+msgstr "Ancho SVG"
+
+#: includes/picker.php:74
+msgid "Type"
+msgstr "Escribir"
+
+#. Description of the plugin
+msgid "Spice up your navigation menus with pretty icons, easily."
+msgstr "Alegra tus menús de navegación con bonitos iconos, fácilmente."
+
+#. Plugin Name of the plugin
+msgid "Menu Icons"
+msgstr "Menu Icons"
+
+#: menu-icons.php:141
+msgid "Menu Icons: No registered icon types found."
+msgstr "Menu Icons: No hay tipos de icono registrados."
+
+#: includes/settings.php:608
+msgid "Image Size"
+msgstr "Tamaño de imagen"
+
+#: includes/library/functions.php:82
+msgid "Full Size"
+msgstr "Completo"
+
+#: includes/library/functions.php:81
+msgid "Large"
+msgstr "Grande"
+
+#: includes/library/functions.php:80
+msgid "Medium"
+msgstr "Medio"
+
+#: includes/library/functions.php:79
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: includes/library/font-awesome/font-awesome.php:116
+msgid "Deselect"
+msgstr "Desmarcar"
+
+#: includes/settings.php:579
+msgid "Sub"
+msgstr "Sub"
+
+#: includes/settings.php:575
+msgid "Bottom"
+msgstr "Abajo"
+
+#: includes/settings.php:571
+msgid "Text Bottom"
+msgstr "Debajo del texto"
+
+#: includes/settings.php:567
+msgid "Baseline"
+msgstr "Base"
+
+#: includes/settings.php:563
+msgid "Middle"
+msgstr "Al medio"
+
+#: includes/settings.php:559
+msgid "Text Top"
+msgstr "Arriba del texto"
+
+#: includes/settings.php:555
+msgid "Top"
+msgstr "Arriba"
+
+#: includes/settings.php:551
+msgid "Super"
+msgstr "Superíndice"
+
+#: includes/settings.php:546
+msgid "Vertical Align"
+msgstr "Alineación vertical"
+
+#: includes/settings.php:586
+msgid "Font Size"
+msgstr "Tamaño de fuente"
+
+#: includes/settings.php:430
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: includes/settings.php:421
+msgid "Reset"
+msgstr "Restablecer"
+
+#: includes/settings.php:420
+msgid "Discard all changes and reset to default state"
+msgstr "Descartar todos los cambios y restablecer al estado por defecto"
+
+#: includes/settings.php:373 includes/settings.php:401
+msgid "Extensions"
+msgstr "Extensiones"
+
+#: includes/settings.php:488
+msgid "\"%s\" menu settings"
+msgstr "Ajustes del menú \"%s\" "
+
+#: includes/settings.php:486
+msgid "Current Menu"
+msgstr "Menú actual"
+
+#: includes/settings.php:463
+msgid "Icon Types"
+msgstr "Tipos de iconos"
+
+#: includes/settings.php:458
+msgid "Global settings"
+msgstr "Ajustes globales"
+
+#: includes/settings.php:457
+msgid "Global"
+msgstr "Global"
+
+#: includes/settings.php:539
+msgid "After"
+msgstr "Después"
+
+#: includes/settings.php:535
+msgid "Before"
+msgstr "Antes"
+
+#: includes/settings.php:530
+msgid "Position"
+msgstr "Posición"
+
+#: includes/settings.php:523
+msgid "Yes"
+msgstr "Sí"
+
+#: includes/settings.php:519
+msgid "No"
+msgstr "No"
+
+#: includes/settings.php:514
+msgid "Hide Label"
+msgstr "Ocultar etiqueta"
+
+#: includes/settings.php:301
+msgid "Menu Icons Settings"
+msgstr "Ajustes de Menu Icons"
+
+#: includes/settings.php:336
+msgid "<strong>Menu Icons Settings</strong> have been successfully reset."
+msgstr "Los <strong>ajustes de Menu Icons</strong> se han restablecido con éxito."
+
+#: includes/settings.php:335
+msgid "<strong>Menu Icons Settings</strong> have been successfully updated."
+msgstr "Los <strong>ajustes de Menu Icons</strong> se han actualizado con éxito."
+
+#: includes/library/form-fields.php:152
+msgid "%1$s: Type %2$s is not supported, reverting to text."
+msgstr "%1$s: No es compatible con el tipo %2$s, volviendo a texto."
+
+#: includes/picker.php:79 includes/picker.php:177
+msgid "Icon"
+msgstr "Icono"
+
+#: includes/picker.php:129 includes/settings.php:780
+msgid "Remove"
+msgstr "Eliminar"
+
+#: includes/picker.php:127
+msgid "Icon:"
+msgstr "Icono:"
+
+#: includes/settings.php:783
+msgid "Preview"
+msgstr "Vista previa"
+
+#: includes/settings.php:782
+msgid "All"
+msgstr "Todo"
+
+#: includes/picker.php:128 includes/settings.php:779
+msgid "Select"
+msgstr "Selección"
+
+#: includes/settings.php:778
+msgid "Select Icon"
+msgstr "Elegir icono"
+
+#: includes/library/form-fields.php:528
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Elegir &mdash;"

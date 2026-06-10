@@ -1,0 +1,41 @@
+{
+  "name": "publishpress/publishpress-capabilities",
+  "type": "wordpress-plugin",
+  "description": "",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "PublishPress",
+      "email": "help@publishpress.com"
+    }
+  ],
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "allow-plugins": {
+      "publishpress/dev-workspace": true,
+      "php-http/discovery": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "phpstan/extension-installer": true
+    },
+    "process-timeout": 0
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.2.5"
+  },
+  "require-dev": {
+    "publishpress/dev-workspace": "^1.0"
+  },
+  "extra": {
+    "plugin-name": "publishpress-capabilities",
+    "plugin-slug": "capsman-enhanced",
+    "plugin-folder": "capability-manager-enhanced",
+    "version-constant": "PUBLISHPRESS_CAPS_VERSION",
+    "plugin-lang-domain": "capability-manager-enhanced",
+    "plugin-github-repo": "publishpress/publishpress-capabilities",
+    "plugin-composer-package": "publishpress/publishpress-capabilities"
+  }
+}

@@ -1,0 +1,55 @@
+dialog{
+    width: 90vw;
+    padding: 40px !important;
+    text-align: center;
+    border-radius: 6px;
+}
+
+/* dialog button{
+    color: #ffffff;
+    background-color: #000000 !important;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 5px 5px 5px 5px;
+    font-family: "Cormorant Garamond", Sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 45px;
+    padding: 2px 20px 2px 20px;
+    margin: 30px !important;
+} */
+
+dialog button{
+    text-align: center;
+    font-family: "Cormorant Garamond", Sans-serif;
+    font-size: 16.5px;
+    background-color: #414242 !important;
+    color: #FFFFFF;
+    padding: 10px 30px 10px 30px !important;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 7px 0px rgba(255, 255, 255, .7);
+    margin: 20px !important;
+    letter-spacing: 1.5;
+}
+
+p:has(#mailchimp_woocommerce_is_subscribed){
+  display: none !important;
+}
+p:has(#mailchimp_woocommerce_is_unsubscribed){
+  display: none !important;
+}
+p:has(#mailchimp_woocommerce_is_transactional){
+  display: none !important;
+}
+
+p:has(#billing_address_1){
+  display: none !important;
+}
+
+p:has(#account_display_name){
+  display: none !important;
+}

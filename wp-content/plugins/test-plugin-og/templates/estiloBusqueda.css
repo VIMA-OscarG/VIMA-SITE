@@ -1,0 +1,34 @@
+
+h2.page_title_AASKP{
+	background: none;
+	background-color: #000 !important;
+	color: black;
+	/*visibility: hidden;*/
+}
+
+h2.page_title_AASKP:before{
+	
+	content: "BUSCADOR DE RENTAL SUBMISSIONS";
+	color: #fff !important;
+	
+}
+
+.btn1.button_AASKP{
+	background: none;
+	background-color: #000 !important;
+	color: #fff;
+	/*visibility: hidden;*/
+}
+h2.search_result_count span{
+	background: none !important;
+	background-color: #000 !important;
+	color: #fff;
+}
+
+.advanced-admin-wrapper form p:nth-child(1)::after{
+	content: "(By Client Name ,Rental Submission Number, Initials or Rented Unit)";
+	/*color: #fff !important;*/
+}
+
+
+

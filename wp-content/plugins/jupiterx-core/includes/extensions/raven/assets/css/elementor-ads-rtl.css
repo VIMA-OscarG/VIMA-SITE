@@ -1,0 +1,434 @@
+@charset "UTF-8";
+/** ============================================================
+ * Elementor upgrade / promotion UI suppression
+ * Hides "Go Pro", upsell badges, notice bars, and promotion
+ * widgets so customers see a clean Jupiter X experience.
+ * ============================================================ */
+/** WP admin: Elementor dashboard notices with install / “Learn more” CTAs (Ally, Site Mailer, experiments promo, etc.) */
+body.wp-admin .notice.e-notice.e-notice--cta {
+  display: none !important;
+}
+
+/** Dynamic tags Pro teaser in editor panel */
+.elementor-tags-list__teaser {
+  display: none !important;
+}
+
+/** Pro widget placeholders and integration upsells in element search results */
+#elementor-panel-elements .elementor-element--promotion,
+#elementor-panel-elements .elementor-element--integration,
+.elementor-element-wrapper.elementor-element--promotion,
+.elementor-element-wrapper.elementor-element--integration,
+.elementor-panel-heading-promotion {
+  display: none !important;
+}
+
+/** Page-transitions Pro menu item (PHP removal not reliable) */
+.elementor-panel-menu-item-settings-page-transitions {
+  display: none !important;
+}
+
+/** Template library: keep Jupiter X tab first */
+#elementor-template-library-header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#elementor-template-library-header-menu > [data-tab="library/templatesJX"] {
+  -webkit-box-ordinal-group: -4;
+  -ms-flex-order: -5;
+  order: -5;
+}
+
+/** "Get Pro Elements" panel footer bar */
+#elementor-panel-get-pro-elements {
+  display: none !important;
+}
+
+/** Pro / WooCommerce / Theme widget categories in the panel */
+#elementor-panel-category-pro-elements,
+#elementor-panel-category-woocommerce-elements,
+#elementor-panel-category-theme-elements,
+#elementor-panel-category-theme-elements-single {
+  display: none !important;
+}
+
+/** Custom attributes / Custom CSS Pro teaser sections */
+.elementor-control-section_custom_attributes_pro,
+.elementor-control-custom_css_pro,
+.elementor-control-section_custom_css_pro {
+  display: none !important;
+}
+
+/** WP dashboard: Elementor Overview meta box (removed in PHP; fallback if markup still appears) */
+#e-dashboard-overview {
+  display: none !important;
+}
+
+/** Template library "Theme Builder" link in Templates post-type list */
+#menu-posts-elementor_library li.elementor-app-link {
+  display: none !important;
+}
+
+/** Role manager "Go Pro" section */
+#elementor-role-manager .elementor-role-go-pro {
+  display: none !important;
+}
+
+/** Editor announcements / notification bell */
+#e-announcements-root {
+  display: none !important;
+}
+
+/** Hamburger-menu notification dot */
+#elementor-panel-header #elementor-panel-header-menu-button::after {
+  display: none !important;
+}
+
+/** "What's New" notification-center menu item */
+.elementor-panel-menu-item-notification-center {
+  display: none !important;
+}
+
+/** Upsell nerd-box (empty panel state with upgrade CTA) */
+.elementor-nerd-box--upsale {
+  display: none !important;
+}
+
+/** Sticky "Get Pro" bar at the bottom of the elements panel */
+#elementor-panel-get-pro-elements-sticky {
+  display: none !important;
+}
+
+/** Navigator footer promotion banner */
+#elementor-navigator__footer__promotion {
+  display: none !important;
+}
+
+/** Motion / scroll / sticky Pro controls in the Advanced tab */
+.elementor-control-scrolling_effects_pro,
+.elementor-control-mouse_effects_pro,
+.elementor-control-sticky_pro,
+.elementor-control-motion_effects_promotion_divider {
+  display: none !important;
+}
+
+/** Display Conditions Pro control */
+.elementor-control-display_conditions_pro {
+  display: none !important;
+}
+
+/** Checklist widget in the editor toolbar */
+#e-checklist {
+  display: none !important;
+}
+
+/** Checklist launcher in the Editor V2 header (MUI icon button; panel is hidden above) */
+#elementor-editor-wrapper-v2 button[aria-label=Checklist] {
+  display: none !important;
+}
+
+/** "What's New" button in the Editor V2 toolbar */
+#elementor-editor-wrapper-v2 button[aria-label="What's New"] {
+  display: none !important;
+}
+
+/** Admin top-bar secondary area (Apps / Connect / Upgrade links) */
+body.admin-bar div.e-admin-top-bar div.e-admin-top-bar__secondary-area {
+  display: none !important;
+}
+
+/** Template library "Upgrade plan" button */
+.elementor-template-library-upgrade-plan-button,
+#tmpl-elementor-template-library-upgrade-plan-button {
+  display: none !important;
+}
+
+/** Template library – remote Pro-only blocks (floating bars, etc.; “Go Pro” preview cards) */
+.elementor-template-library-template-remote.elementor-template-library-pro-template {
+  display: none !important;
+}
+
+/** Template library – hide Site/Cloud source filter (local remains default) */
+.elementor-template-library-filter-select-source {
+  display: none !important;
+}
+
+/** Save modal – hide Cloud Templates row only */
+#elementor-template-library-save-template-form .source-selections-input.cloud {
+  display: none !important;
+}
+
+/** ── React-based promotion wrappers (e-react-promotions script) ── */
+/** Inline promotion control (lock-switch inside widget panels) */
+.e-control-promotion__wrapper,
+.e-control-promotion__lock-wrapper,
+.e-control-promotion-switch,
+[data-promotion] .e-promotion-react-wrapper {
+  display: none !important;
+}
+
+/** Standalone React promotion card anchors */
+.e-promotion-react-wrapper {
+  display: none !important;
+}
+
+/** Editor V4 opt-in alpha chip */
+[data-promotion=v4_chip] {
+  display: none !important;
+}
+
+/** ── Editor notice bar (top of editor canvas) ── */
+#e-notice-bar {
+  display: none !important;
+}
+
+/** ── Home screen (Elementor → Dashboard) sidebar promotion ── */
+#e-home-screen {
+  /** Target the feature-promotion card regardless of MUI class renames */
+}
+#e-home-screen .e-feature-promotion {
+  display: none !important;
+}
+#e-home-screen {
+  /** Sidebar banner promoted section */
+}
+#e-home-screen [class*=sidebar-promotion],
+#e-home-screen [class*=sidebarPromotion] {
+  display: none !important;
+}
+
+/** ── Editor One sidebar "Upgrade plan" item ── */
+#elementor-editor-one [class*=upgrade]:has(.eicon-upgrade-crown),
+#elementor-editor-one [class*=Upgrade]:has(.eicon-upgrade-crown) {
+  display: none !important;
+}
+
+/** ── Element Manager: hide Pro upgrade rows / columns ── */
+#elementor-element-manager-wrap {
+  /** "Upgrade to unlock Pro elements" button row */
+}
+#elementor-element-manager-wrap [data-id=e-id-elementor-element-manager-button-upgrade-pro-elements] {
+  display: none !important;
+}
+#elementor-element-manager-wrap {
+  /** "Upgrade permissions" button */
+}
+#elementor-element-manager-wrap [data-id=e-id-elementor-element-manager-button-upgrade-permissions] {
+  display: none !important;
+}
+#elementor-element-manager-wrap {
+  /** "Elementor Pro" column header and cells in the table */
+}
+#elementor-element-manager-wrap table th:last-child,
+#elementor-element-manager-wrap table td:last-child {
+  display: none !important;
+}
+
+/** ── Pro Install / Connect page: generic upgrade buttons (not the whole screen) ── */
+.button.button-upgrade {
+  display: none !important;
+}
+
+/** Connect account screen — “You’ve got Elementor Pro” install/activate card (`.elementor-license-box.e-one-section-outlined`) */
+.elementor-admin-page-license .elementor-license-box.e-one-section-outlined:has(#elementor-connect-install-pro),
+.elementor-admin-page-license .elementor-license-box.e-one-section-outlined:has(#elementor-connect-activate-pro) {
+  display: none !important;
+}
+
+/** ── Editor One shell: hide top app bar + undo fixed `#wpbody` layout tied to that bar ── */
+#editor-one-top-bar {
+  display: none !important;
+}
+
+/** Undo `body:has(#editor-one-top-bar>*) #wpbody` margin/padding (e.g. margin-block-start: 50px) */
+body:has(#editor-one-top-bar > *) #wpbody,
+body.wp-admin:has(#editor-one-top-bar) #wpbody {
+  -webkit-margin-before: 0 !important;
+  margin-block-start: 0 !important;
+  -webkit-padding-after: unset !important;
+  padding-block-end: unset !important;
+}
+
+@media screen and (min-width: 783px) {
+  body:has(#editor-one-top-bar > *) #wpbody,
+  body.wp-admin:has(#editor-one-top-bar) #wpbody {
+    position: relative !important;
+    inset: unset !important;
+    inset-block-end: unset !important;
+    inset-inline-start: unset !important;
+    width: auto !important;
+    max-width: none !important;
+  }
+}
+/** Editor One sidebar: drop hidden app-bar offset from `top` (no `--editor-one-sidebar-admin-top-bar-height`) */
+#editor-one-sidebar-navigation {
+  top: var(--editor-one-wordpress-admin-bar-height) !important;
+}
+
+/** ── Promo feature pages inside settings / admin shell ── */
+.e-feature-promotion {
+  display: none !important;
+}
+
+/** ── Editor One: sidebar "Upgrade plan" CTA button ──
+ *  MuiButton-colorPromotion / MuiButton-containedPromotion are the
+ *  stable MUI variant classes Elementor uses for the upgrade crown button.
+ *  The href-based rule acts as a fallback if class names ever change.
+ */
+#editor-one-sidebar-navigation .MuiButton-colorPromotion,
+#editor-one-sidebar-navigation .MuiButton-containedPromotion,
+#editor-one-sidebar-navigation a[href*=go-pro],
+#editor-one-sidebar-navigation a[href*="go.elementor.com"] {
+  display: none !important;
+}
+#editor-one-sidebar-navigation {
+  /** First row inside the nav: Editor icon + title + search + collapse (Editor One). */
+}
+#editor-one-sidebar-navigation > nav > div:first-child {
+  display: none !important;
+}
+
+/** ── WP admin Elementor menu: "Upgrade" submenu item ──
+ *  Covers legacy `elementor`, `elementor-home`, and restructured `elementor-settings`.
+ *  Each selector hides the <a> tag; the JS companion rule hides the parent <li>.
+ */
+#toplevel_page_elementor li a[href*=go_elementor_pro],
+#toplevel_page_elementor li a[href*=admin_menu_promo],
+#toplevel_page_elementor-home li a[href*=go_elementor_pro],
+#toplevel_page_elementor-home li a[href*=admin_menu_promo],
+#toplevel_page_elementor-home li a[href*="go.elementor.com"],
+#toplevel_page_elementor-home li a[href*=elementor-one-upgrade],
+#toplevel_page_elementor-settings li a[href*=go_elementor_pro],
+#toplevel_page_elementor-settings li a[href*=admin_menu_promo],
+#toplevel_page_elementor-settings li a[href*="go.elementor.com"],
+#toplevel_page_elementor-settings li a[href*=elementor-one-upgrade] {
+  display: none !important;
+}
+
+/* Hide the entire <li> so no empty bullet/gap is left */
+#toplevel_page_elementor-home li:has(a[href*=elementor-one-upgrade]),
+#toplevel_page_elementor-settings li:has(a[href*=elementor-one-upgrade]) {
+  display: none !important;
+}
+
+/** ── WP admin Elementor menu: Pro "Submissions" (form submissions) ──
+ *  Use direct-child anchor only — `li:has(a[...])` would also match the outer
+ *  `.elementor-has-flyout` <li> that wraps the whole Editor submenu.
+ */
+#toplevel_page_elementor-home li:has(> a[href*=e-form-submissions]),
+#toplevel_page_elementor-settings li:has(> a[href*=e-form-submissions]),
+#toplevel_page_elementor li:has(> a[href*=e-form-submissions]) {
+  display: none !important;
+}
+
+/** ── Editor panel: Components tab (Pro upsell for Reusable Components) ──
+ *  We scope tightly to avoid catching the Global Widgets tab or other panels.
+ *  The PHP filter already prevents the editor-components JS from loading, so
+ *  this CSS is just a belt-and-suspenders fallback.
+ */
+.elementor-panel-navigation-tab[data-tab="panel/elements/components"] {
+  display: none !important;
+}
+
+/** ── Link In Bio category: hide the whole section (contains Pro promotion widgets) ── */
+#elementor-panel-category-link-in-bio {
+  display: none !important;
+}
+
+/** ── Elementor home-screen: "Get Hello Elementor" theme-switch button ── */
+[data-test=one-home-get-hello-elementor-button] {
+  display: none !important;
+}
+
+/** ── Element Manager: "Upgrade Now" button ── */
+#elementor-element-manager-wrap .e-id-elementor-element-manager-button-upgrade-pro-elements,
+#elementor-element-manager-wrap a[href*=go-pro-element-manager] {
+  display: none !important;
+}
+
+/** ── Elementor home-screen: AI site-creation section ── */
+#e-home-screen .MuiPaper-root:has(input[placeholder*="site you want to create"]) {
+  display: none !important;
+}
+
+/** ── Elementor home-screen: sidebar upgrade promo banner ── */
+/* Target the innermost xs container to avoid hiding ancestor wrappers */
+.MuiContainer-maxWidthXs:has(a[href*=go-pro-home-sidebar-upgrade]) {
+  display: none !important;
+}
+
+/** ── Elementor home-screen: Pro capabilities cards ──
+ *  JS (MutationObserver) is the primary removal mechanism; this rule is a
+ *  fast-path fallback that fires before React hydrates.
+ *  Only grid columns containing the MUI Promotion-variant upgrade button are
+ *  hidden — free/secondary buttons (e.g. "Add for free") use different variants
+ *  and are intentionally left untouched.
+ */
+#e-home-screen .MuiGrid-item:has(button.MuiButton-colorPromotion),
+#e-home-screen .MuiGrid-item:has(button.MuiButton-outlinedPromotion),
+#e-home-screen .MuiGrid-item:has(button.MuiButton-containedPromotion) {
+  display: none !important;
+}
+
+/** ── Elementor AI: hide all "Write with AI" entry points ──
+ *  Covers the inline panel button, the template-library apply button,
+ *  and the widget-creation "Angie" footer inside the elements search.
+ */
+.e-ai-button,
+.e-ai-media-library-button,
+#e-image-ai-media-library,
+#tmpl-elementor-template-library-apply-ai-button,
+.elementor-panel-elements-widget-creation__cta {
+  display: none !important;
+}
+
+/** ── Editor: "Create custom widget" (Angie AI) footer panel ── */
+#elementor-panel-elements-widget-creation-area {
+  display: none !important;
+}
+
+/** ── Editor: Image Optimizer install notice ── */
+.elementor-control-notice:has(button[data-event=image_optimizer_hint]) {
+  display: none !important;
+}
+
+/** AI button when rendered inside Elementor editor controls */
+.elementor-control-field .e-ai-button,
+.elementor-control-input-wrapper .e-ai-button {
+  display: none !important;
+}
+
+/** Kit Import/Export → Export customization: Templates row (Elementor Pro upsell) */
+[data-testid=KitPartsSelectionRow-templates] {
+  display: none !important;
+}
+
+/** ── Editor V2: Elementor logo menu (popover) — Theme Builder, Help, My Elementor / Connect ──
+ *  Mirrors JS in `assets/src/js/admin/elementor-ads.js` (`suppressEditorV2LogoDropdown`).
+ *  Menu is portaled to `body`; scope with `elementor-editor-active` + popover paper.
+ *  Theme Builder is registerAction `open-theme-builder` (second row after Site Settings).
+ */
+body.elementor-editor-active .MuiPopover-paper.MuiMenu-paper .MuiMenu-list[role=menu] > a.MuiMenuItem-root[href*="go.elementor.com/editor-top-bar-learn"],
+body.elementor-editor-active .MuiPopover-paper.MuiMenu-paper .MuiMenu-list[role=menu] > a.MuiMenuItem-root[href*="go.elementor.com/wp-dash-top-bar-account"],
+body.elementor-editor-active .MuiPopover-paper.MuiMenu-paper .MuiMenu-list[role=menu] > a.MuiMenuItem-root[href*="elementor.com"][href*=authorize] {
+  display: none !important;
+}
+body.elementor-editor-active .MuiPopover-paper.MuiMenu-paper .MuiMenu-list[role=menu] > .MuiMenuItem-root:nth-child(2) {
+  display: none !important;
+}
+body.elementor-editor-active .MuiPopover-paper.MuiMenu-paper .MuiMenu-list[role=menu] > hr.MuiDivider:has(+ a[href*="go.elementor.com/editor-top-bar-learn"]) {
+  display: none !important;
+}
+body.elementor-editor-active #elementor-editor-wrapper-v2 .MuiMenu-list[role=menu] > a.MuiMenuItem-root[href*="go.elementor.com/editor-top-bar-learn"],
+body.elementor-editor-active #elementor-editor-wrapper-v2 .MuiMenu-list[role=menu] > a.MuiMenuItem-root[href*="go.elementor.com/wp-dash-top-bar-account"],
+body.elementor-editor-active #elementor-editor-wrapper-v2 .MuiMenu-list[role=menu] > a.MuiMenuItem-root[href*="elementor.com"][href*=authorize] {
+  display: none !important;
+}
+body.elementor-editor-active #elementor-editor-wrapper-v2 .MuiMenu-list[role=menu] > .MuiMenuItem-root:nth-child(2) {
+  display: none !important;
+}
+body.elementor-editor-active #elementor-editor-wrapper-v2 .MuiMenu-list[role=menu] > hr.MuiDivider:has(+ a[href*="go.elementor.com/editor-top-bar-learn"]) {
+  display: none !important;
+}

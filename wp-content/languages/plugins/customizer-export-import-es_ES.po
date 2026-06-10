@@ -1,0 +1,106 @@
+# Translation of Plugins - Customizer Export/Import - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Customizer Export/Import - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-09-23 18:42:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Customizer Export/Import - Stable (latest release)\n"
+
+#: includes/control.php:30
+msgid "You must have the ability to install plugins to upload an export file. Please contact the site administrator for assistance."
+msgstr "Debes tener la capacidad de instalar plugins para subir un archivo de exportación. Ponte en contacto con el administrador del sitio para obtener ayuda."
+
+#: includes/control.php:26
+msgid "Uploading..."
+msgstr "Subiendo..."
+
+#: includes/control.php:22
+msgid "Download and import image files?"
+msgstr "¿Descargar e importar archivos de imagen?"
+
+#: includes/control.php:17
+msgid "Upload a file to import customization settings for this theme."
+msgstr "Sube un archivo para importar los ajustes de personalización de este tema."
+
+#: includes/control.php:12 includes/control.php:27
+msgid "Import"
+msgstr "Importar"
+
+#: includes/control.php:5
+msgid "Click the button below to export the customization settings for this theme."
+msgstr "Haz clic en el siguiente botón para exportar los ajustes de personalización de este tema."
+
+#: includes/control.php:2 includes/control.php:7
+msgid "Export"
+msgstr "Exportar"
+
+#: classes/class-cei-core.php:309
+msgid "Error importing settings! The settings you uploaded are not for the current theme."
+msgstr "¡Error al importar los ajustes! Los ajustes que has subido no son del tema actual."
+
+#: classes/class-cei-core.php:301 classes/class-cei-core.php:305
+msgid "Error importing settings! Please check that you uploaded a customizer export file."
+msgstr "¡Error al importar los ajustes! Por favor, comprueba que hayas subido un archivo exportado del personalizador."
+
+#: classes/class-cei-core.php:273
+msgid "File type is not allowed"
+msgstr "Tipo de archivo no permitido"
+
+#: classes/class-cei-core.php:288
+msgid "Error importing settings! Please try again."
+msgstr "¡Error al importar los ajustes! Por favor, inténtalo de nuevo."
+
+#: classes/class-cei-core.php:138
+msgid "Export/Import"
+msgstr "Exportar/Importar"
+
+#. translators: Accessibility text.
+#: classes/class-cei-core.php:131
+msgid "(opens in a new tab)"
+msgstr "(se abre en una nueva pestaña)"
+
+#: classes/class-cei-core.php:129
+msgid "Get started with a Free Account"
+msgstr "Empieza con una cuenta gratuita"
+
+#: classes/class-cei-core.php:128
+msgid "https://assistant.pro/"
+msgstr "https://assistant.pro/"
+
+#: classes/class-cei-core.php:125
+msgid "Assistant makes tasks like this easier!"
+msgstr "¡Assistant hace más fáciles las tareas como esta!"
+
+#: classes/class-cei-core.php:98
+msgid "Please choose a file to import."
+msgstr "Por favor, elige un archivo a importar."
+
+#. Author URI of the plugin
+#: customizer-export-import.php
+msgid "https://www.wpbeaverbuilder.com/?utm_source=external&utm_medium=customizer-export&utm_campaign=plugins-page"
+msgstr "https://www.wpbeaverbuilder.com/?utm_source=external&utm_medium=customizer-export&utm_campaign=plugins-page"
+
+#. Author of the plugin
+#: customizer-export-import.php
+msgid "The Beaver Builder Team"
+msgstr "The Beaver Builder Team"
+
+#. Description of the plugin
+#: customizer-export-import.php
+msgid "Adds settings export and import functionality to the WordPress customizer."
+msgstr "Añade la funcionalidad de ajustes de exportar e importar al personalizador de WordPress."
+
+#. Plugin URI of the plugin
+#: customizer-export-import.php
+msgid "https://www.wpbeaverbuilder.com/wordpress-customizer-export-import-plugin/?utm_source=external&utm_medium=customizer-export&utm_campaign=plugins-page"
+msgstr "https://www.wpbeaverbuilder.com/wordpress-customizer-export-import-plugin/?utm_source=external&utm_medium=customizer-export&utm_campaign=plugins-page"
+
+#. Plugin Name of the plugin
+#: customizer-export-import.php
+msgid "Customizer Export/Import"
+msgstr "Customizer Export/Import"
