@@ -1,0 +1,14 @@
+{
+    "name": "og.lopar711/tags",
+    "description": "Para consumir la APU de mailchimp he integrar los tags de VIMA con los de la audiencia en Mailchimp",
+    "type": "project",
+    "require": {
+        "mailchimp/marketing": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Oscar G",
+            "email": "og.lopar711@gmail.com"
+        }
+    ]
+}

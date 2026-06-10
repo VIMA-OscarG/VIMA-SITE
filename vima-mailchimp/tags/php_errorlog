@@ -1,0 +1,7 @@
+[28-Nov-2025 08:51:35 UTC] PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST https://us5.api.mailchimp.com/3.0/lists/6b17adc54b/segments` resulted in a `400 Bad Request` response:
+{"type":"https://mailchimp.com/developer/marketing/docs/errors/","title":"Bad Request","status":400,"detail":"Sorry, tha (truncated...)
+ in /home/customer/www/vacationintervalsmanagement.com/public_html/vima-mailchimp/tags/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:111
+Stack trace:
+#0 /home/customer/www/vacationintervalsmanagement.com/public_html/vima-mailchimp/tags/vendor/guzzlehttp/guzzle/src/Middleware.php(72): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), NULL, Array, NULL)
+#1 /home/customer/www/vacationintervalsmanagement.com/public_html/vima-mailchimp/tags/vendor/guzzlehttp/promises/src/Promise.php(209): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home/customer/www/vacationintervalsmanagement.com/public_html/vima-mai in /home/customer/www/vacationintervalsmanagement.com/public_html/vima-mailchimp/tags/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 111
