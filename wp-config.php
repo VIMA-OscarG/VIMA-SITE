@@ -25,18 +25,7 @@ define( 'WP_CACHE', false ); // By Speed Optimizer by SiteGround
  * @package WordPress
  */
 // ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define( 'DB_NAME', 'dbahahtxatcdjl' );
-/** MySQL database username */
-define( 'DB_USER', 'uzek0s9quw6uh' );
-/** MySQL database password */
-define( 'DB_PASSWORD', '4yo7ptfenzf1' );
-/** MySQL hostname */
-define( 'DB_HOST', '127.0.0.1' );
-/** Database Charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
-/** The Database Collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', '' );
+
 
 ///PARA EL PLUGIN QUE CONECTA CON LA MEMBER AREA DE LARAVEL
 
