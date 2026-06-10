@@ -40,8 +40,7 @@ define( 'DB_COLLATE', '' );
 
 ///PARA EL PLUGIN QUE CONECTA CON LA MEMBER AREA DE LARAVEL
 
-define('VIMA_SSO_SECRET', 'esteelelsecretoaleatoriodeminimo64caracteresparamanejarelssod711');
-define('MEMBERS_WEEKS_SHARED_SECRET', 'esteelelsecretoaleatoriodeminimo64caracteresparamanejarelssod711');
+
 
 
 /**
